@@ -5,6 +5,7 @@ function App() {
   return (
     <>
       <h1>Digiitech</h1>
+      <h2>DIGIIItech</h2>
     </>
   );
 }
