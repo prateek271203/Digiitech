@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.nav_ul li {
+    padding: 0 0.7rem;
+
+}
+
+@media screen and (max-width: 1200px) {
+    .nav_ul li {
+        padding: 0 0.1rem;
+    }
+}
+
+.nav_ul li {
+    padding: 0 0.5rem;
+
+}
+
+.nav_ul a {
+    font-size: 1.1rem;
+    color: #000 !important;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+}
+
+.btn1 {
+    border-radius: 8px;
+    border: 0;
+    padding: 0.5rem 1.4rem;
+    color: #fff;
+    background-color: #1970f1;
+}
+
+.btn2 {
+    border-radius: 8px;
+    border: 0;
+    padding: 0.5rem 1.2rem;
+    color: #fff;
+    background-color: #f87a54;
+}
+
+@media screen and (max-width: 1201px) {
+
+    .btn1,
+    .btn2 {
+        padding: 0.5rem 0.8rem;
+    }
+}

@@ -1,13 +1,20 @@
 // import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+
+import Navbar from "./components/Navbar";
 
 function App() {
   return (
     <>
-      <h1>Digiitech</h1>
-      <h2>DIGIIItech</h2>
-      <h3>hello</h3>
-    <h4>DigiiDunia</h4>
+      <BrowserRouter>
+        <Navbar />
+        <Routes>
+          {/* <Route path='/home' element={<h1 className="text-center pt-5">Home Pages</h1>}></Route> */}
+          <Route path="/aboutus" element={<About />}></Route>
+          <Route path="/contactus" element={<Contact />}></Route>
+        </Routes>
+      </BrowserRouter>
     </>
   );
 }
