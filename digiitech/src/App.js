@@ -11,8 +11,8 @@ function App() {
         <Navbar />
         <Routes>
           {/* <Route path='/home' element={<h1 className="text-center pt-5">Home Pages</h1>}></Route> */}
-          <Route path="/aboutus" element={<About />}></Route>
-          <Route path="/contactus" element={<Contact />}></Route>
+          {/* <Route path="/aboutus" element={<About />}></Route>*/}
+          {/* <Route path="/contactus" element={<Contact />}></Route>*/}
         </Routes>
       </BrowserRouter>
     </>

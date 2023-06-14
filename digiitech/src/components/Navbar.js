@@ -120,6 +120,11 @@ function NavBar() {
                 About Us
               </a>
             </li>
+            <li className="nav-item">
+              <a className="nav-link" aria-current="page" href="/">
+                Contact Us
+              </a>
+            </li>
             <div className="mx-3">
               <button type="button" className="btn1 mx-2">
                 Log In
@@ -127,17 +132,6 @@ function NavBar() {
               <button type="button" className="btn2 mx-2">
                 Sign Up
               </button>
-            </div>
-            <div className="form-check form-switch">
-              <input
-                className="form-check-input"
-                type="checkbox"
-                id="flexSwitchCheckDefault"
-              />
-              <label
-                className="form-check-label"
-                for="flexSwitchCheckDefault"
-              ></label>
             </div>
           </ul>
         </div>
