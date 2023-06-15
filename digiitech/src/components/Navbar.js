@@ -5,7 +5,7 @@ function NavBar() {
     <nav className="navbar navbar-expand-lg navbar-light bg-light p-2">
       <div className="container-fluid py-3 ms-5">
         {/* <img src="logo-digiidunia.png" width={"30px"}></img> */}
-        <a className="navbar-brand" to="/">
+        <a className="navbar-brand" href="/">
           Digii Tech
         </a>
         <button
