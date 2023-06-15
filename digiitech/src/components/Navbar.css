@@ -1,17 +1,6 @@
-* {
-    margin: 0;
-    padding: 0;
-}
-
 .nav_ul li {
     padding: 0 0.7rem;
 
-}
-
-@media screen and (max-width: 1200px) {
-    .nav_ul li {
-        padding: 0 0.1rem;
-    }
 }
 
 .nav_ul li {
@@ -20,32 +9,58 @@
 }
 
 .nav_ul a {
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     color: #000 !important;
     font-weight: 400;
     letter-spacing: 0.5px;
+    border-radius: 15px;
 }
 
-.btn1 {
-    border-radius: 8px;
-    border: 0;
-    padding: 0.5rem 1.4rem;
-    color: #fff;
-    background-color: #1970f1;
+.nav_ul a:hover {
+    background: #9ee9ee !important;
+    border-radius: 15px;
+    box-shadow: 0 0 35px #9ee9ee !important;
+    transition: 0.2s ease-out;
+    transform: translateY(-0.25em) !important;
+    color: #000000 !important;
 }
+
 
 .btn2 {
+    position: relative;
     border-radius: 8px;
     border: 0;
+    background: #f18989;
     padding: 0.5rem 1.2rem;
-    color: #fff;
-    background-color: #f87a54;
+    text-decoration: none;
+    font-size: 1.1rem;
+    color: #000;
+    transition: 0.5s;
+    cursor: pointer;
 }
 
-@media screen and (max-width: 1201px) {
+.btn2:hover {
+    background: #cdaceb;
+    color: #fff;
+    box-shadow: 0 0 35px #cdaceb;
+}
 
-    .btn1,
+@media screen and (max-width: 1200px) {
     .btn2 {
-        padding: 0.5rem 0.8rem;
+        font-size: 1rem;
+    }
+
+    .nav_ul a {
+        font-size: 1.1rem;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .btn2 {
+        font-size: 0.85rem;
+    }
+
+    .nav_ul a {
+        font-size: 0.95rem;
     }
 }

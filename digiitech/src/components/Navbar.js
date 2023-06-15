@@ -1,14 +1,13 @@
 import React from "react";
 import "./Navbar.css";
-import { Link } from "react-router-dom";
 function NavBar() {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-light">
-      <div className="container py-2">
+    <nav className="navbar navbar-expand-lg navbar-light bg-light p-2">
+      <div className="container-fluid py-3 ms-5">
         {/* <img src="logo-digiidunia.png" width={"30px"}></img> */}
-        <Link className="navbar-brand" to="/">
+        <a className="navbar-brand" to="/">
           Digii Tech
-        </Link>
+        </a>
         <button
           className="navbar-toggler"
           type="button"
@@ -21,10 +20,7 @@ function NavBar() {
           <span className="navbar-toggler-icon"></span>
         </button>
         {/* menu start*/}
-        <div
-          className="collapse navbar-collapse align-middle"
-          id="navbarNavDropdown"
-        >
+        <div className="collapse navbar-collapse" id="navbarNavDropdown">
           <ul className="navbar-nav ms-auto nav_ul align-items-center">
             <li className="nav-item">
               <a className="nav-link" aria-current="page" href="/">
@@ -95,7 +91,7 @@ function NavBar() {
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
               >
-                Calender
+                Calendar
               </a>
               <ul className="dropdown-menu">
                 <li>
@@ -125,12 +121,10 @@ function NavBar() {
                 Contact Us
               </a>
             </li>
-            <div className="mx-3">
-              <button type="button" className="btn1 mx-2">
-                Log In
-              </button>
-              <button type="button" className="btn2 mx-2">
-                Sign Up
+            <div className="ms-6 mx-5">
+              <button type="button" className="btn2">
+                <span>Get Started</span>
+                <i></i>
               </button>
             </div>
           </ul>
