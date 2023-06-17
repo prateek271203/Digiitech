@@ -33,7 +33,7 @@
     background: #f18989;
     padding: 0.5rem 1.2rem;
     text-decoration: none;
-    font-size: 1.1rem;
+    font-size: 1.8rem;
     color: #000;
     transition: 0.5s;
     cursor: pointer;
@@ -42,6 +42,7 @@
 .btn2:hover {
     background-color: #daa1fc;
     box-shadow: 0 0 35px #daa1fc;
+    color: #fff;
 }
 
 @media screen and (max-width: 1200px) {
