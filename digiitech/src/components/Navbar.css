@@ -40,9 +40,8 @@
 }
 
 .btn2:hover {
-    background: #cdaceb;
-    color: #fff;
-    box-shadow: 0 0 35px #cdaceb;
+    background-color: #daa1fc;
+    box-shadow: 0 0 35px #daa1fc;
 }
 
 @media screen and (max-width: 1200px) {
