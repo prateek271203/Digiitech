@@ -13,16 +13,13 @@
     color: #000 !important;
     font-weight: 400;
     letter-spacing: 0.5px;
-    border-radius: 15px;
 }
 
 .nav_ul a:hover {
-    background: #9ee9ee !important;
-    border-radius: 15px;
-    box-shadow: 0 0 35px #9ee9ee !important;
     transition: 0.2s ease-out;
     transform: translateY(-0.25em) !important;
-    color: #000000 !important;
+    font-weight: 500;
+    color: #0026ff !important;
 }
 
 
@@ -33,7 +30,7 @@
     background: #f18989;
     padding: 0.5rem 1.2rem;
     text-decoration: none;
-    font-size: 1.8rem;
+    font-size: 1.9rem;
     color: #000;
     transition: 0.5s;
     cursor: pointer;
