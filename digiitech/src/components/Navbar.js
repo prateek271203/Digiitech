@@ -123,7 +123,7 @@ function NavBar() {
             </li>
             <div className="ms-6 mx-5">
               <button type="button" className="btn2">
-                <span>Get Started</span>
+                Get Started
                 <i></i>
               </button>
             </div>
