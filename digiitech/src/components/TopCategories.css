@@ -1,10 +1,10 @@
 .col {
     margin: 20px;
-    width: 85px;
+    width: 90px;
     height: 160px;
     cursor: pointer;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 25px;
+    margin-right: 25px;
     padding-top: 20px;
     border-radius: 10px;
     box-shadow: 0 1px 10px rgba(0, 0, 0, 0.1);
