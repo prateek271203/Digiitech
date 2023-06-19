@@ -55,33 +55,15 @@ function NavBar() {
                 </li>
               </ul>
             </li>
-            <li className="nav-item dropdown">
+            <li className="nav-item">
               <a
-                className="nav-link dropdown-toggle"
-                href="/"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
+                className="nav-link"
+                aria-current="page"
+                href="courses-link"
+                target="_blank"
               >
-                Courses
+                Course
               </a>
-              <ul className="dropdown-menu">
-                <li>
-                  <a className="dropdown-item" href="/">
-                    Action
-                  </a>
-                </li>
-                <li>
-                  <a className="dropdown-item" href="/">
-                    Another action
-                  </a>
-                </li>
-                <li>
-                  <a className="dropdown-item" href="/">
-                    Something else here
-                  </a>
-                </li>
-              </ul>
             </li>
             <li className="nav-item dropdown">
               <a
@@ -122,7 +104,12 @@ function NavBar() {
               </a>
             </li>
             <div className="ms-6 mx-5">
-              <button type="button" className="btn2">
+              <button
+                type="button"
+                className="btn2"
+                data-bs-toggle="modal"
+                data-bs-target="#exampleModal"
+              >
                 Get Started
                 <i></i>
               </button>
