@@ -7,6 +7,7 @@ import Navbar from "./components/Navbar";
 import ImageSlider from "./components/ImageSlider";
 import Cards from "./components/Cards";
 import Modal from "./components/Modal";
+import TopCategories from "./components/TopCategories";
 
 function App() {
   return (
@@ -30,8 +31,10 @@ function AppContent() {
         <Route path="/courses/:id" element={<SingleCourse />} />
         <Route path="/category/:category" element={<Courses />} />
         <Route path="courses-link" element={<CoursesPage />} />
+        <Route path="/categories-link" element={<TopCategories />} />
       </Routes>
       <Modal />
+      <TopCategories/>
     </>
   );
 }
