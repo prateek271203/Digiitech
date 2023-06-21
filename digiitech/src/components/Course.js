@@ -7,9 +7,9 @@ const Course = (props) => {
   const {id, image, course_name, creator, actual_price, rating_count, rating_star, /*category*/} = props;
 
   return (
-    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-      <div class="carousel-inner">
-        <div class="carousel-item active">
+   <div class= "container mt-5">
+    <div class="owl-carousel">
+      <div class="ms-2 me-2">
     <div class="card-deck">
         <img class="card-img-top" src = {image} alt = {course_name} />
       <div className='card-body'>
@@ -28,7 +28,7 @@ const Course = (props) => {
     </div>
     </div>
     </div>
-    </div>
+  </div>
   )
 }
 

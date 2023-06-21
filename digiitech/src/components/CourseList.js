@@ -8,13 +8,17 @@ const CourseList = () => {
 
   return (
     <CoursesListWrapper>
-      <div className='container'>
+
+      <div className='container mt-3'>
         <div className='courses-list-top'>
           <h2>Trending Courses</h2>
         </div>
-
-        <Tabs courses = {courses} />
-      </div>
+        <div class="owl-carousel">
+        
+                <Tabs courses = {courses} />
+                </div>
+                </div>
+              
     </CoursesListWrapper>
   )
 }

@@ -222,3 +222,20 @@ input, textarea, select{
 .btn btn-link{
     background-color: --blue-600;
 }
+
+.owl-carousel .item{
+    margin: 3px;
+  }
+  .owl-carousel .item img{
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  .owl-carousel .item {
+      margin: 3px;
+  }
+  
+  .owl-carousel{
+      margin-bottom:15px;
+  }

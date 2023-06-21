@@ -10,7 +10,7 @@ const CategoriesList = () => {
     <CategoriesListWrapper>
       <div className='container'>
         <div className='categories-list-top'>
-          <h2>Top Categories</h2>
+          <h2>Recent Additions</h2>
         </div>
         <div className='categories-list grid'>
           {

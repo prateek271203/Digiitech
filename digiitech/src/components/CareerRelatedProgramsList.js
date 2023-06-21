@@ -1,8 +1,9 @@
 import React from 'react';
 import styled from "styled-components";
 import Tabs from "./Tabs";
+//import { course_images } from '../utils/images';
 //import courses from '../utils/data';
-import Course from "./Course";
+//import Course from "./Course";
 //import CareerRelatedPrograms from "./CareerRelatedPrograms";
 import { useCoursesContext } from '../context/courses_context';
 
@@ -15,16 +16,11 @@ const CareerRelatedProgramsList = () => {
         <div className='courses-list-top'>
           <h2>Career Related Programs</h2>
         </div>
-        <div class="tabs-body">
+        <div class="Courses-list-grid">
         {
-            courses.filter(CareerRelatedPrograms => CareerRelatedPrograms.category).map((CareerRelatedPrograms) => (
-              <Course key = {CareerRelatedPrograms.id} {...CareerRelatedPrograms} />
-            ))
+          <Tabs courses = {courses} />
         }
-        </div>
-
-
-     <Tabs courses = {courses} />
+      </div>
       </div>
     </CoursesListWrapper>
   )
