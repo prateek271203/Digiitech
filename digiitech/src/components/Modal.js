@@ -16,7 +16,7 @@ function Modal() {
   }, []);
 
   return (
-    <>
+    <div id="Model">
       <div
         class="modal fade"
         id="exampleModal"
@@ -104,7 +104,7 @@ function Modal() {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 }
 

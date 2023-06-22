@@ -1,11 +1,11 @@
-.swiper {
+#slider .swiper {
     width: 100%;
     height: 500px;
     position: relative;
     z-index: 1;
 }
 
-.swiper-slide {
+#slider .swiper-slide {
     text-align: center;
     font-size: 18px;
     background: #fff;
@@ -16,7 +16,7 @@
     align-items: center;
 }
 
-.swiper-slide img {
+#slider .swiper-slide img {
     display: block;
     width: 100%;
     height: 100%;
@@ -24,7 +24,7 @@
     margin-bottom: 100px;
 }
 
-.swiper-button-next,
+#slider .swiper-button-next,
 .swiper-button-prev {
     color: rgb(0, 0, 0) !important;
     background: #ffffff !important;
@@ -36,14 +36,14 @@
     border: 0;
 }
 
-.swiper-button-next:hover,
+#slider .swiper-button-next:hover,
 .swiper-button-prev:hover {
 
     transition: 0.2s ease-out;
     transform: translateY(-0.1em) !important;
 }
 
-.swiper-button-next::after,
+#slider .swiper-button-next::after,
 .swiper-button-prev::after {
     font-size: 20px !important;
     font-weight: 900;
