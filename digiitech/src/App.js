@@ -34,7 +34,6 @@ function AppContent() {
         <Route path="/categories-link" element={<TopCategories />} />
       </Routes>
       <Modal />
-      <TopCategories/>
     </>
   );
 }
