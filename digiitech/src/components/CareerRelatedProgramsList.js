@@ -12,30 +12,15 @@ const CareerRelatedProgramsList = () => {
 
   return (
     <CoursesListWrapper>
-      <div className="container">
+      <div className="container-fluid">
         <div className="courses-list-top">
           <h2>Career Related Programs</h2>
         </div>
-<<<<<<< HEAD
         <div class="Courses-list-grid">
         {
           <Tabs courses = {courses} />
         }
       </div>
-=======
-        <div class="tabs-body">
-          {courses
-            .filter((CareerRelatedPrograms) => CareerRelatedPrograms.category)
-            .map((CareerRelatedPrograms) => (
-              <Course
-                key={CareerRelatedPrograms.id}
-                {...CareerRelatedPrograms}
-              />
-            ))}
-        </div>
-
-        <Tabs courses={courses} />
->>>>>>> origin/main
       </div>
     </CoursesListWrapper>
   );
@@ -45,6 +30,10 @@ const CoursesListWrapper = styled.div`
   padding: 40px 0;
   .courses-list-top p {
     font-size: 1.8rem;
+  }
+  .container-fluid {
+    margin-left: 50px !important;
+    margin-right: 50px !important;
   }
 `;
 

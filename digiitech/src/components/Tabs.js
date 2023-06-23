@@ -89,7 +89,8 @@ const TabsWrapper = styled.div`
   .tabs-head-item button{
     border: 1px solid rgba(0, 0, 0, 0.7);
     padding: 10px 13px;
-    margin-right: 6px;
+    margin-right: 3px;
+    margin-left:0px;
     transition: var(--transition);
     font-weight: 500;
     font-size: 15px;

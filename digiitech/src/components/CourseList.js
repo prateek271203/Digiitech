@@ -9,11 +9,12 @@ const CourseList = () => {
   return (
     <CoursesListWrapper>
 
-      <div className='container mt-3'>
+      <div className='container-fluid mt-3'>
         <div className='courses-list-top'>
           <h2>Trending Courses</h2>
         </div>
-            <Tabs courses = {courses} />
+            <Tabs 
+            courses = {courses} />
       </div>
               
     </CoursesListWrapper>
@@ -22,7 +23,12 @@ const CourseList = () => {
 
 const CoursesListWrapper = styled.div`
   padding: 40px 0;
+  .container-fluid {
+    margin-left: 50px !important;
+    margin-right: 50px !important;
+  }
   .courses-list-top p{
+    
     font-size: 1.8rem;
   }
 `;
