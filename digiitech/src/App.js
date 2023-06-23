@@ -1,28 +1,41 @@
-// import logo from './logo.svg';
+import React from "react";
 import "./App.css";
-
+import { BrowserRouter, Routes, Route, useLocation } from "react-router-dom";
+import { Home, SingleCourse, Courses } from "./pages";
+import CoursesPage from "./components/CoursesPage";
 import Navbar from "./components/Navbar";
-
 import ImageSlider from "./components/ImageSlider";
-import {
-  BrowserRouter, Routes, Route
-} from 'react-router-dom';
-import {Home, SingleCourse, Courses, /*CareerRelatedPrograms*/} from "./pages";
+import Cards from "./components/Cards";
+import Modal from "./components/Modal";
+import TopCategories from "./components/TopCategories";
 
 function App() {
   return (
+    <BrowserRouter>
+      <AppContent />
+    </BrowserRouter>
+  );
+}
+
+function AppContent() {
+  const location = useLocation();
+  const isCoursesPage = location.pathname.includes("courses-link");
+
+  return (
     <>
-      <Navbar />
-      <ImageSlider />
-        <BrowserRouter>
-        <Routes>
-          <Route path = "/" element = {<Home />} />
-          <Route path = "/courses/:id" element = {<SingleCourse />} />
-          <Route path = "/category/:category" element = {<Courses />} />
-        </Routes>
-      </BrowserRouter>
-      </>
-    );
+      {!isCoursesPage && <Navbar />}
+      {!isCoursesPage && <ImageSlider />}
+      {!isCoursesPage && <Cards />}
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/courses/:id" element={<SingleCourse />} />
+        <Route path="/category/:category" element={<Courses />} />
+        <Route path="courses-link" element={<CoursesPage />} />
+        <Route path="/categories-link" element={<TopCategories />} />
+      </Routes>
+      <Modal />
+    </>
+  );
 }
 
 export default App;

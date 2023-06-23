@@ -1,66 +1,63 @@
-.nav_ul li {
+#navbar .nav_ul li {
     padding: 0 0.7rem;
 
 }
 
-.nav_ul li {
+#navbar .nav_ul li {
     padding: 0 0.5rem;
 
 }
 
-.nav_ul a {
-    font-size: 1.2rem;
+#navbar .nav_ul a {
+    font-size: 19px;
     color: #000 !important;
     font-weight: 400;
     letter-spacing: 0.5px;
-    border-radius: 15px;
 }
 
-.nav_ul a:hover {
-    background: #9ee9ee !important;
-    border-radius: 15px;
-    box-shadow: 0 0 35px #9ee9ee !important;
+#navbar .nav_ul a:hover {
     transition: 0.2s ease-out;
     transform: translateY(-0.25em) !important;
-    color: #000000 !important;
+    font-weight: 500;
+    color: #0026ff !important;
 }
 
 
-.btn2 {
+#navbar .btn2 {
     position: relative;
     border-radius: 8px;
     border: 0;
     background: #f18989;
     padding: 0.5rem 1.2rem;
     text-decoration: none;
-    font-size: 1.1rem;
+    font-size: 1.9rem;
     color: #000;
-    transition: 0.5s;
+    transition: 0.3s;
     cursor: pointer;
 }
 
-.btn2:hover {
-    background: #cdaceb;
+#navbar .btn2:hover {
+    background-color: #daa1fc;
+    box-shadow: 0 0 35px #daa1fc;
     color: #fff;
-    box-shadow: 0 0 35px #cdaceb;
 }
 
 @media screen and (max-width: 1200px) {
-    .btn2 {
+    #navbar .btn2 {
         font-size: 1rem;
     }
 
-    .nav_ul a {
+    #navbar .nav_ul a {
         font-size: 1.1rem;
     }
 }
 
 @media screen and (max-width: 1100px) {
-    .btn2 {
+    #navbar .btn2 {
         font-size: 0.85rem;
     }
 
-    .nav_ul a {
+    #navbar .nav_ul a {
         font-size: 0.95rem;
     }
 }

@@ -1,0 +1,87 @@
+.col {
+    margin: 20px;
+    width: 90px;
+    height: 160px;
+    cursor: pointer;
+    margin-left: 25px;
+    margin-right: 25px;
+    padding-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0 1px 10px rgba(0, 0, 0, 0.1);
+    background-color: rgba(204, 146, 181, 0.321);
+    transition: transform 0.3s ease;
+  }
+
+  .col:hover{
+    transform: scale(1.06);
+  }
+
+  .discovercategories{
+    text-align: center;
+  }
+  .container {
+    display: flex;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-right: 0;
+    padding-left: 0;
+    min-width: 90%;
+  }
+  
+  .card-container {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  
+  .row{
+    flex-wrap: wrap ;
+  }
+  .col p {
+    margin-bottom: 0;
+    font-weight: bold;
+  }
+  
+  /* Media queries */
+  @media screen {
+    /* Large screen - Icon in the middle, increased size */
+    .col {
+      width: 150px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      
+    }
+  
+    .col i {
+      font-size: 1.7em;
+    }
+  }
+  
+  @media screen and (max-width: 576px) {
+    /* Small screen - Icon to the left, increased size */
+    .col {
+      width: 50%;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: flex-start;
+      text-align: left;
+      padding: 10px;
+    }
+  
+    .col i {
+      font-size: 2em;
+      margin-right: 10px;
+    }
+  }
+
+  .btn{
+    size: 50px;
+    border: none;
+    text-decoration: underline;
+    color: black;
+    font-weight: bold;
+  }
+  

@@ -1,0 +1,91 @@
+#navcard .container {
+    display: flex;
+    justify-content: center;
+    max-width: 1280px;
+    gap: 35px;
+
+}
+
+#navcard .box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    box-shadow: 0 2px 6px rgba(15, 5, 5, 0.7);
+    margin-top: -100px;
+    z-index: 2;
+    width: 500px;
+}
+
+#navcard .title {
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#navcard .content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+#navcard .arrow {
+    margin-left: 5px;
+}
+
+
+@media screen and (max-width: 1201px) {
+
+    #navcard .container {
+        max-width: 1150px;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+
+    #navcard .box:nth-child(3) {
+        display: none;
+    }
+
+    #navcard .box {
+        width: 400px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    #navcard .box:nth-child(2) {
+        display: none;
+
+    }
+}
+
+@media screen and (max-width: 425px) {
+
+    #navcard .box:nth-child(1) {
+        display: none;
+
+    }
+}
+
+#navcard span {
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+    font-size: 17px;
+}
+
+#navcard span:hover {
+    color: #000;
+}
+
+#navcard .box:hover {
+
+    transition: 0.2s ease-out;
+    transform: translateY(-0.25em) !important;
+    color: #0026ff !important;
+    cursor: pointer;
+}
