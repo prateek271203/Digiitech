@@ -13,14 +13,11 @@ const CourseList = () => {
         <div className='courses-list-top'>
           <h2>Trending Courses</h2>
         </div>
-        <div class="owl-carousel">
-        
-                <Tabs courses = {courses} />
-                </div>
-                </div>
+            <Tabs courses = {courses} />
+      </div>
               
     </CoursesListWrapper>
-  )
+  );
 }
 
 const CoursesListWrapper = styled.div`
@@ -30,4 +27,4 @@ const CoursesListWrapper = styled.div`
   }
 `;
 
-export default CourseList
+export default CourseList;
