@@ -1,39 +1,10 @@
-import React, { useEffect } from "react";
+import React from "react";
 import Breadcrumbs from "@mui/material/Breadcrumbs";
 import Link from "@mui/material/Link";
 import HomeIcon from "@mui/icons-material/Home";
 import AutoStoriesTwoToneIcon from "@mui/icons-material/AutoStoriesTwoTone";
 import "./CoursesPage.css";
 function CoursesPage() {
-  useEffect(() => {
-    const categoryTitle = document.querySelectorAll(".category-title");
-    const allCategoryPosts = document.querySelectorAll(".all");
-
-    for (let i = 0; i < categoryTitle.length; i++) {
-      categoryTitle[i].addEventListener(
-        "click",
-        filterPosts.bind(this, categoryTitle[i])
-      );
-    }
-
-    function filterPosts(item) {
-      changeActivePosition(item);
-      for (let i = 0; i < allCategoryPosts.length; i++) {
-        if (allCategoryPosts[i].classList.contains(item.attributes.id.value)) {
-          allCategoryPosts[i].style.display = "block";
-        } else {
-          allCategoryPosts[i].style.display = "none";
-        }
-      }
-    }
-
-    function changeActivePosition(activeItem) {
-      for (let i = 0; i < categoryTitle.length; i++) {
-        categoryTitle[i].classList.remove("active");
-      }
-      activeItem.classList.add("active");
-    }
-  }, []);
   return (
     <div id="Cp">
       <nav className="navbar upper" style={{ backgroundColor: "#192f60" }}>
@@ -239,42 +210,42 @@ function CoursesPage() {
         {/*  course category end */}
       </div>
       {/* main container end*/}
-      <div class="category-head">
+      <div className="category-head">
         <ul>
-          <div class="category-title active" id="all">
+          <div className="category-title active" id="all">
             <li>All</li>
             <span>
-              <i class="fas fa-border-all"></i>
+              <i className="fas fa-border-all"></i>
             </span>
           </div>
-          <div class="category-title" id="culture">
+          <div className="category-title" id="web-development">
             <li>Web Development</li>
             <span>
-              <i class="fas fa-theater-masks"></i>
+              <i className="fas fa-theater-masks"></i>
             </span>
           </div>
-          <div class="category-title" id="politics">
+          <div className="category-title" id="python">
             <li>Python</li>
             <span>
-              <i class="fas fa-landmark"></i>
+              <i className="fas fa-landmark"></i>
             </span>
           </div>
-          <div class="category-title" id="finance">
+          <div className="category-title" id="data-science">
             <li>Data Scince</li>
             <span>
-              <i class="fas fa-chart-area"></i>
+              <i className="fas fa-chart-area"></i>
             </span>
           </div>
-          <div class="category-title" id="business">
+          <div className="category-title" id="aws-certification">
             <li>Aws Certification</li>
             <span>
-              <i class="fas fa-coins"></i>
+              <i className="fas fa-coins"></i>
             </span>
           </div>
-          <div class="category-title" id="sports">
+          <div className="category-title" id="others">
             <li>Others</li>
             <span>
-              <i class="fas fa-running"></i>
+              <i className="fas fa-running"></i>
             </span>
           </div>
         </ul>
@@ -289,645 +260,826 @@ function CoursesPage() {
           margin: "auto",
         }}
       >
-        <div class="all card">
-          <div class="card-body mx-3">
-            <h5 class="card-title py-2">
+        <div className="card web-development">
+          <div className="card-body mx-3">
+            <h5 className="card-title py-2">
               Data Science and Machine Learning Internship Program
             </h5>
-            <p class="card-text">
+            <p className="card-text">
               Live Courses: Data Science, Python, Machine Learning, Tableau &
               more
             </p>
             <ul>
               <li>
-                <i class="fa-solid fa-file-invoice py-2"></i>Certificate
+                <i className="fa-solid fa-file-invoice py-2"></i>Certificate
               </li>
               <li>
-                <i class="fa-regular fa-clock py-2"></i>80 Hrs of Classes
+                <i className="fa-regular fa-clock py-2"></i>80 Hrs of
+                classNamees
               </li>
               <li>
-                <i class="fa-regular fa-calendar py-2"></i>Weekend/Weekday
-                Classes
+                <i className="fa-regular fa-calendar py-2"></i>Weekend/Weekday
+                classNamees
               </li>
             </ul>
-            <div class="button">
-              <a href="#" class="card-link" style={{ textDecoration: "none;" }}>
+            <div className="button">
+              <a
+                href="/"
+                className="card-link"
+                style={{ textDecoration: "none;" }}
+              >
                 View Course Details
               </a>
             </div>
           </div>
         </div>
-        <div class="all card">
-          <div class="card-body mx-3">
-            <h5 class="card-title py-2">
+        <div className="card web-development">
+          <div className="card-body mx-3">
+            <h5 className="card-title py-2">
               Data Science and Machine Learning Internship Program
             </h5>
-            <p class="card-text">
+            <p className="card-text">
               Live Courses: Data Science, Python, Machine Learning, Tableau &
               more
             </p>
             <ul>
               <li>
-                <i class="fa-solid fa-file-invoice py-2"></i>Certificate
+                <i className="fa-solid fa-file-invoice py-2"></i>Certificate
               </li>
               <li>
-                <i class="fa-regular fa-clock py-2"></i>80 Hrs of Classes
+                <i className="fa-regular fa-clock py-2"></i>80 Hrs of
+                classNamees
               </li>
               <li>
-                <i class="fa-regular fa-calendar py-2"></i>Weekend/Weekday
-                Classes
+                <i className="fa-regular fa-calendar py-2"></i>Weekend/Weekday
+                classNamees
               </li>
             </ul>
-            <div class="button">
-              <a href="#" class="card-link" style={{ textDecoration: "none;" }}>
+            <div className="button">
+              <a
+                href="/"
+                className="card-link"
+                style={{ textDecoration: "none;" }}
+              >
                 View Course Details
               </a>
             </div>
           </div>
         </div>
-        <div class="all card">
-          <div class="card-body mx-3">
-            <h5 class="card-title py-2">
+        <div className="card web-development">
+          <div className="card-body mx-3">
+            <h5 className="card-title py-2">
               Data Science and Machine Learning Internship Program
             </h5>
-            <p class="card-text">
+            <p className="card-text">
               Live Courses: Data Science, Python, Machine Learning, Tableau &
               more
             </p>
             <ul>
               <li>
-                <i class="fa-solid fa-file-invoice py-2"></i>Certificate
+                <i className="fa-solid fa-file-invoice py-2"></i>Certificate
               </li>
               <li>
-                <i class="fa-regular fa-clock py-2"></i>80 Hrs of Classes
+                <i className="fa-regular fa-clock py-2"></i>80 Hrs of
+                classNamees
               </li>
               <li>
-                <i class="fa-regular fa-calendar py-2"></i>Weekend/Weekday
-                Classes
+                <i className="fa-regular fa-calendar py-2"></i>Weekend/Weekday
+                classNamees
               </li>
             </ul>
-            <div class="button">
-              <a href="#" class="card-link" style={{ textDecoration: "none;" }}>
+            <div className="button">
+              <a
+                href="/"
+                className="card-link"
+                style={{ textDecoration: "none;" }}
+              >
                 View Course Details
               </a>
             </div>
           </div>
         </div>
-        <div class="all card">
-          <div class="card-body mx-3">
-            <h5 class="card-title py-2">
+        <div className="card">
+          <div className="card-body mx-3">
+            <h5 className="card-title py-2">
               Data Science and Machine Learning Internship Program
             </h5>
-            <p class="card-text">
+            <p className="card-text">
               Live Courses: Data Science, Python, Machine Learning, Tableau &
               more
             </p>
             <ul>
               <li>
-                <i class="fa-solid fa-file-invoice py-2"></i>Certificate
+                <i className="fa-solid fa-file-invoice py-2"></i>Certificate
               </li>
               <li>
-                <i class="fa-regular fa-clock py-2"></i>80 Hrs of Classes
+                <i className="fa-regular fa-clock py-2"></i>80 Hrs of
+                classNamees
               </li>
               <li>
-                <i class="fa-regular fa-calendar py-2"></i>Weekend/Weekday
-                Classes
+                <i className="fa-regular fa-calendar py-2"></i>Weekend/Weekday
+                classNamees
               </li>
             </ul>
-            <div class="button">
-              <a href="#" class="card-link" style={{ textDecoration: "none;" }}>
+            <div className="button">
+              <a
+                href="/"
+                className="card-link"
+                style={{ textDecoration: "none;" }}
+              >
                 View Course Details
               </a>
             </div>
           </div>
         </div>
-        <div class="all card">
-          <div class="card-body mx-3">
-            <h5 class="card-title py-2">
+        <div className="card">
+          <div className="card-body mx-3">
+            <h5 className="card-title py-2">
               Data Science and Machine Learning Internship Program
             </h5>
-            <p class="card-text">
+            <p className="card-text">
               Live Courses: Data Science, Python, Machine Learning, Tableau &
               more
             </p>
             <ul>
               <li>
-                <i class="fa-solid fa-file-invoice py-2"></i>Certificate
+                <i className="fa-solid fa-file-invoice py-2"></i>Certificate
               </li>
               <li>
-                <i class="fa-regular fa-clock py-2"></i>80 Hrs of Classes
+                <i className="fa-regular fa-clock py-2"></i>80 Hrs of
+                classNamees
               </li>
               <li>
-                <i class="fa-regular fa-calendar py-2"></i>Weekend/Weekday
-                Classes
+                <i className="fa-regular fa-calendar py-2"></i>Weekend/Weekday
+                classNamees
               </li>
             </ul>
-            <div class="button">
-              <a href="#" class="card-link" style={{ textDecoration: "none;" }}>
+            <div className="button">
+              <a
+                href="/"
+                className="card-link"
+                style={{ textDecoration: "none;" }}
+              >
                 View Course Details
               </a>
             </div>
           </div>
         </div>
-        <div class="all card">
-          <div class="card-body mx-3">
-            <h5 class="card-title py-2">
+        <div className="card">
+          <div className="card-body mx-3">
+            <h5 className="card-title py-2">
               Data Science and Machine Learning Internship Program
             </h5>
-            <p class="card-text">
+            <p className="card-text">
               Live Courses: Data Science, Python, Machine Learning, Tableau &
               more
             </p>
             <ul>
               <li>
-                <i class="fa-solid fa-file-invoice py-2"></i>Certificate
+                <i className="fa-solid fa-file-invoice py-2"></i>Certificate
               </li>
               <li>
-                <i class="fa-regular fa-clock py-2"></i>80 Hrs of Classes
+                <i className="fa-regular fa-clock py-2"></i>80 Hrs of
+                classNamees
               </li>
               <li>
-                <i class="fa-regular fa-calendar py-2"></i>Weekend/Weekday
-                Classes
+                <i className="fa-regular fa-calendar py-2"></i>Weekend/Weekday
+                classNamees
               </li>
             </ul>
-            <div class="button">
-              <a href="#" class="card-link" style={{ textDecoration: "none;" }}>
+            <div className="button">
+              <a
+                href="/"
+                className="card-link"
+                style={{ textDecoration: "none;" }}
+              >
                 View Course Details
               </a>
             </div>
           </div>
         </div>
-        <div class="all card">
-          <div class="card-body mx-3">
-            <h5 class="card-title py-2">
+        <div className="card">
+          <div className="card-body mx-3">
+            <h5 className="card-title py-2">
               Data Science and Machine Learning Internship Program
             </h5>
-            <p class="card-text">
+            <p className="card-text">
               Live Courses: Data Science, Python, Machine Learning, Tableau &
               more
             </p>
             <ul>
               <li>
-                <i class="fa-solid fa-file-invoice py-2"></i>Certificate
+                <i className="fa-solid fa-file-invoice py-2"></i>Certificate
               </li>
               <li>
-                <i class="fa-regular fa-clock py-2"></i>80 Hrs of Classes
+                <i className="fa-regular fa-clock py-2"></i>80 Hrs of
+                classNamees
               </li>
               <li>
-                <i class="fa-regular fa-calendar py-2"></i>Weekend/Weekday
-                Classes
+                <i className="fa-regular fa-calendar py-2"></i>Weekend/Weekday
+                classNamees
               </li>
             </ul>
-            <div class="button">
-              <a href="#" class="card-link" style={{ textDecoration: "none;" }}>
+            <div className="button">
+              <a
+                href="/"
+                className="card-link"
+                style={{ textDecoration: "none;" }}
+              >
                 View Course Details
               </a>
             </div>
           </div>
         </div>
-        <div class="all card">
-          <div class="card-body mx-3">
-            <h5 class="card-title py-2">
+        <div className="card">
+          <div className="card-body mx-3">
+            <h5 className="card-title py-2">
               Data Science and Machine Learning Internship Program
             </h5>
-            <p class="card-text">
+            <p className="card-text">
               Live Courses: Data Science, Python, Machine Learning, Tableau &
               more
             </p>
             <ul>
               <li>
-                <i class="fa-solid fa-file-invoice py-2"></i>Certificate
+                <i className="fa-solid fa-file-invoice py-2"></i>Certificate
               </li>
               <li>
-                <i class="fa-regular fa-clock py-2"></i>80 Hrs of Classes
+                <i className="fa-regular fa-clock py-2"></i>80 Hrs of
+                classNamees
               </li>
               <li>
-                <i class="fa-regular fa-calendar py-2"></i>Weekend/Weekday
-                Classes
+                <i className="fa-regular fa-calendar py-2"></i>Weekend/Weekday
+                classNamees
               </li>
             </ul>
-            <div class="button">
-              <a href="#" class="card-link" style={{ textDecoration: "none;" }}>
+            <div className="button">
+              <a
+                href="/"
+                className="card-link"
+                style={{ textDecoration: "none;" }}
+              >
                 View Course Details
               </a>
             </div>
           </div>
         </div>
-        <div class="all card">
-          <div class="card-body mx-3">
-            <h5 class="card-title py-2">
+        <div className="card">
+          <div className="card-body mx-3">
+            <h5 className="card-title py-2">
               Data Science and Machine Learning Internship Program
             </h5>
-            <p class="card-text">
+            <p className="card-text">
               Live Courses: Data Science, Python, Machine Learning, Tableau &
               more
             </p>
             <ul>
               <li>
-                <i class="fa-solid fa-file-invoice py-2"></i>Certificate
+                <i className="fa-solid fa-file-invoice py-2"></i>Certificate
               </li>
               <li>
-                <i class="fa-regular fa-clock py-2"></i>80 Hrs of Classes
+                <i className="fa-regular fa-clock py-2"></i>80 Hrs of
+                classNamees
               </li>
               <li>
-                <i class="fa-regular fa-calendar py-2"></i>Weekend/Weekday
-                Classes
+                <i className="fa-regular fa-calendar py-2"></i>Weekend/Weekday
+                classNamees
               </li>
             </ul>
-            <div class="button">
-              <a href="#" class="card-link" style={{ textDecoration: "none;" }}>
+            <div className="button">
+              <a
+                href="/"
+                className="card-link"
+                style={{ textDecoration: "none;" }}
+              >
                 View Course Details
               </a>
             </div>
           </div>
         </div>
-        <div class="all card">
-          <div class="card-body mx-3">
-            <h5 class="card-title py-2">
+        <div className="card">
+          <div className="card-body mx-3">
+            <h5 className="card-title py-2">
               Data Science and Machine Learning Internship Program
             </h5>
-            <p class="card-text">
+            <p className="card-text">
               Live Courses: Data Science, Python, Machine Learning, Tableau &
               more
             </p>
             <ul>
               <li>
-                <i class="fa-solid fa-file-invoice py-2"></i>Certificate
+                <i className="fa-solid fa-file-invoice py-2"></i>Certificate
               </li>
               <li>
-                <i class="fa-regular fa-clock py-2"></i>80 Hrs of Classes
+                <i className="fa-regular fa-clock py-2"></i>80 Hrs of
+                classNamees
               </li>
               <li>
-                <i class="fa-regular fa-calendar py-2"></i>Weekend/Weekday
-                Classes
+                <i className="fa-regular fa-calendar py-2"></i>Weekend/Weekday
+                classNamees
               </li>
             </ul>
-            <div class="button">
-              <a href="#" class="card-link" style={{ textDecoration: "none;" }}>
+            <div className="button">
+              <a
+                href="/"
+                className="card-link"
+                style={{ textDecoration: "none;" }}
+              >
                 View Course Details
               </a>
             </div>
           </div>
         </div>
-        <div class="all card">
-          <div class="card-body mx-3">
-            <h5 class="card-title py-2">
+        <div className="card">
+          <div className="card-body mx-3">
+            <h5 className="card-title py-2">
               Data Science and Machine Learning Internship Program
             </h5>
-            <p class="card-text">
+            <p className="card-text">
               Live Courses: Data Science, Python, Machine Learning, Tableau &
               more
             </p>
             <ul>
               <li>
-                <i class="fa-solid fa-file-invoice py-2"></i>Certificate
+                <i className="fa-solid fa-file-invoice py-2"></i>Certificate
               </li>
               <li>
-                <i class="fa-regular fa-clock py-2"></i>80 Hrs of Classes
+                <i className="fa-regular fa-clock py-2"></i>80 Hrs of
+                classNamees
               </li>
               <li>
-                <i class="fa-regular fa-calendar py-2"></i>Weekend/Weekday
-                Classes
+                <i className="fa-regular fa-calendar py-2"></i>Weekend/Weekday
+                classNamees
               </li>
             </ul>
-            <div class="button">
-              <a href="#" class="card-link" style={{ textDecoration: "none;" }}>
+            <div className="button">
+              <a
+                href="/"
+                className="card-link"
+                style={{ textDecoration: "none;" }}
+              >
                 View Course Details
               </a>
             </div>
           </div>
         </div>
-        <div class="all card">
-          <div class="card-body mx-3">
-            <h5 class="card-title py-2">
+        <div className="card">
+          <div className="card-body mx-3">
+            <h5 className="card-title py-2">
               Data Science and Machine Learning Internship Program
             </h5>
-            <p class="card-text">
+            <p className="card-text">
               Live Courses: Data Science, Python, Machine Learning, Tableau &
               more
             </p>
             <ul>
               <li>
-                <i class="fa-solid fa-file-invoice py-2"></i>Certificate
+                <i className="fa-solid fa-file-invoice py-2"></i>Certificate
               </li>
               <li>
-                <i class="fa-regular fa-clock py-2"></i>80 Hrs of Classes
+                <i className="fa-regular fa-clock py-2"></i>80 Hrs of
+                classNamees
               </li>
               <li>
-                <i class="fa-regular fa-calendar py-2"></i>Weekend/Weekday
-                Classes
+                <i className="fa-regular fa-calendar py-2"></i>Weekend/Weekday
+                classNamees
               </li>
             </ul>
-            <div class="button">
-              <a href="#" class="card-link" style={{ textDecoration: "none;" }}>
+            <div className="button">
+              <a
+                href="/"
+                className="card-link"
+                style={{ textDecoration: "none;" }}
+              >
                 View Course Details
               </a>
             </div>
           </div>
         </div>
-        <div class="all card">
-          <div class="card-body mx-3">
-            <h5 class="card-title py-2">
+        <div className="card">
+          <div className="card-body mx-3">
+            <h5 className="card-title py-2">
               Data Science and Machine Learning Internship Program
             </h5>
-            <p class="card-text">
+            <p className="card-text">
               Live Courses: Data Science, Python, Machine Learning, Tableau &
               more
             </p>
             <ul>
               <li>
-                <i class="fa-solid fa-file-invoice py-2"></i>Certificate
+                <i className="fa-solid fa-file-invoice py-2"></i>Certificate
               </li>
               <li>
-                <i class="fa-regular fa-clock py-2"></i>80 Hrs of Classes
+                <i className="fa-regular fa-clock py-2"></i>80 Hrs of
+                classNamees
               </li>
               <li>
-                <i class="fa-regular fa-calendar py-2"></i>Weekend/Weekday
-                Classes
+                <i className="fa-regular fa-calendar py-2"></i>Weekend/Weekday
+                classNamees
               </li>
             </ul>
-            <div class="button">
-              <a href="#" class="card-link" style={{ textDecoration: "none;" }}>
+            <div className="button">
+              <a
+                href="/"
+                className="card-link"
+                style={{ textDecoration: "none;" }}
+              >
                 View Course Details
               </a>
             </div>
           </div>
         </div>
-        <div class="all card">
-          <div class="card-body mx-3">
-            <h5 class="card-title py-2">
+        <div className="card">
+          <div className="card-body mx-3">
+            <h5 className="card-title py-2">
               Data Science and Machine Learning Internship Program
             </h5>
-            <p class="card-text">
+            <p className="card-text">
               Live Courses: Data Science, Python, Machine Learning, Tableau &
               more
             </p>
             <ul>
               <li>
-                <i class="fa-solid fa-file-invoice py-2"></i>Certificate
+                <i className="fa-solid fa-file-invoice py-2"></i>Certificate
               </li>
               <li>
-                <i class="fa-regular fa-clock py-2"></i>80 Hrs of Classes
+                <i className="fa-regular fa-clock py-2"></i>80 Hrs of
+                classNamees
               </li>
               <li>
-                <i class="fa-regular fa-calendar py-2"></i>Weekend/Weekday
-                Classes
+                <i className="fa-regular fa-calendar py-2"></i>Weekend/Weekday
+                classNamees
               </li>
             </ul>
-            <div class="button">
-              <a href="#" class="card-link" style={{ textDecoration: "none;" }}>
+            <div className="button">
+              <a
+                href="/"
+                className="card-link"
+                style={{ textDecoration: "none;" }}
+              >
                 View Course Details
               </a>
             </div>
           </div>
         </div>
-        <div class="all card">
-          <div class="card-body mx-3">
-            <h5 class="card-title py-2">
+        <div className="card">
+          <div className="card-body mx-3">
+            <h5 className="card-title py-2">
               Data Science and Machine Learning Internship Program
             </h5>
-            <p class="card-text">
+            <p className="card-text">
               Live Courses: Data Science, Python, Machine Learning, Tableau &
               more
             </p>
             <ul>
               <li>
-                <i class="fa-solid fa-file-invoice py-2"></i>Certificate
+                <i className="fa-solid fa-file-invoice py-2"></i>Certificate
               </li>
               <li>
-                <i class="fa-regular fa-clock py-2"></i>80 Hrs of Classes
+                <i className="fa-regular fa-clock py-2"></i>80 Hrs of
+                classNamees
               </li>
               <li>
-                <i class="fa-regular fa-calendar py-2"></i>Weekend/Weekday
-                Classes
+                <i className="fa-regular fa-calendar py-2"></i>Weekend/Weekday
+                classNamees
               </li>
             </ul>
-            <div class="button">
-              <a href="#" class="card-link" style={{ textDecoration: "none;" }}>
+            <div className="button">
+              <a
+                href="/"
+                className="card-link"
+                style={{ textDecoration: "none;" }}
+              >
                 View Course Details
               </a>
             </div>
           </div>
         </div>
-        <div class="all card">
-          <div class="card-body mx-3">
-            <h5 class="card-title py-2">
+        <div className="card">
+          <div className="card-body mx-3">
+            <h5 className="card-title py-2">
               Data Science and Machine Learning Internship Program
             </h5>
-            <p class="card-text">
+            <p className="card-text">
               Live Courses: Data Science, Python, Machine Learning, Tableau &
               more
             </p>
             <ul>
               <li>
-                <i class="fa-solid fa-file-invoice py-2"></i>Certificate
+                <i className="fa-solid fa-file-invoice py-2"></i>Certificate
               </li>
               <li>
-                <i class="fa-regular fa-clock py-2"></i>80 Hrs of Classes
+                <i className="fa-regular fa-clock py-2"></i>80 Hrs of
+                classNamees
               </li>
               <li>
-                <i class="fa-regular fa-calendar py-2"></i>Weekend/Weekday
-                Classes
+                <i className="fa-regular fa-calendar py-2"></i>Weekend/Weekday
+                classNamees
               </li>
             </ul>
-            <div class="button">
-              <a href="#" class="card-link" style={{ textDecoration: "none;" }}>
+            <div className="button">
+              <a
+                href="/"
+                className="card-link"
+                style={{ textDecoration: "none;" }}
+              >
                 View Course Details
               </a>
             </div>
           </div>
         </div>
-        <div class="all card">
-          <div class="card-body mx-3">
-            <h5 class="card-title py-2">
+        <div className="card">
+          <div className="card-body mx-3">
+            <h5 className="card-title py-2">
               Data Science and Machine Learning Internship Program
             </h5>
-            <p class="card-text">
+            <p className="card-text">
               Live Courses: Data Science, Python, Machine Learning, Tableau &
               more
             </p>
             <ul>
               <li>
-                <i class="fa-solid fa-file-invoice py-2"></i>Certificate
+                <i className="fa-solid fa-file-invoice py-2"></i>Certificate
               </li>
               <li>
-                <i class="fa-regular fa-clock py-2"></i>80 Hrs of Classes
+                <i className="fa-regular fa-clock py-2"></i>80 Hrs of
+                classNamees
               </li>
               <li>
-                <i class="fa-regular fa-calendar py-2"></i>Weekend/Weekday
-                Classes
+                <i className="fa-regular fa-calendar py-2"></i>Weekend/Weekday
+                classNamees
               </li>
             </ul>
-            <div class="button">
-              <a href="#" class="card-link" style={{ textDecoration: "none;" }}>
+            <div className="button">
+              <a
+                href="/"
+                className="card-link"
+                style={{ textDecoration: "none;" }}
+              >
                 View Course Details
               </a>
             </div>
           </div>
         </div>
-        <div class="all card">
-          <div class="card-body mx-3">
-            <h5 class="card-title py-2">
+        <div className="card">
+          <div className="card-body mx-3">
+            <h5 className="card-title py-2">
               Data Science and Machine Learning Internship Program
             </h5>
-            <p class="card-text">
+            <p className="card-text">
               Live Courses: Data Science, Python, Machine Learning, Tableau &
               more
             </p>
             <ul>
               <li>
-                <i class="fa-solid fa-file-invoice py-2"></i>Certificate
+                <i className="fa-solid fa-file-invoice py-2"></i>Certificate
               </li>
               <li>
-                <i class="fa-regular fa-clock py-2"></i>80 Hrs of Classes
+                <i className="fa-regular fa-clock py-2"></i>80 Hrs of
+                classNamees
               </li>
               <li>
-                <i class="fa-regular fa-calendar py-2"></i>Weekend/Weekday
-                Classes
+                <i className="fa-regular fa-calendar py-2"></i>Weekend/Weekday
+                classNamees
               </li>
             </ul>
-            <div class="button">
-              <a href="#" class="card-link" style={{ textDecoration: "none;" }}>
+            <div className="button">
+              <a
+                href="/"
+                className="card-link"
+                style={{ textDecoration: "none;" }}
+              >
                 View Course Details
               </a>
             </div>
           </div>
         </div>
-        <div class="all card">
-          <div class="card-body mx-3">
-            <h5 class="card-title py-2">
+        <div className="card">
+          <div className="card-body mx-3">
+            <h5 className="card-title py-2">
               Data Science and Machine Learning Internship Program
             </h5>
-            <p class="card-text">
+            <p className="card-text">
               Live Courses: Data Science, Python, Machine Learning, Tableau &
               more
             </p>
             <ul>
               <li>
-                <i class="fa-solid fa-file-invoice py-2"></i>Certificate
+                <i className="fa-solid fa-file-invoice py-2"></i>Certificate
               </li>
               <li>
-                <i class="fa-regular fa-clock py-2"></i>80 Hrs of Classes
+                <i className="fa-regular fa-clock py-2"></i>80 Hrs of
+                classNamees
               </li>
               <li>
-                <i class="fa-regular fa-calendar py-2"></i>Weekend/Weekday
-                Classes
+                <i className="fa-regular fa-calendar py-2"></i>Weekend/Weekday
+                classNamees
               </li>
             </ul>
-            <div class="button">
-              <a href="#" class="card-link" style={{ textDecoration: "none;" }}>
+            <div className="button">
+              <a
+                href="/"
+                className="card-link"
+                style={{ textDecoration: "none;" }}
+              >
                 View Course Details
               </a>
             </div>
           </div>
         </div>
-        <div class="all card">
-          <div class="card-body mx-3">
-            <h5 class="card-title py-2">
+        <div className="card">
+          <div className="card-body mx-3">
+            <h5 className="card-title py-2">
               Data Science and Machine Learning Internship Program
             </h5>
-            <p class="card-text">
+            <p className="card-text">
               Live Courses: Data Science, Python, Machine Learning, Tableau &
               more
             </p>
             <ul>
               <li>
-                <i class="fa-solid fa-file-invoice py-2"></i>Certificate
+                <i className="fa-solid fa-file-invoice py-2"></i>Certificate
               </li>
               <li>
-                <i class="fa-regular fa-clock py-2"></i>80 Hrs of Classes
+                <i className="fa-regular fa-clock py-2"></i>80 Hrs of
+                classNamees
               </li>
               <li>
-                <i class="fa-regular fa-calendar py-2"></i>Weekend/Weekday
-                Classes
+                <i className="fa-regular fa-calendar py-2"></i>Weekend/Weekday
+                classNamees
               </li>
             </ul>
-            <div class="button">
-              <a href="#" class="card-link" style={{ textDecoration: "none;" }}>
+            <div className="button">
+              <a
+                href="/"
+                className="card-link"
+                style={{ textDecoration: "none;" }}
+              >
                 View Course Details
               </a>
             </div>
           </div>
         </div>
-        <div class="all card">
-          <div class="card-body mx-3">
-            <h5 class="card-title py-2">
+        <div className="card">
+          <div className="card-body mx-3">
+            <h5 className="card-title py-2">
               Data Science and Machine Learning Internship Program
             </h5>
-            <p class="card-text">
+            <p className="card-text">
               Live Courses: Data Science, Python, Machine Learning, Tableau &
               more
             </p>
             <ul>
               <li>
-                <i class="fa-solid fa-file-invoice py-2"></i>Certificate
+                <i className="fa-solid fa-file-invoice py-2"></i>Certificate
               </li>
               <li>
-                <i class="fa-regular fa-clock py-2"></i>80 Hrs of Classes
+                <i className="fa-regular fa-clock py-2"></i>80 Hrs of
+                classNamees
               </li>
               <li>
-                <i class="fa-regular fa-calendar py-2"></i>Weekend/Weekday
-                Classes
+                <i className="fa-regular fa-calendar py-2"></i>Weekend/Weekday
+                classNamees
               </li>
             </ul>
-            <div class="button">
-              <a href="#" class="card-link" style={{ textDecoration: "none;" }}>
+            <div className="button">
+              <a
+                href="/"
+                className="card-link"
+                style={{ textDecoration: "none;" }}
+              >
                 View Course Details
               </a>
             </div>
           </div>
         </div>
-        <div class="all card">
-          <div class="card-body mx-3">
-            <h5 class="card-title py-2">
+        <div className="card">
+          <div className="card-body mx-3">
+            <h5 className="card-title py-2">
               Data Science and Machine Learning Internship Program
             </h5>
-            <p class="card-text">
+            <p className="card-text">
               Live Courses: Data Science, Python, Machine Learning, Tableau &
               more
             </p>
             <ul>
               <li>
-                <i class="fa-solid fa-file-invoice py-2"></i>Certificate
+                <i className="fa-solid fa-file-invoice py-2"></i>Certificate
               </li>
               <li>
-                <i class="fa-regular fa-clock py-2"></i>80 Hrs of Classes
+                <i className="fa-regular fa-clock py-2"></i>80 Hrs of
+                classNamees
               </li>
               <li>
-                <i class="fa-regular fa-calendar py-2"></i>Weekend/Weekday
-                Classes
+                <i className="fa-regular fa-calendar py-2"></i>Weekend/Weekday
+                classNamees
               </li>
             </ul>
-            <div class="button">
-              <a href="#" class="card-link" style={{ textDecoration: "none;" }}>
+            <div className="button">
+              <a
+                href="/"
+                className="card-link"
+                style={{ textDecoration: "none;" }}
+              >
                 View Course Details
               </a>
             </div>
           </div>
         </div>
-        <div class="all card">
-          <div class="card-body mx-3">
-            <h5 class="card-title py-2">
+        <div className="card">
+          <div className="card-body mx-3">
+            <h5 className="card-title py-2">
               Data Science and Machine Learning Internship Program
             </h5>
-            <p class="card-text">
+            <p className="card-text">
               Live Courses: Data Science, Python, Machine Learning, Tableau &
               more
             </p>
             <ul>
               <li>
-                <i class="fa-solid fa-file-invoice py-2"></i>Certificate
+                <i className="fa-solid fa-file-invoice py-2"></i>Certificate
               </li>
               <li>
-                <i class="fa-regular fa-clock py-2"></i>80 Hrs of Classes
+                <i className="fa-regular fa-clock py-2"></i>80 Hrs of
+                classNamees
               </li>
               <li>
-                <i class="fa-regular fa-calendar py-2"></i>Weekend/Weekday
-                Classes
+                <i className="fa-regular fa-calendar py-2"></i>Weekend/Weekday
+                classNamees
               </li>
             </ul>
-            <div class="button">
-              <a href="#" class="card-link" style={{ textDecoration: "none;" }}>
+            <div className="button">
+              <a
+                href="/"
+                className="card-link"
+                style={{ textDecoration: "none;" }}
+              >
+                View Course Details
+              </a>
+            </div>
+          </div>
+        </div>
+        <div className="card">
+          <div className="card-body mx-3">
+            <h5 className="card-title py-2">
+              Data Science and Machine Learning Internship Program
+            </h5>
+            <p className="card-text">
+              Live Courses: Data Science, Python, Machine Learning, Tableau &
+              more
+            </p>
+            <ul>
+              <li>
+                <i className="fa-solid fa-file-invoice py-2"></i>Certificate
+              </li>
+              <li>
+                <i className="fa-regular fa-clock py-2"></i>80 Hrs of
+                classNamees
+              </li>
+              <li>
+                <i className="fa-regular fa-calendar py-2"></i>Weekend/Weekday
+                classNamees
+              </li>
+            </ul>
+            <div className="button">
+              <a
+                href="/"
+                className="card-link"
+                style={{ textDecoration: "none;" }}
+              >
+                View Course Details
+              </a>
+            </div>
+          </div>
+        </div>
+        <div className="card">
+          <div className="card-body mx-3">
+            <h5 className="card-title py-2">
+              Data Science and Machine Learning Internship Program
+            </h5>
+            <p className="card-text">
+              Live Courses: Data Science, Python, Machine Learning, Tableau &
+              more
+            </p>
+            <ul>
+              <li>
+                <i className="fa-solid fa-file-invoice py-2"></i>Certificate
+              </li>
+              <li>
+                <i className="fa-regular fa-clock py-2"></i>80 Hrs of
+                classNamees
+              </li>
+              <li>
+                <i className="fa-regular fa-calendar py-2"></i>Weekend/Weekday
+                classNamees
+              </li>
+            </ul>
+            <div className="button">
+              <a
+                href="/"
+                className="card-link"
+                style={{ textDecoration: "none;" }}
+              >
                 View Course Details
               </a>
             </div>
