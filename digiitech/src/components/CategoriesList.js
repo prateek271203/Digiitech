@@ -8,9 +8,9 @@ const CategoriesList = () => {
   const {categories} = useCoursesContext();
   return (
     <CategoriesListWrapper>
-      <div className='container'>
+      <div className='container-fluid'>
         <div className='categories-list-top'>
-          <h2>Top Categories</h2>
+          <h2>Recent Additions</h2>
         </div>
         <div className='categories-list grid'>
           {
@@ -29,6 +29,10 @@ const CategoriesList = () => {
 const CategoriesListWrapper = styled.div`
   .categories-list-top{
     margin-bottom: 32px;
+  }
+  .container-fluid {
+    margin-left: 50px !important;
+    margin-right: 50px !important;
   }
   .categories-list{
     gap: 32px;
