@@ -1,0 +1,222 @@
+#Cp .nav_ul li {
+    padding: 0 0.7rem;
+
+}
+
+#Cp .nav_ul li {
+    padding: 0 0.5rem;
+
+}
+
+#Cp .nav_ul a {
+    font-size: 19px;
+    color: #000000;
+    font-weight: 400;
+    letter-spacing: 0.7px;
+    border-radius: 20px;
+}
+
+#Cp .nav_ul a:hover {
+    transition: 0.35s ease-out;
+    transform: scale(1.1);
+    background-color: #192f60;
+    color: white;
+    border-radius: 20px;
+}
+
+#Cp .nav-link-active {
+    text-decoration: none;
+    background-color: #192f60;
+    border-radius: 15px;
+    padding: 0.5rem 0.8rem;
+}
+
+#Cp .btn2 {
+    position: relative;
+    border-radius: 8px;
+    border: 0;
+    background: #f1f2f5;
+    padding: 0.5rem 1.2rem;
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: #000;
+    transition: 0.3s;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+#Cp .btn2:hover {
+    background-color: #192f60;
+    color: #fff;
+}
+
+@media screen and (max-width: 1200px) {
+    #Cp .btn2 {
+        font-size: 1rem;
+    }
+
+    #Cp .nav_ul a {
+        font-size: 1.1rem;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    #Cp .btn2 {
+        font-size: 0.85rem;
+    }
+
+    #Cp .nav_ul a {
+        font-size: 0.95rem;
+    }
+}
+
+#Cp .navbar-text {
+    font-size: 18.5px;
+    margin-left: 50px;
+    margin-top: -8px;
+}
+
+#Cp .upper {
+    height: 43px;
+}
+
+#Cp i {
+    cursor: pointer;
+    color: white;
+}
+
+#Cp .modal-title {
+    color: #333 !important;
+}
+
+#Cp .con {
+    padding: auto;
+    margin: auto;
+    max-width: 100%;
+    width: 1250px;
+}
+
+#Cp .box-active {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 23px;
+    background-color: #0052cc;
+    padding: 23px 25px;
+    border-radius: 8px;
+}
+
+#Cp .box {
+    text-decoration: none;
+    color: #192f60;
+    font-size: 23px;
+    background-color: #ffffff;
+    padding: 23px 25px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px #e5e6e9;
+}
+
+#Cp .box:hover {
+    background-color: #ebfdfc;
+}
+
+#Cp form {
+    box-shadow: 0px 1px 4px #e5e6e9;
+    border-radius: 30px !important;
+}
+
+#Cp input {
+    border-radius: 30px !important;
+    height: 50px;
+}
+
+#Cp img {
+    margin-top: -2px;
+    margin-left: 15px;
+    margin-right: 10px;
+}
+
+#Coursecard {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 40px;
+}
+
+#Cp #Coursecard .card-title {
+    font-size: 27px;
+    color: #192f60 !important;
+}
+
+#Cp #Coursecard .card-text {
+    color: grey;
+    font-weight: 500;
+}
+
+#Cp #Coursecard .button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #0052cc;
+    padding: 14px;
+    border-radius: 8px;
+}
+
+#Cp #Coursecard li {
+    list-style: none;
+    color: #192f60;
+    font-weight: 500;
+}
+
+#Cp #Coursecard .card {
+    background-color: #fff !important;
+    border: 0 !important;
+    box-shadow: 0px 4px 10px #dfe0e0;
+    border-radius: 15px !important;
+    width: 11cm;
+    height: 9.3cm;
+}
+
+#Cp #Coursecard .card-link {
+    color: #0052cc;
+    font-weight: 500;
+}
+
+#Cp #Coursecard i {
+    color: #829ded;
+    font-size: 22px;
+    margin-right: 10px;
+}
+
+.category-head {
+    margin: 30px 0;
+}
+
+.category-head ul {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.category-title {
+    flex: 0 0 calc(16.6667% - 10px);
+    display: flex;
+    justify-content: center;
+    background: #a8a8a8;
+    padding: 12px;
+    color: #fff;
+    margin: 5px;
+    cursor: pointer;
+    transition: all 0.4s ease;
+}
+
+.category-title:hover {
+    opacity: 0.7;
+}
+
+.category-title li {
+    padding: 0 10px;
+}
+
+.category-title span {
+    color: #222;
+}

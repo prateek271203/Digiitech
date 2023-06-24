@@ -19,7 +19,7 @@ function Modal() {
     <div id="Model">
       <div
         class="modal fade"
-        id="exampleModal"
+        id="examModal"
         tabindex="-1"
         aria-labelledby="exampleModalLabel"
         aria-hidden="true"
