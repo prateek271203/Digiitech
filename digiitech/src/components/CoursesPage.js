@@ -210,878 +210,416 @@ function CoursesPage() {
         {/*  course category end */}
       </div>
       {/* main container end*/}
-      <div className="category-head">
-        <ul>
-          <div className="category-title active" id="all">
-            <li>All</li>
-            <span>
-              <i className="fas fa-border-all"></i>
-            </span>
-          </div>
-          <div className="category-title" id="web-development">
-            <li>Web Development</li>
-            <span>
-              <i className="fas fa-theater-masks"></i>
-            </span>
-          </div>
-          <div className="category-title" id="python">
-            <li>Python</li>
-            <span>
-              <i className="fas fa-landmark"></i>
-            </span>
-          </div>
-          <div className="category-title" id="data-science">
-            <li>Data Scince</li>
-            <span>
-              <i className="fas fa-chart-area"></i>
-            </span>
-          </div>
-          <div className="category-title" id="aws-certification">
-            <li>Aws Certification</li>
-            <span>
-              <i className="fas fa-coins"></i>
-            </span>
-          </div>
-          <div className="category-title" id="others">
-            <li>Others</li>
-            <span>
-              <i className="fas fa-running"></i>
-            </span>
-          </div>
-        </ul>
-      </div>
-      <div
-        id="Coursecard"
-        style={{
-          width: "1200px",
-          display: "grid",
-          gridTemplateColumns: "reapeat(3,1fr)",
-          padding: "auto",
-          margin: "auto",
-        }}
-      >
-        <div className="card web-development">
-          <div className="card-body mx-3">
-            <h5 className="card-title py-2">
-              Data Science and Machine Learning Internship Program
-            </h5>
-            <p className="card-text">
-              Live Courses: Data Science, Python, Machine Learning, Tableau &
-              more
-            </p>
-            <ul>
-              <li>
-                <i className="fa-solid fa-file-invoice py-2"></i>Certificate
-              </li>
-              <li>
-                <i className="fa-regular fa-clock py-2"></i>80 Hrs of
-                classNamees
-              </li>
-              <li>
-                <i className="fa-regular fa-calendar py-2"></i>Weekend/Weekday
-                classNamees
-              </li>
-            </ul>
-            <div className="button">
-              <a
-                href="/"
-                className="card-link"
-                style={{ textDecoration: "none;" }}
-              >
-                View Course Details
-              </a>
+      <div className="Course-container" id="Course-card">
+        <div className="category-head">
+          <ul>
+            <div className="category-title active" id="all">
+              <li>All</li>
+              <span>
+                <i className="fas fa-border-all"></i>
+              </span>
             </div>
-          </div>
-        </div>
-        <div className="card web-development">
-          <div className="card-body mx-3">
-            <h5 className="card-title py-2">
-              Data Science and Machine Learning Internship Program
-            </h5>
-            <p className="card-text">
-              Live Courses: Data Science, Python, Machine Learning, Tableau &
-              more
-            </p>
-            <ul>
-              <li>
-                <i className="fa-solid fa-file-invoice py-2"></i>Certificate
-              </li>
-              <li>
-                <i className="fa-regular fa-clock py-2"></i>80 Hrs of
-                classNamees
-              </li>
-              <li>
-                <i className="fa-regular fa-calendar py-2"></i>Weekend/Weekday
-                classNamees
-              </li>
-            </ul>
-            <div className="button">
-              <a
-                href="/"
-                className="card-link"
-                style={{ textDecoration: "none;" }}
-              >
-                View Course Details
-              </a>
+            <div className="category-title" id="web-development">
+              <li>Web Development</li>
+              <span>
+                <i className="fas fa-theater-masks"></i>
+              </span>
             </div>
-          </div>
-        </div>
-        <div className="card web-development">
-          <div className="card-body mx-3">
-            <h5 className="card-title py-2">
-              Data Science and Machine Learning Internship Program
-            </h5>
-            <p className="card-text">
-              Live Courses: Data Science, Python, Machine Learning, Tableau &
-              more
-            </p>
-            <ul>
-              <li>
-                <i className="fa-solid fa-file-invoice py-2"></i>Certificate
-              </li>
-              <li>
-                <i className="fa-regular fa-clock py-2"></i>80 Hrs of
-                classNamees
-              </li>
-              <li>
-                <i className="fa-regular fa-calendar py-2"></i>Weekend/Weekday
-                classNamees
-              </li>
-            </ul>
-            <div className="button">
-              <a
-                href="/"
-                className="card-link"
-                style={{ textDecoration: "none;" }}
-              >
-                View Course Details
-              </a>
+            <div className="category-title" id="python">
+              <li>Python</li>
+              <span>
+                <i className="fas fa-landmark"></i>
+              </span>
             </div>
-          </div>
-        </div>
-        <div className="card">
-          <div className="card-body mx-3">
-            <h5 className="card-title py-2">
-              Data Science and Machine Learning Internship Program
-            </h5>
-            <p className="card-text">
-              Live Courses: Data Science, Python, Machine Learning, Tableau &
-              more
-            </p>
-            <ul>
-              <li>
-                <i className="fa-solid fa-file-invoice py-2"></i>Certificate
-              </li>
-              <li>
-                <i className="fa-regular fa-clock py-2"></i>80 Hrs of
-                classNamees
-              </li>
-              <li>
-                <i className="fa-regular fa-calendar py-2"></i>Weekend/Weekday
-                classNamees
-              </li>
-            </ul>
-            <div className="button">
-              <a
-                href="/"
-                className="card-link"
-                style={{ textDecoration: "none;" }}
-              >
-                View Course Details
-              </a>
+            <div className="category-title" id="data-science">
+              <li>Data Scince</li>
+              <span>
+                <i className="fas fa-chart-area"></i>
+              </span>
             </div>
-          </div>
-        </div>
-        <div className="card">
-          <div className="card-body mx-3">
-            <h5 className="card-title py-2">
-              Data Science and Machine Learning Internship Program
-            </h5>
-            <p className="card-text">
-              Live Courses: Data Science, Python, Machine Learning, Tableau &
-              more
-            </p>
-            <ul>
-              <li>
-                <i className="fa-solid fa-file-invoice py-2"></i>Certificate
-              </li>
-              <li>
-                <i className="fa-regular fa-clock py-2"></i>80 Hrs of
-                classNamees
-              </li>
-              <li>
-                <i className="fa-regular fa-calendar py-2"></i>Weekend/Weekday
-                classNamees
-              </li>
-            </ul>
-            <div className="button">
-              <a
-                href="/"
-                className="card-link"
-                style={{ textDecoration: "none;" }}
-              >
-                View Course Details
-              </a>
+            <div className="category-title" id="aws-certification">
+              <li>Aws Certification</li>
+              <span>
+                <i className="fas fa-coins"></i>
+              </span>
             </div>
-          </div>
-        </div>
-        <div className="card">
-          <div className="card-body mx-3">
-            <h5 className="card-title py-2">
-              Data Science and Machine Learning Internship Program
-            </h5>
-            <p className="card-text">
-              Live Courses: Data Science, Python, Machine Learning, Tableau &
-              more
-            </p>
-            <ul>
-              <li>
-                <i className="fa-solid fa-file-invoice py-2"></i>Certificate
-              </li>
-              <li>
-                <i className="fa-regular fa-clock py-2"></i>80 Hrs of
-                classNamees
-              </li>
-              <li>
-                <i className="fa-regular fa-calendar py-2"></i>Weekend/Weekday
-                classNamees
-              </li>
-            </ul>
-            <div className="button">
-              <a
-                href="/"
-                className="card-link"
-                style={{ textDecoration: "none;" }}
-              >
-                View Course Details
-              </a>
+            <div className="category-title" id="others">
+              <li>Others</li>
+              <span>
+                <i className="fas fa-running"></i>
+              </span>
             </div>
-          </div>
+          </ul>
         </div>
-        <div className="card">
-          <div className="card-body mx-3">
-            <h5 className="card-title py-2">
-              Data Science and Machine Learning Internship Program
-            </h5>
-            <p className="card-text">
-              Live Courses: Data Science, Python, Machine Learning, Tableau &
-              more
-            </p>
-            <ul>
-              <li>
-                <i className="fa-solid fa-file-invoice py-2"></i>Certificate
-              </li>
-              <li>
-                <i className="fa-regular fa-clock py-2"></i>80 Hrs of
-                classNamees
-              </li>
-              <li>
-                <i className="fa-regular fa-calendar py-2"></i>Weekend/Weekday
-                classNamees
-              </li>
-            </ul>
-            <div className="button">
-              <a
-                href="/"
-                className="card-link"
-                style={{ textDecoration: "none;" }}
-              >
+
+        <div class="posts-collect">
+          <div class="posts-main-container">
+            <div class="all web-development">
+              <div class="post-content">
+                <div class="post-content-top">
+                  <span>
+                    <i class="fa-solid fa-code mx-2"></i>Web Development
+                  </span>
+                  <span>
+                    <i class="fa-solid fa-hashtag mx-1"></i>1
+                  </span>
+                </div>
+                <h2>Lorem ipsum dolor sit amet</h2>
+                <p>
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Accusamus recusandae aspernatur possimus illum, repellat ad
+                  quasi earum, illo voluptatibus minima fugiat saepe magni
+                  corporis vero eius accusantium quidem, consectetur nesciunt!
+                </p>
+              </div>
+              <button type="button" class="read-btn">
                 View Course Details
-              </a>
+              </button>
             </div>
-          </div>
-        </div>
-        <div className="card">
-          <div className="card-body mx-3">
-            <h5 className="card-title py-2">
-              Data Science and Machine Learning Internship Program
-            </h5>
-            <p className="card-text">
-              Live Courses: Data Science, Python, Machine Learning, Tableau &
-              more
-            </p>
-            <ul>
-              <li>
-                <i className="fa-solid fa-file-invoice py-2"></i>Certificate
-              </li>
-              <li>
-                <i className="fa-regular fa-clock py-2"></i>80 Hrs of
-                classNamees
-              </li>
-              <li>
-                <i className="fa-regular fa-calendar py-2"></i>Weekend/Weekday
-                classNamees
-              </li>
-            </ul>
-            <div className="button">
-              <a
-                href="/"
-                className="card-link"
-                style={{ textDecoration: "none;" }}
-              >
+
+            <div class="all web-development">
+              <div class="post-content">
+                <div class="post-content-top">
+                  <span>
+                    <i class="fas fa-calendar"></i>Web Development
+                  </span>
+                  <span>
+                    <i class="fas fa-comment"></i>34
+                  </span>
+                </div>
+                <h2>Lorem ipsum dolor sit amet</h2>
+                <p>
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Accusamus recusandae aspernatur possimus illum, repellat ad
+                  quasi earum, illo voluptatibus minima fugiat saepe magni
+                  corporis vero eius accusantium quidem, consectetur nesciunt!
+                </p>
+              </div>
+              <button type="button" class="read-btn">
                 View Course Details
-              </a>
+              </button>
             </div>
-          </div>
-        </div>
-        <div className="card">
-          <div className="card-body mx-3">
-            <h5 className="card-title py-2">
-              Data Science and Machine Learning Internship Program
-            </h5>
-            <p className="card-text">
-              Live Courses: Data Science, Python, Machine Learning, Tableau &
-              more
-            </p>
-            <ul>
-              <li>
-                <i className="fa-solid fa-file-invoice py-2"></i>Certificate
-              </li>
-              <li>
-                <i className="fa-regular fa-clock py-2"></i>80 Hrs of
-                classNamees
-              </li>
-              <li>
-                <i className="fa-regular fa-calendar py-2"></i>Weekend/Weekday
-                classNamees
-              </li>
-            </ul>
-            <div className="button">
-              <a
-                href="/"
-                className="card-link"
-                style={{ textDecoration: "none;" }}
-              >
+
+            <div class="all web-development">
+              <div class="post-content">
+                <div class="post-content-top">
+                  <span>
+                    <i class="fas fa-calendar"></i>January 01, 2XXX
+                  </span>
+                  <span>
+                    <i class="fas fa-comment"></i>34
+                  </span>
+                </div>
+                <h2>Lorem ipsum dolor sit amet</h2>
+                <p>
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Accusamus recusandae aspernatur possimus illum, repellat ad
+                  quasi earum, illo voluptatibus minima fugiat saepe magni
+                  corporis vero eius accusantium quidem, consectetur nesciunt!
+                </p>
+              </div>
+              <button type="button" class="read-btn">
                 View Course Details
-              </a>
+              </button>
             </div>
-          </div>
-        </div>
-        <div className="card">
-          <div className="card-body mx-3">
-            <h5 className="card-title py-2">
-              Data Science and Machine Learning Internship Program
-            </h5>
-            <p className="card-text">
-              Live Courses: Data Science, Python, Machine Learning, Tableau &
-              more
-            </p>
-            <ul>
-              <li>
-                <i className="fa-solid fa-file-invoice py-2"></i>Certificate
-              </li>
-              <li>
-                <i className="fa-regular fa-clock py-2"></i>80 Hrs of
-                classNamees
-              </li>
-              <li>
-                <i className="fa-regular fa-calendar py-2"></i>Weekend/Weekday
-                classNamees
-              </li>
-            </ul>
-            <div className="button">
-              <a
-                href="/"
-                className="card-link"
-                style={{ textDecoration: "none;" }}
-              >
+
+            <div class="all python">
+              <div class="post-content">
+                <div class="post-content-top">
+                  <span>
+                    <i class="fas fa-calendar"></i>January 01, 2XXX
+                  </span>
+                  <span>
+                    <i class="fas fa-comment"></i>34
+                  </span>
+                </div>
+                <h2>Lorem ipsum dolor sit amet</h2>
+                <p>
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Accusamus recusandae aspernatur possimus illum, repellat ad
+                  quasi earum, illo voluptatibus minima fugiat saepe magni
+                  corporis vero eius accusantium quidem, consectetur nesciunt!
+                </p>
+              </div>
+              <button type="button" class="read-btn">
                 View Course Details
-              </a>
+              </button>
             </div>
-          </div>
-        </div>
-        <div className="card">
-          <div className="card-body mx-3">
-            <h5 className="card-title py-2">
-              Data Science and Machine Learning Internship Program
-            </h5>
-            <p className="card-text">
-              Live Courses: Data Science, Python, Machine Learning, Tableau &
-              more
-            </p>
-            <ul>
-              <li>
-                <i className="fa-solid fa-file-invoice py-2"></i>Certificate
-              </li>
-              <li>
-                <i className="fa-regular fa-clock py-2"></i>80 Hrs of
-                classNamees
-              </li>
-              <li>
-                <i className="fa-regular fa-calendar py-2"></i>Weekend/Weekday
-                classNamees
-              </li>
-            </ul>
-            <div className="button">
-              <a
-                href="/"
-                className="card-link"
-                style={{ textDecoration: "none;" }}
-              >
+
+            <div class="all python">
+              <div class="post-content">
+                <div class="post-content-top">
+                  <span>
+                    <i class="fas fa-calendar"></i>January 01, 2XXX
+                  </span>
+                  <span>
+                    <i class="fas fa-comment"></i>34
+                  </span>
+                </div>
+                <h2>Lorem ipsum dolor sit amet</h2>
+                <p>
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Accusamus recusandae aspernatur possimus illum, repellat ad
+                  quasi earum, illo voluptatibus minima fugiat saepe magni
+                  corporis vero eius accusantium quidem, consectetur nesciunt!
+                </p>
+              </div>
+              <button type="button" class="read-btn">
                 View Course Details
-              </a>
+              </button>
             </div>
-          </div>
-        </div>
-        <div className="card">
-          <div className="card-body mx-3">
-            <h5 className="card-title py-2">
-              Data Science and Machine Learning Internship Program
-            </h5>
-            <p className="card-text">
-              Live Courses: Data Science, Python, Machine Learning, Tableau &
-              more
-            </p>
-            <ul>
-              <li>
-                <i className="fa-solid fa-file-invoice py-2"></i>Certificate
-              </li>
-              <li>
-                <i className="fa-regular fa-clock py-2"></i>80 Hrs of
-                classNamees
-              </li>
-              <li>
-                <i className="fa-regular fa-calendar py-2"></i>Weekend/Weekday
-                classNamees
-              </li>
-            </ul>
-            <div className="button">
-              <a
-                href="/"
-                className="card-link"
-                style={{ textDecoration: "none;" }}
-              >
+
+            <div class="all python">
+              <div class="post-content">
+                <div class="post-content-top">
+                  <span>
+                    <i class="fas fa-calendar"></i>January 01, 2XXX
+                  </span>
+                  <span>
+                    <i class="fas fa-comment"></i>34
+                  </span>
+                </div>
+                <h2>Lorem ipsum dolor sit amet</h2>
+                <p>
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Accusamus recusandae aspernatur possimus illum, repellat ad
+                  quasi earum, illo voluptatibus minima fugiat saepe magni
+                  corporis vero eius accusantium quidem, consectetur nesciunt!
+                </p>
+              </div>
+              <button type="button" class="read-btn">
                 View Course Details
-              </a>
+              </button>
             </div>
-          </div>
-        </div>
-        <div className="card">
-          <div className="card-body mx-3">
-            <h5 className="card-title py-2">
-              Data Science and Machine Learning Internship Program
-            </h5>
-            <p className="card-text">
-              Live Courses: Data Science, Python, Machine Learning, Tableau &
-              more
-            </p>
-            <ul>
-              <li>
-                <i className="fa-solid fa-file-invoice py-2"></i>Certificate
-              </li>
-              <li>
-                <i className="fa-regular fa-clock py-2"></i>80 Hrs of
-                classNamees
-              </li>
-              <li>
-                <i className="fa-regular fa-calendar py-2"></i>Weekend/Weekday
-                classNamees
-              </li>
-            </ul>
-            <div className="button">
-              <a
-                href="/"
-                className="card-link"
-                style={{ textDecoration: "none;" }}
-              >
+
+            <div class="all python">
+              <div class="post-content">
+                <div class="post-content-top">
+                  <span>
+                    <i class="fas fa-calendar"></i>January 01, 2XXX
+                  </span>
+                  <span>
+                    <i class="fas fa-comment"></i>34
+                  </span>
+                </div>
+                <h2>Lorem ipsum dolor sit amet</h2>
+                <p>
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Accusamus recusandae aspernatur possimus illum, repellat ad
+                  quasi earum, illo voluptatibus minima fugiat saepe magni
+                  corporis vero eius accusantium quidem, consectetur nesciunt!
+                </p>
+              </div>
+              <button type="button" class="read-btn">
                 View Course Details
-              </a>
+              </button>
             </div>
-          </div>
-        </div>
-        <div className="card">
-          <div className="card-body mx-3">
-            <h5 className="card-title py-2">
-              Data Science and Machine Learning Internship Program
-            </h5>
-            <p className="card-text">
-              Live Courses: Data Science, Python, Machine Learning, Tableau &
-              more
-            </p>
-            <ul>
-              <li>
-                <i className="fa-solid fa-file-invoice py-2"></i>Certificate
-              </li>
-              <li>
-                <i className="fa-regular fa-clock py-2"></i>80 Hrs of
-                classNamees
-              </li>
-              <li>
-                <i className="fa-regular fa-calendar py-2"></i>Weekend/Weekday
-                classNamees
-              </li>
-            </ul>
-            <div className="button">
-              <a
-                href="/"
-                className="card-link"
-                style={{ textDecoration: "none;" }}
-              >
+
+            <div class="all data-science">
+              <div class="post-content">
+                <div class="post-content-top">
+                  <span>
+                    <i class="fas fa-calendar"></i>January 01, 2XXX
+                  </span>
+                  <span>
+                    <i class="fas fa-comment"></i>34
+                  </span>
+                </div>
+                <h2>Lorem ipsum dolor sit amet</h2>
+                <p>
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Accusamus recusandae aspernatur possimus illum, repellat ad
+                  quasi earum, illo voluptatibus minima fugiat saepe magni
+                  corporis vero eius accusantium quidem, consectetur nesciunt!
+                </p>
+              </div>
+              <button type="button" class="read-btn">
                 View Course Details
-              </a>
+              </button>
             </div>
-          </div>
-        </div>
-        <div className="card">
-          <div className="card-body mx-3">
-            <h5 className="card-title py-2">
-              Data Science and Machine Learning Internship Program
-            </h5>
-            <p className="card-text">
-              Live Courses: Data Science, Python, Machine Learning, Tableau &
-              more
-            </p>
-            <ul>
-              <li>
-                <i className="fa-solid fa-file-invoice py-2"></i>Certificate
-              </li>
-              <li>
-                <i className="fa-regular fa-clock py-2"></i>80 Hrs of
-                classNamees
-              </li>
-              <li>
-                <i className="fa-regular fa-calendar py-2"></i>Weekend/Weekday
-                classNamees
-              </li>
-            </ul>
-            <div className="button">
-              <a
-                href="/"
-                className="card-link"
-                style={{ textDecoration: "none;" }}
-              >
+
+            <div class="all data-science">
+              <div class="post-content">
+                <div class="post-content-top">
+                  <span>
+                    <i class="fas fa-calendar"></i>January 01, 2XXX
+                  </span>
+                  <span>
+                    <i class="fas fa-comment"></i>34
+                  </span>
+                </div>
+                <h2>Lorem ipsum dolor sit amet</h2>
+                <p>
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Accusamus recusandae aspernatur possimus illum, repellat ad
+                  quasi earum, illo voluptatibus minima fugiat saepe magni
+                  corporis vero eius accusantium quidem, consectetur nesciunt!
+                </p>
+              </div>
+              <button type="button" class="read-btn">
                 View Course Details
-              </a>
+              </button>
             </div>
-          </div>
-        </div>
-        <div className="card">
-          <div className="card-body mx-3">
-            <h5 className="card-title py-2">
-              Data Science and Machine Learning Internship Program
-            </h5>
-            <p className="card-text">
-              Live Courses: Data Science, Python, Machine Learning, Tableau &
-              more
-            </p>
-            <ul>
-              <li>
-                <i className="fa-solid fa-file-invoice py-2"></i>Certificate
-              </li>
-              <li>
-                <i className="fa-regular fa-clock py-2"></i>80 Hrs of
-                classNamees
-              </li>
-              <li>
-                <i className="fa-regular fa-calendar py-2"></i>Weekend/Weekday
-                classNamees
-              </li>
-            </ul>
-            <div className="button">
-              <a
-                href="/"
-                className="card-link"
-                style={{ textDecoration: "none;" }}
-              >
+
+            <div class="all data-science">
+              <div class="post-content">
+                <div class="post-content-top">
+                  <span>
+                    <i class="fas fa-calendar"></i>January 01, 2XXX
+                  </span>
+                  <span>
+                    <i class="fas fa-comment"></i>34
+                  </span>
+                </div>
+                <h2>Lorem ipsum dolor sit amet</h2>
+                <p>
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Accusamus recusandae aspernatur possimus illum, repellat ad
+                  quasi earum, illo voluptatibus minima fugiat saepe magni
+                  corporis vero eius accusantium quidem, consectetur nesciunt!
+                </p>
+              </div>
+              <button type="button" class="read-btn">
                 View Course Details
-              </a>
+              </button>
             </div>
-          </div>
-        </div>
-        <div className="card">
-          <div className="card-body mx-3">
-            <h5 className="card-title py-2">
-              Data Science and Machine Learning Internship Program
-            </h5>
-            <p className="card-text">
-              Live Courses: Data Science, Python, Machine Learning, Tableau &
-              more
-            </p>
-            <ul>
-              <li>
-                <i className="fa-solid fa-file-invoice py-2"></i>Certificate
-              </li>
-              <li>
-                <i className="fa-regular fa-clock py-2"></i>80 Hrs of
-                classNamees
-              </li>
-              <li>
-                <i className="fa-regular fa-calendar py-2"></i>Weekend/Weekday
-                classNamees
-              </li>
-            </ul>
-            <div className="button">
-              <a
-                href="/"
-                className="card-link"
-                style={{ textDecoration: "none;" }}
-              >
+
+            <div class="all aws-certification">
+              <div class="post-content">
+                <div class="post-content-top">
+                  <span>
+                    <i class="fas fa-calendar"></i>January 01, 2XXX
+                  </span>
+                  <span>
+                    <i class="fas fa-comment"></i>34
+                  </span>
+                </div>
+                <h2>Lorem ipsum dolor sit amet</h2>
+                <p>
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Accusamus recusandae aspernatur possimus illum, repellat ad
+                  quasi earum, illo voluptatibus minima fugiat saepe magni
+                  corporis vero eius accusantium quidem, consectetur nesciunt!
+                </p>
+              </div>
+              <button type="button" class="read-btn">
                 View Course Details
-              </a>
+              </button>
             </div>
-          </div>
-        </div>
-        <div className="card">
-          <div className="card-body mx-3">
-            <h5 className="card-title py-2">
-              Data Science and Machine Learning Internship Program
-            </h5>
-            <p className="card-text">
-              Live Courses: Data Science, Python, Machine Learning, Tableau &
-              more
-            </p>
-            <ul>
-              <li>
-                <i className="fa-solid fa-file-invoice py-2"></i>Certificate
-              </li>
-              <li>
-                <i className="fa-regular fa-clock py-2"></i>80 Hrs of
-                classNamees
-              </li>
-              <li>
-                <i className="fa-regular fa-calendar py-2"></i>Weekend/Weekday
-                classNamees
-              </li>
-            </ul>
-            <div className="button">
-              <a
-                href="/"
-                className="card-link"
-                style={{ textDecoration: "none;" }}
-              >
+
+            <div class="all aws-certification">
+              <div class="post-content">
+                <div class="post-content-top">
+                  <span>
+                    <i class="fas fa-calendar"></i>January 01, 2XXX
+                  </span>
+                  <span>
+                    <i class="fas fa-comment"></i>34
+                  </span>
+                </div>
+                <h2>Lorem ipsum dolor sit amet</h2>
+                <p>
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Accusamus recusandae aspernatur possimus illum, repellat ad
+                  quasi earum, illo voluptatibus minima fugiat saepe magni
+                  corporis vero eius accusantium quidem, consectetur nesciunt!
+                </p>
+              </div>
+              <button type="button" class="read-btn">
                 View Course Details
-              </a>
+              </button>
             </div>
-          </div>
-        </div>
-        <div className="card">
-          <div className="card-body mx-3">
-            <h5 className="card-title py-2">
-              Data Science and Machine Learning Internship Program
-            </h5>
-            <p className="card-text">
-              Live Courses: Data Science, Python, Machine Learning, Tableau &
-              more
-            </p>
-            <ul>
-              <li>
-                <i className="fa-solid fa-file-invoice py-2"></i>Certificate
-              </li>
-              <li>
-                <i className="fa-regular fa-clock py-2"></i>80 Hrs of
-                classNamees
-              </li>
-              <li>
-                <i className="fa-regular fa-calendar py-2"></i>Weekend/Weekday
-                classNamees
-              </li>
-            </ul>
-            <div className="button">
-              <a
-                href="/"
-                className="card-link"
-                style={{ textDecoration: "none;" }}
-              >
+
+            <div class="all aws-certification">
+              <div class="post-content">
+                <div class="post-content-top">
+                  <span>
+                    <i class="fas fa-calendar"></i>January 01, 2XXX
+                  </span>
+                  <span>
+                    <i class="fas fa-comment"></i>34
+                  </span>
+                </div>
+                <h2>Lorem ipsum dolor sit amet</h2>
+                <p>
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Accusamus recusandae aspernatur possimus illum, repellat ad
+                  quasi earum, illo voluptatibus minima fugiat saepe magni
+                  corporis vero eius accusantium quidem, consectetur nesciunt!
+                </p>
+              </div>
+              <button type="button" class="read-btn">
                 View Course Details
-              </a>
+              </button>
             </div>
-          </div>
-        </div>
-        <div className="card">
-          <div className="card-body mx-3">
-            <h5 className="card-title py-2">
-              Data Science and Machine Learning Internship Program
-            </h5>
-            <p className="card-text">
-              Live Courses: Data Science, Python, Machine Learning, Tableau &
-              more
-            </p>
-            <ul>
-              <li>
-                <i className="fa-solid fa-file-invoice py-2"></i>Certificate
-              </li>
-              <li>
-                <i className="fa-regular fa-clock py-2"></i>80 Hrs of
-                classNamees
-              </li>
-              <li>
-                <i className="fa-regular fa-calendar py-2"></i>Weekend/Weekday
-                classNamees
-              </li>
-            </ul>
-            <div className="button">
-              <a
-                href="/"
-                className="card-link"
-                style={{ textDecoration: "none;" }}
-              >
+
+            <div class="all aws-certification">
+              <div class="post-content">
+                <div class="post-content-top">
+                  <span>
+                    <i class="fas fa-calendar"></i>January 01, 2XXX
+                  </span>
+                  <span>
+                    <i class="fas fa-comment"></i>34
+                  </span>
+                </div>
+                <h2>Lorem ipsum dolor sit amet</h2>
+                <p>
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Accusamus recusandae aspernatur possimus illum, repellat ad
+                  quasi earum, illo voluptatibus minima fugiat saepe magni
+                  corporis vero eius accusantium quidem, consectetur nesciunt!
+                </p>
+              </div>
+              <button type="button" class="read-btn">
                 View Course Details
-              </a>
+              </button>
             </div>
-          </div>
-        </div>
-        <div className="card">
-          <div className="card-body mx-3">
-            <h5 className="card-title py-2">
-              Data Science and Machine Learning Internship Program
-            </h5>
-            <p className="card-text">
-              Live Courses: Data Science, Python, Machine Learning, Tableau &
-              more
-            </p>
-            <ul>
-              <li>
-                <i className="fa-solid fa-file-invoice py-2"></i>Certificate
-              </li>
-              <li>
-                <i className="fa-regular fa-clock py-2"></i>80 Hrs of
-                classNamees
-              </li>
-              <li>
-                <i className="fa-regular fa-calendar py-2"></i>Weekend/Weekday
-                classNamees
-              </li>
-            </ul>
-            <div className="button">
-              <a
-                href="/"
-                className="card-link"
-                style={{ textDecoration: "none;" }}
-              >
+
+            <div class="all others">
+              <div class="post-content">
+                <div class="post-content-top">
+                  <span>
+                    <i class="fas fa-calendar"></i>January 01, 2XXX
+                  </span>
+                  <span>
+                    <i class="fas fa-comment"></i>34
+                  </span>
+                </div>
+                <h2>Lorem ipsum dolor sit amet</h2>
+                <p>
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Accusamus recusandae aspernatur possimus illum, repellat ad
+                  quasi earum, illo voluptatibus minima fugiat saepe magni
+                  corporis vero eius accusantium quidem, consectetur nesciunt!
+                </p>
+              </div>
+              <button type="button" class="read-btn">
                 View Course Details
-              </a>
+              </button>
             </div>
-          </div>
-        </div>
-        <div className="card">
-          <div className="card-body mx-3">
-            <h5 className="card-title py-2">
-              Data Science and Machine Learning Internship Program
-            </h5>
-            <p className="card-text">
-              Live Courses: Data Science, Python, Machine Learning, Tableau &
-              more
-            </p>
-            <ul>
-              <li>
-                <i className="fa-solid fa-file-invoice py-2"></i>Certificate
-              </li>
-              <li>
-                <i className="fa-regular fa-clock py-2"></i>80 Hrs of
-                classNamees
-              </li>
-              <li>
-                <i className="fa-regular fa-calendar py-2"></i>Weekend/Weekday
-                classNamees
-              </li>
-            </ul>
-            <div className="button">
-              <a
-                href="/"
-                className="card-link"
-                style={{ textDecoration: "none;" }}
-              >
+
+            <div class="all others">
+              <div class="post-content">
+                <div class="post-content-top">
+                  <span>
+                    <i class="fas fa-calendar"></i>January 01, 2XXX
+                  </span>
+                  <span>
+                    <i class="fas fa-comment"></i>34
+                  </span>
+                </div>
+                <h2>Lorem ipsum dolor sit amet</h2>
+                <p>
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Accusamus recusandae aspernatur possimus illum, repellat ad
+                  quasi earum, illo voluptatibus minima fugiat saepe magni
+                  corporis vero eius accusantium quidem, consectetur nesciunt!
+                </p>
+              </div>
+              <button type="button" class="read-btn">
                 View Course Details
-              </a>
-            </div>
-          </div>
-        </div>
-        <div className="card">
-          <div className="card-body mx-3">
-            <h5 className="card-title py-2">
-              Data Science and Machine Learning Internship Program
-            </h5>
-            <p className="card-text">
-              Live Courses: Data Science, Python, Machine Learning, Tableau &
-              more
-            </p>
-            <ul>
-              <li>
-                <i className="fa-solid fa-file-invoice py-2"></i>Certificate
-              </li>
-              <li>
-                <i className="fa-regular fa-clock py-2"></i>80 Hrs of
-                classNamees
-              </li>
-              <li>
-                <i className="fa-regular fa-calendar py-2"></i>Weekend/Weekday
-                classNamees
-              </li>
-            </ul>
-            <div className="button">
-              <a
-                href="/"
-                className="card-link"
-                style={{ textDecoration: "none;" }}
-              >
-                View Course Details
-              </a>
-            </div>
-          </div>
-        </div>
-        <div className="card">
-          <div className="card-body mx-3">
-            <h5 className="card-title py-2">
-              Data Science and Machine Learning Internship Program
-            </h5>
-            <p className="card-text">
-              Live Courses: Data Science, Python, Machine Learning, Tableau &
-              more
-            </p>
-            <ul>
-              <li>
-                <i className="fa-solid fa-file-invoice py-2"></i>Certificate
-              </li>
-              <li>
-                <i className="fa-regular fa-clock py-2"></i>80 Hrs of
-                classNamees
-              </li>
-              <li>
-                <i className="fa-regular fa-calendar py-2"></i>Weekend/Weekday
-                classNamees
-              </li>
-            </ul>
-            <div className="button">
-              <a
-                href="/"
-                className="card-link"
-                style={{ textDecoration: "none;" }}
-              >
-                View Course Details
-              </a>
-            </div>
-          </div>
-        </div>
-        <div className="card">
-          <div className="card-body mx-3">
-            <h5 className="card-title py-2">
-              Data Science and Machine Learning Internship Program
-            </h5>
-            <p className="card-text">
-              Live Courses: Data Science, Python, Machine Learning, Tableau &
-              more
-            </p>
-            <ul>
-              <li>
-                <i className="fa-solid fa-file-invoice py-2"></i>Certificate
-              </li>
-              <li>
-                <i className="fa-regular fa-clock py-2"></i>80 Hrs of
-                classNamees
-              </li>
-              <li>
-                <i className="fa-regular fa-calendar py-2"></i>Weekend/Weekday
-                classNamees
-              </li>
-            </ul>
-            <div className="button">
-              <a
-                href="/"
-                className="card-link"
-                style={{ textDecoration: "none;" }}
-              >
-                View Course Details
-              </a>
+              </button>
             </div>
           </div>
         </div>
