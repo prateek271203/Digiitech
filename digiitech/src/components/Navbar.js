@@ -1,5 +1,6 @@
 import React from "react";
 import "./Navbar.css";
+import Image1 from "./logo1.png";
 function NavBar() {
   return (
     <nav
@@ -7,10 +8,7 @@ function NavBar() {
       className="navbar navbar-expand-lg navbar-light bg-light p-2"
     >
       <div className="container-fluid py-3 ms-5">
-        {/* <img src="logo-digiidunia.png" width={"30px"}></img> */}
-        <a className="navbar-brand" href="/">
-          Digii Tech
-        </a>
+        <img src={Image1} style={{ width: "80px" }}></img>
         <button
           className="navbar-toggler"
           type="button"

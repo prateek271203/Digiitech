@@ -16,11 +16,7 @@ const CareerRelatedProgramsList = () => {
         <div className="courses-list-top">
           <h2>Career Related Programs</h2>
         </div>
-        <div class="Courses-list-grid">
-        {
-          <Tabs courses = {courses} />
-        }
-      </div>
+        <div className="Courses-list-grid">{<Tabs courses={courses} />}</div>
       </div>
     </CoursesListWrapper>
   );
