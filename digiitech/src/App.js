@@ -40,8 +40,6 @@ function AppContent() {
       <TopCategories/>
       <Reviews/>
       <Footer/>
-      <Modal />
-      <TopCategories />
     </>
   );
 }
