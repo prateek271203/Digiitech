@@ -1,0 +1,121 @@
+.container-fluid{
+    background-color: whitesmoke;
+    font-family: 'Niconne', sans-serif;
+    width: 100%;
+}
+
+.footer-content {
+    background-color: #f8f8f8;
+    padding: 30px 0;
+    border-bottom: 1px solid darkgray;
+    margin-right: 30px;
+    margin-left: 30px;
+  }
+  
+  .footer-content h5 {
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 40px;
+    margin-left: 40px;
+  }
+
+  .logo-row{
+    justify-content: start;
+  }
+
+  .col-md-3 .logoimage {
+    width: 100px;
+    height: auto;
+    margin-left: 40px;
+    align-items: left;
+  }
+  
+  
+  .footer-content ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .footer-content ul li {
+    color: #666;
+    cursor: pointer;
+    margin-left: 40px;
+    font-size: 13px;
+    margin-top: 10px;
+  }
+  
+  .footer-content ul li:hover {
+    color: #333;
+    text-decoration: underline;
+  }
+  
+  .footer-content ul li:last-child {
+    margin-bottom: 50px;
+  }
+  
+  @media (max-width: 992px) {
+    .footer-content .col-md-3 {
+      flex-basis: 50%;
+      max-width: 50%;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .footer-content .col-md-3 {
+      flex-basis: 100%;
+      max-width: 100%;
+      margin-bottom: 30px;
+    }
+  }
+
+  .footer-content .col-md-3 .downloadimage{
+    width: 150px;
+  }
+  
+
+  #download{
+    margin-top: 30px;
+    font-weight: bold;
+    color: black;
+    font-size: 15px;
+    margin-bottom: 20px;
+    text-decoration: none;
+    cursor: default;
+  }
+
+
+
+ @media (max-width: 768px){
+    .drop-categories{
+        display: flex;
+        align-items: center;
+        margin-left: 30px;
+        margin-right: 30px;
+        margin-top: 50px;
+    }
+
+    .drop-title{
+        margin-right: auto;
+    }
+
+    #dropButton{
+        background-color: #903232;
+        border: none;
+        padding: 10px 20px;
+        cursor: pointer;
+        
+    }
+    
+    .hiddenContent{
+        display: none;
+    }
+
+    .show{
+        display: block;
+        margin-top: 20px;
+        margin-left: 40px;
+    }
+        
+}

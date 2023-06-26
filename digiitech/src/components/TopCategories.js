@@ -117,7 +117,7 @@ function TopCategories(){
 
         </div>
 
-        <div className="text-center mt-3"> <button onClick={toggleRows} id="viewMoreBtn" className="btn btn-lg btn-light"> {expanded ? 'View Less' : 'View More'}</button></div>
+        <div className="text-center mt-1"> <button onClick={toggleRows} id="viewMoreBtn" className="btn btn-lg btn-light"> {expanded ? 'View Less' : 'View More'}</button></div>
     </div>
 </>
     )

@@ -8,6 +8,8 @@ import ImageSlider from "./components/ImageSlider";
 import Cards from "./components/Cards";
 import Modal from "./components/Modal";
 import TopCategories from "./components/TopCategories";
+import Reviews from "./components/Reviews";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -32,9 +34,12 @@ function AppContent() {
         <Route path="/category/:category" element={<Courses />} />
         <Route path="courses-link" element={<CoursesPage />} />
         <Route path="/categories-link" element={<TopCategories />} />
+        <Route path="/reviews-link" element={<Reviews />} />
       </Routes>
-      <Modal />
+      <Modal/>
       <TopCategories/>
+      <Reviews/>
+      <Footer/>
     </>
   );
 }
