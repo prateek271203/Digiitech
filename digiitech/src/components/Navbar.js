@@ -2,7 +2,10 @@ import React from "react";
 import "./Navbar.css";
 function NavBar() {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-light p-2">
+    <nav
+      id="navbar"
+      className="navbar navbar-expand-lg navbar-light bg-light p-2"
+    >
       <div className="container-fluid py-3 ms-5">
         {/* <img src="logo-digiidunia.png" width={"30px"}></img> */}
         <a className="navbar-brand" href="/">
@@ -108,7 +111,7 @@ function NavBar() {
                 type="button"
                 className="btn2"
                 data-bs-toggle="modal"
-                data-bs-target="#exampleModal"
+                data-bs-target="#examModal"
               >
                 Get Started
                 <i></i>

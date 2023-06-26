@@ -1,4 +1,4 @@
-.container {
+#navcard .container {
     display: flex;
     justify-content: center;
     max-width: 1280px;
@@ -6,7 +6,7 @@
 
 }
 
-.box {
+#navcard .box {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -18,7 +18,7 @@
     width: 500px;
 }
 
-.title {
+#navcard .title {
     font-size: 20px;
     text-transform: uppercase;
     font-weight: 500;
@@ -26,39 +26,39 @@
     margin-bottom: 10px;
 }
 
-.content {
+#navcard .content {
     display: flex;
     align-items: center;
     justify-content: center;
     margin-top: 10px;
 }
 
-.arrow {
+#navcard .arrow {
     margin-left: 5px;
 }
 
 
 @media screen and (max-width: 1201px) {
 
-    .container {
+    #navcard .container {
         max-width: 1150px;
     }
 }
 
 @media screen and (max-width: 1100px) {
 
-    .box:nth-child(3) {
+    #navcard .box:nth-child(3) {
         display: none;
     }
 
-    .box {
+    #navcard .box {
         width: 400px;
     }
 }
 
 @media screen and (max-width: 768px) {
 
-    .box:nth-child(2) {
+    #navcard .box:nth-child(2) {
         display: none;
 
     }
@@ -66,23 +66,23 @@
 
 @media screen and (max-width: 425px) {
 
-    .box:nth-child(1) {
+    #navcard .box:nth-child(1) {
         display: none;
 
     }
 }
 
-span {
+#navcard span {
     color: rgb(0, 0, 0);
     font-weight: 500;
     font-size: 17px;
 }
 
-span:hover {
+#navcard span:hover {
     color: #000;
 }
 
-.box:hover {
+#navcard .box:hover {
 
     transition: 0.2s ease-out;
     transform: translateY(-0.25em) !important;

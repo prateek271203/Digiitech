@@ -1,0 +1,298 @@
+#Cp .nav_ul li {
+    padding: 0 0.7rem;
+
+}
+
+#Cp .nav_ul li {
+    padding: 0 0.5rem;
+
+}
+
+#Cp .nav_ul a {
+    font-size: 19px;
+    color: #000000;
+    font-weight: 400;
+    letter-spacing: 0.7px;
+    border-radius: 20px;
+}
+
+#Cp .nav_ul a:hover {
+    transition: 0.35s ease-out;
+    transform: scale(1.1);
+    background-color: #192f60;
+    color: white;
+    border-radius: 20px;
+}
+
+#Cp .nav-link-active {
+    text-decoration: none;
+    background-color: #192f60;
+    border-radius: 15px;
+    padding: 0.5rem 0.8rem;
+}
+
+#Cp .btn2 {
+    position: relative;
+    border-radius: 8px;
+    border: 0;
+    background: #f1f2f5;
+    padding: 0.5rem 1.2rem;
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: #000;
+    transition: 0.3s;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+#Cp .btn2:hover {
+    background-color: #192f60;
+    color: #fff;
+}
+
+@media screen and (max-width: 1200px) {
+    #Cp .btn2 {
+        font-size: 1rem;
+    }
+
+    #Cp .nav_ul a {
+        font-size: 1.1rem;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    #Cp .btn2 {
+        font-size: 0.85rem;
+    }
+
+    #Cp .nav_ul a {
+        font-size: 0.95rem;
+    }
+}
+
+#Cp .navbar-text {
+    font-size: 18.5px;
+    margin-left: 50px;
+    margin-top: -8px;
+}
+
+#Cp .upper {
+    height: 43px;
+}
+
+#Cp i {
+    cursor: pointer;
+    color: white;
+}
+
+#Cp .modal-title {
+    color: #333 !important;
+}
+
+#Cp .con {
+    padding: auto;
+    margin: auto;
+    max-width: 100%;
+    width: 1250px;
+}
+
+#Cp .box-active {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 23px;
+    background-color: #0052cc;
+    padding: 23px 25px;
+    border-radius: 8px;
+}
+
+#Cp .box {
+    text-decoration: none;
+    color: #192f60;
+    font-size: 23px;
+    background-color: #ffffff;
+    padding: 23px 25px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px #e5e6e9;
+}
+
+#Cp .box:hover {
+    background-color: #ebfdfc;
+}
+
+#Cp form {
+    box-shadow: 0px 1px 4px #e5e6e9;
+    border-radius: 30px !important;
+}
+
+#Cp input {
+    border-radius: 30px !important;
+    height: 50px;
+}
+
+#Cp img {
+    margin-top: -2px;
+    margin-left: 15px;
+    margin-right: 10px;
+}
+
+
+
+
+#Cp #Course-card .category-head {
+    margin: 30px 0;
+}
+
+#Cp #Course-card .category-head ul {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+#Cp #Course-card .category-title {
+    flex: 0 0 calc(16.6667% - 10px);
+    display: flex;
+    justify-content: center;
+    background: #f4f5f7;
+    padding: 12px;
+    color: #000000;
+    margin: 5px;
+    cursor: pointer;
+    transition: all 0.4s ease;
+}
+
+#Cp #Course-card .category-title:hover {
+    opacity: 0.7;
+}
+
+#Cp #Course-card .category-title li {
+    padding: 0 10px;
+}
+
+#Cp #Course-card .category-title span {
+    color: #222;
+}
+
+#Cp #Course-card .active {
+    background: #0052cc;
+}
+
+#Cp #Course-card .fas {
+    color: #192f60;
+}
+
+/** single post **/
+#Cp #Course-card .posts-main-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 40px;
+}
+
+#Cp #Course-card .posts-main-container>div {
+    box-shadow: 0px 8px 22px -12px rgba(0, 0, 0, 0.64);
+}
+
+
+#Cp #Course-card .category-name {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    text-transform: uppercase;
+    font-size: 13px;
+    color: #fff;
+    padding: 4px 10px;
+    border-radius: 2px;
+}
+
+#Cp #Course-card .web-development .category-name {
+    background: #00a7ea;
+}
+
+#Cp #Course-card.python .category-name {
+    background: #f03250;
+}
+
+#Cp #Course-card .data-science .category-name {
+    background: #f0544f;
+}
+
+#Cp #Course-card .aws-certification .category-name {
+    background: #2c2a4a;
+}
+
+#Cp #Course-card .others .category-name {
+    background: #a1e44d;
+}
+
+
+#Cp #Course-card .post-content {
+    padding: 25px;
+}
+
+#Cp #Course-card .post-content-top {
+    background: #80ced7;
+    color: #fff;
+    opacity: 0.8;
+    padding: 5px 0 5px 15px;
+}
+
+#Cp #Course-card .post-content-top span {
+    padding-right: 20px;
+}
+
+#Cp #Course-card .post-content-top #Cp #Course-card .fa-comment,
+#Cp #Course-card .post-content-top #Cp #Course-card .fa-calendar {
+    padding-right: 5px;
+}
+
+#Cp #Course-card .post-content h2 {
+    font-size: 22px;
+    padding: 12px 0;
+    font-weight: 400;
+}
+
+#Cp #Course-card .post-content p {
+    opacity: 0.7;
+    font-size: 15px;
+    line-height: 1.8;
+}
+
+#Cp #Course-card .read-btn {
+    border: none;
+    padding: 8px 15px;
+    display: block;
+    margin: 5px auto;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    cursor: pointer;
+    border: 1px solid #0a28d6;
+    background: transparent;
+    margin-bottom: 40px;
+    color: #257ae9;
+}
+
+#Cp #Course-card .read-btn:hover {
+    background: #f6f6f6;
+}
+
+
+
+/***************/
+@media(max-width: 1170px) {
+    #Cp #Course-card .posts-main-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media(max-width: 768px) {
+    #Cp #Course-card .posts-main-container {
+        grid-template-columns: 1fr;
+    }
+}
+
+
+/***********/
+
+#Cp #Course-card .active {
+    background: #00a7ea;
+}

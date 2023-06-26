@@ -35,7 +35,7 @@ function ImageSlider() {
   }, []);
 
   return (
-    <>
+    <div id="slider">
       <Swiper
         ref={swiperRef}
         slidesPerView={1}
@@ -57,7 +57,7 @@ function ImageSlider() {
         <SwiperSlide>Slide 4</SwiperSlide>
         <SwiperSlide>Slide 5</SwiperSlide>
       </Swiper>
-    </>
+    </div>
   );
 }
 
