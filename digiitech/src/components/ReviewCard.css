@@ -1,0 +1,125 @@
+.reviews-section {
+    background-color: #f8f8f8;
+    padding: 40px 0;
+    margin-left: 20px !important;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+    margin-left: 20px;
+  }
+  
+  .section-title {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 40px;
+    margin-left: 20px !important;
+  }
+  
+  .review-card {
+    width: 300px;
+    margin: 0 10px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 1px 10px rgba(0, 0, 0, 0.1);
+    padding-bottom: 20px;
+  }
+  
+  .review-image {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin:10px;
+    overflow: hidden; /* Hide any image overflow */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .review-image img {
+    width: 100%; /* Ensure the image fills the container */
+    height: 100%; /* Ensure the image fills the container */
+    object-fit: contain; /* Maintain image aspect ratio within the container */
+  }
+  
+  .review-content {
+    padding: 0 20px;
+    text-align: left;
+  }
+  
+  .review-name {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .review-position {
+    font-size: 16px;
+    color: #777;
+    margin-bottom: 10px;
+  }
+  
+  .review-text {
+    font-size: 16px;
+  }
+  .review-card + .review-card {
+    margin-top: 100px;
+  }
+  
+  .slick-arrow {
+    background-color: transparent;
+  border: none;
+  color: #555;
+  font-size: 30px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1;
+  cursor: pointer;
+  }
+  
+  .prev-arrow:before,
+.next-arrow:before {
+  content: '\2190'; /* Unicode character for left arrow */
+}
+
+.next-arrow:before {
+  content: '\2192'; /* Unicode character for right arrow */
+}
+
+.prev-arrow,
+.next-arrow {
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.prev-arrow {
+  left: 10px;
+}
+
+.next-arrow {
+  right: 10px;
+}
+  .slick-prev {
+    left: 10px;
+  }
+  
+  .slick-next {
+    right: 10px;
+  }
+  

@@ -34,6 +34,31 @@ const Course = (props) => {
         <a className="btn btn-link" href={`/courses/${id}`} role="button">
           See details
         </a>
+
+        <div className="container">
+          <div className="card mb-3">
+            <div style={{ height: "200px", overflow: "hidden" }}>
+              <img className="card-img-top" src={image} alt={course_name} />
+            </div>
+            <div className="card-body">
+              <h5 className="card-title">{course_name}</h5>
+              <span className="item-creator">{creator}</span>
+              <div className="item-rating flex">
+                <span className="rating-star-val">{rating_star}</span>
+                <StarRating rating_star={rating_star} />
+                <span className="rating-count">({rating_count})</span>
+              </div>
+              <div className="item-price">
+                <span className="item-price-old">${actual_price}</span>
+              </div>
+            </div>
+            <div className="card-footer">
+              <a class="btn btn-link" href={`/courses/${id}`} role="button">
+                See details
+              </a>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );
