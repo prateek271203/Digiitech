@@ -177,8 +177,9 @@
     background: #0052cc;
 }
 
-#Cp #Course-card .fas {
-    color: #192f60;
+#Cp #Course-card .fa-solid,
+#Cp #Course-card .fa-brands {
+    color: #000000;
 }
 
 /** single post **/
@@ -204,35 +205,14 @@
     border-radius: 2px;
 }
 
-#Cp #Course-card .web-development .category-name {
-    background: #00a7ea;
-}
-
-#Cp #Course-card.python .category-name {
-    background: #f03250;
-}
-
-#Cp #Course-card .data-science .category-name {
-    background: #f0544f;
-}
-
-#Cp #Course-card .aws-certification .category-name {
-    background: #2c2a4a;
-}
-
-#Cp #Course-card .others .category-name {
-    background: #a1e44d;
-}
-
 
 #Cp #Course-card .post-content {
     padding: 25px;
 }
 
 #Cp #Course-card .post-content-top {
-    background: #80ced7;
+    background: #257ae9;
     color: #fff;
-    opacity: 0.8;
     padding: 5px 0 5px 15px;
 }
 
@@ -265,7 +245,7 @@
     font-family: 'Poppins', sans-serif;
     font-size: 15px;
     cursor: pointer;
-    border: 1px solid #0a28d6;
+    border: 1px solid #192f60;
     background: transparent;
     margin-bottom: 40px;
     color: #257ae9;
@@ -294,5 +274,6 @@
 /***********/
 
 #Cp #Course-card .active {
-    background: #00a7ea;
+    background-color: #0052cc;
+    color: #fff;
 }

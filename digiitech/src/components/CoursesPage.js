@@ -245,52 +245,52 @@ function CoursesPage() {
             <div className="category-title active" id="all">
               <li>All</li>
               <span>
-                <i className="fas fa-border-all"></i>
+                <i className="fa-solid fa-graduation-cap"></i>
               </span>
             </div>
             <div className="category-title" id="web-development">
               <li>Web Development</li>
               <span>
-                <i className="fas fa-theater-masks"></i>
+                <i className="fa-solid fa-code"></i>
               </span>
             </div>
             <div className="category-title" id="python">
               <li>Python</li>
               <span>
-                <i className="fas fa-landmark"></i>
+                <i className="fa-brands fa-python"></i>
               </span>
             </div>
             <div className="category-title" id="data-science">
               <li>Data Scince</li>
               <span>
-                <i className="fas fa-chart-area"></i>
+                <i className="fa-solid fa-database"></i>
               </span>
             </div>
             <div className="category-title" id="aws-certification">
               <li>Aws Certification</li>
               <span>
-                <i className="fas fa-coins"></i>
+                <i className="fa-brands fa-aws"></i>
               </span>
             </div>
             <div className="category-title" id="others">
               <li>Others</li>
               <span>
-                <i className="fas fa-running"></i>
+                <i className="fa-solid fa-arrow-right"></i>
               </span>
             </div>
           </ul>
         </div>
 
-        <div class="posts-collect">
-          <div class="posts-main-container">
-            <div class="all web-development">
-              <div class="post-content">
-                <div class="post-content-top">
+        <div className="posts-collect">
+          <div className="posts-main-container">
+            <div className="all web-development">
+              <div className="post-content">
+                <div className="post-content-top">
                   <span>
-                    <i class="fa-solid fa-code mx-2"></i>Web Development
+                    <i className="fa-solid fa-code mx-2"></i>Web Development
                   </span>
                   <span>
-                    <i class="fa-solid fa-hashtag mx-1"></i>1
+                    <i className="fa-solid fa-hashtag mx-1"></i>1
                   </span>
                 </div>
                 <h2>Lorem ipsum dolor sit amet</h2>
@@ -301,19 +301,19 @@ function CoursesPage() {
                   corporis vero eius accusantium quidem, consectetur nesciunt!
                 </p>
               </div>
-              <button type="button" class="read-btn">
+              <button type="button" className="read-btn">
                 View Course Details
               </button>
             </div>
 
-            <div class="all web-development">
-              <div class="post-content">
-                <div class="post-content-top">
+            <div className="all web-development">
+              <div className="post-content">
+                <div className="post-content-top">
                   <span>
-                    <i class="fas fa-calendar"></i>Web Development
+                    <i className="fas fa-calendar"></i>Web Development
                   </span>
                   <span>
-                    <i class="fas fa-comment"></i>34
+                    <i className="fas fa-comment"></i>34
                   </span>
                 </div>
                 <h2>Lorem ipsum dolor sit amet</h2>
@@ -324,19 +324,19 @@ function CoursesPage() {
                   corporis vero eius accusantium quidem, consectetur nesciunt!
                 </p>
               </div>
-              <button type="button" class="read-btn">
+              <button type="button" className="read-btn">
                 View Course Details
               </button>
             </div>
 
-            <div class="all web-development">
-              <div class="post-content">
-                <div class="post-content-top">
+            <div className="all web-development">
+              <div className="post-content">
+                <div className="post-content-top">
                   <span>
-                    <i class="fas fa-calendar"></i>January 01, 2XXX
+                    <i className="fas fa-calendar"></i>January 01, 2XXX
                   </span>
                   <span>
-                    <i class="fas fa-comment"></i>34
+                    <i className="fas fa-comment"></i>34
                   </span>
                 </div>
                 <h2>Lorem ipsum dolor sit amet</h2>
@@ -347,19 +347,19 @@ function CoursesPage() {
                   corporis vero eius accusantium quidem, consectetur nesciunt!
                 </p>
               </div>
-              <button type="button" class="read-btn">
+              <button type="button" className="read-btn">
                 View Course Details
               </button>
             </div>
 
-            <div class="all python">
-              <div class="post-content">
-                <div class="post-content-top">
+            <div className="all python">
+              <div className="post-content">
+                <div className="post-content-top">
                   <span>
-                    <i class="fas fa-calendar"></i>January 01, 2XXX
+                    <i className="fas fa-calendar"></i>January 01, 2XXX
                   </span>
                   <span>
-                    <i class="fas fa-comment"></i>34
+                    <i className="fas fa-comment"></i>34
                   </span>
                 </div>
                 <h2>Lorem ipsum dolor sit amet</h2>
@@ -370,19 +370,19 @@ function CoursesPage() {
                   corporis vero eius accusantium quidem, consectetur nesciunt!
                 </p>
               </div>
-              <button type="button" class="read-btn">
+              <button type="button" className="read-btn">
                 View Course Details
               </button>
             </div>
 
-            <div class="all python">
-              <div class="post-content">
-                <div class="post-content-top">
+            <div className="all python">
+              <div className="post-content">
+                <div className="post-content-top">
                   <span>
-                    <i class="fas fa-calendar"></i>January 01, 2XXX
+                    <i className="fas fa-calendar"></i>January 01, 2XXX
                   </span>
                   <span>
-                    <i class="fas fa-comment"></i>34
+                    <i className="fas fa-comment"></i>34
                   </span>
                 </div>
                 <h2>Lorem ipsum dolor sit amet</h2>
@@ -393,19 +393,19 @@ function CoursesPage() {
                   corporis vero eius accusantium quidem, consectetur nesciunt!
                 </p>
               </div>
-              <button type="button" class="read-btn">
+              <button type="button" className="read-btn">
                 View Course Details
               </button>
             </div>
 
-            <div class="all python">
-              <div class="post-content">
-                <div class="post-content-top">
+            <div className="all python">
+              <div className="post-content">
+                <div className="post-content-top">
                   <span>
-                    <i class="fas fa-calendar"></i>January 01, 2XXX
+                    <i className="fas fa-calendar"></i>January 01, 2XXX
                   </span>
                   <span>
-                    <i class="fas fa-comment"></i>34
+                    <i className="fas fa-comment"></i>34
                   </span>
                 </div>
                 <h2>Lorem ipsum dolor sit amet</h2>
@@ -416,19 +416,19 @@ function CoursesPage() {
                   corporis vero eius accusantium quidem, consectetur nesciunt!
                 </p>
               </div>
-              <button type="button" class="read-btn">
+              <button type="button" className="read-btn">
                 View Course Details
               </button>
             </div>
 
-            <div class="all python">
-              <div class="post-content">
-                <div class="post-content-top">
+            <div className="all python">
+              <div className="post-content">
+                <div className="post-content-top">
                   <span>
-                    <i class="fas fa-calendar"></i>January 01, 2XXX
+                    <i className="fas fa-calendar"></i>January 01, 2XXX
                   </span>
                   <span>
-                    <i class="fas fa-comment"></i>34
+                    <i className="fas fa-comment"></i>34
                   </span>
                 </div>
                 <h2>Lorem ipsum dolor sit amet</h2>
@@ -439,19 +439,19 @@ function CoursesPage() {
                   corporis vero eius accusantium quidem, consectetur nesciunt!
                 </p>
               </div>
-              <button type="button" class="read-btn">
+              <button type="button" className="read-btn">
                 View Course Details
               </button>
             </div>
 
-            <div class="all data-science">
-              <div class="post-content">
-                <div class="post-content-top">
+            <div className="all data-science">
+              <div className="post-content">
+                <div className="post-content-top">
                   <span>
-                    <i class="fas fa-calendar"></i>January 01, 2XXX
+                    <i className="fas fa-calendar"></i>January 01, 2XXX
                   </span>
                   <span>
-                    <i class="fas fa-comment"></i>34
+                    <i className="fas fa-comment"></i>34
                   </span>
                 </div>
                 <h2>Lorem ipsum dolor sit amet</h2>
@@ -462,19 +462,19 @@ function CoursesPage() {
                   corporis vero eius accusantium quidem, consectetur nesciunt!
                 </p>
               </div>
-              <button type="button" class="read-btn">
+              <button type="button" className="read-btn">
                 View Course Details
               </button>
             </div>
 
-            <div class="all data-science">
-              <div class="post-content">
-                <div class="post-content-top">
+            <div className="all data-science">
+              <div className="post-content">
+                <div className="post-content-top">
                   <span>
-                    <i class="fas fa-calendar"></i>January 01, 2XXX
+                    <i className="fas fa-calendar"></i>January 01, 2XXX
                   </span>
                   <span>
-                    <i class="fas fa-comment"></i>34
+                    <i className="fas fa-comment"></i>34
                   </span>
                 </div>
                 <h2>Lorem ipsum dolor sit amet</h2>
@@ -485,19 +485,19 @@ function CoursesPage() {
                   corporis vero eius accusantium quidem, consectetur nesciunt!
                 </p>
               </div>
-              <button type="button" class="read-btn">
+              <button type="button" className="read-btn">
                 View Course Details
               </button>
             </div>
 
-            <div class="all data-science">
-              <div class="post-content">
-                <div class="post-content-top">
+            <div className="all data-science">
+              <div className="post-content">
+                <div className="post-content-top">
                   <span>
-                    <i class="fas fa-calendar"></i>January 01, 2XXX
+                    <i className="fas fa-calendar"></i>January 01, 2XXX
                   </span>
                   <span>
-                    <i class="fas fa-comment"></i>34
+                    <i className="fas fa-comment"></i>34
                   </span>
                 </div>
                 <h2>Lorem ipsum dolor sit amet</h2>
@@ -508,19 +508,19 @@ function CoursesPage() {
                   corporis vero eius accusantium quidem, consectetur nesciunt!
                 </p>
               </div>
-              <button type="button" class="read-btn">
+              <button type="button" className="read-btn">
                 View Course Details
               </button>
             </div>
 
-            <div class="all aws-certification">
-              <div class="post-content">
-                <div class="post-content-top">
+            <div className="all aws-certification">
+              <div className="post-content">
+                <div className="post-content-top">
                   <span>
-                    <i class="fas fa-calendar"></i>January 01, 2XXX
+                    <i className="fas fa-calendar"></i>January 01, 2XXX
                   </span>
                   <span>
-                    <i class="fas fa-comment"></i>34
+                    <i className="fas fa-comment"></i>34
                   </span>
                 </div>
                 <h2>Lorem ipsum dolor sit amet</h2>
@@ -531,19 +531,19 @@ function CoursesPage() {
                   corporis vero eius accusantium quidem, consectetur nesciunt!
                 </p>
               </div>
-              <button type="button" class="read-btn">
+              <button type="button" className="read-btn">
                 View Course Details
               </button>
             </div>
 
-            <div class="all aws-certification">
-              <div class="post-content">
-                <div class="post-content-top">
+            <div className="all aws-certification">
+              <div className="post-content">
+                <div className="post-content-top">
                   <span>
-                    <i class="fas fa-calendar"></i>January 01, 2XXX
+                    <i className="fas fa-calendar"></i>January 01, 2XXX
                   </span>
                   <span>
-                    <i class="fas fa-comment"></i>34
+                    <i className="fas fa-comment"></i>34
                   </span>
                 </div>
                 <h2>Lorem ipsum dolor sit amet</h2>
@@ -554,19 +554,19 @@ function CoursesPage() {
                   corporis vero eius accusantium quidem, consectetur nesciunt!
                 </p>
               </div>
-              <button type="button" class="read-btn">
+              <button type="button" className="read-btn">
                 View Course Details
               </button>
             </div>
 
-            <div class="all aws-certification">
-              <div class="post-content">
-                <div class="post-content-top">
+            <div className="all aws-certification">
+              <div className="post-content">
+                <div className="post-content-top">
                   <span>
-                    <i class="fas fa-calendar"></i>January 01, 2XXX
+                    <i className="fas fa-calendar"></i>January 01, 2XXX
                   </span>
                   <span>
-                    <i class="fas fa-comment"></i>34
+                    <i className="fas fa-comment"></i>34
                   </span>
                 </div>
                 <h2>Lorem ipsum dolor sit amet</h2>
@@ -577,19 +577,19 @@ function CoursesPage() {
                   corporis vero eius accusantium quidem, consectetur nesciunt!
                 </p>
               </div>
-              <button type="button" class="read-btn">
+              <button type="button" className="read-btn">
                 View Course Details
               </button>
             </div>
 
-            <div class="all aws-certification">
-              <div class="post-content">
-                <div class="post-content-top">
+            <div className="all aws-certification">
+              <div className="post-content">
+                <div className="post-content-top">
                   <span>
-                    <i class="fas fa-calendar"></i>January 01, 2XXX
+                    <i className="fas fa-calendar"></i>January 01, 2XXX
                   </span>
                   <span>
-                    <i class="fas fa-comment"></i>34
+                    <i className="fas fa-comment"></i>34
                   </span>
                 </div>
                 <h2>Lorem ipsum dolor sit amet</h2>
@@ -600,19 +600,19 @@ function CoursesPage() {
                   corporis vero eius accusantium quidem, consectetur nesciunt!
                 </p>
               </div>
-              <button type="button" class="read-btn">
+              <button type="button" className="read-btn">
                 View Course Details
               </button>
             </div>
 
-            <div class="all others">
-              <div class="post-content">
-                <div class="post-content-top">
+            <div className="all others">
+              <div className="post-content">
+                <div className="post-content-top">
                   <span>
-                    <i class="fas fa-calendar"></i>January 01, 2XXX
+                    <i className="fas fa-calendar"></i>January 01, 2XXX
                   </span>
                   <span>
-                    <i class="fas fa-comment"></i>34
+                    <i className="fas fa-comment"></i>34
                   </span>
                 </div>
                 <h2>Lorem ipsum dolor sit amet</h2>
@@ -623,19 +623,19 @@ function CoursesPage() {
                   corporis vero eius accusantium quidem, consectetur nesciunt!
                 </p>
               </div>
-              <button type="button" class="read-btn">
+              <button type="button" className="read-btn">
                 View Course Details
               </button>
             </div>
 
-            <div class="all others">
-              <div class="post-content">
-                <div class="post-content-top">
+            <div className="all others">
+              <div className="post-content">
+                <div className="post-content-top">
                   <span>
-                    <i class="fas fa-calendar"></i>January 01, 2XXX
+                    <i className="fas fa-calendar"></i>January 01, 2XXX
                   </span>
                   <span>
-                    <i class="fas fa-comment"></i>34
+                    <i className="fas fa-comment"></i>34
                   </span>
                 </div>
                 <h2>Lorem ipsum dolor sit amet</h2>
@@ -646,7 +646,7 @@ function CoursesPage() {
                   corporis vero eius accusantium quidem, consectetur nesciunt!
                 </p>
               </div>
-              <button type="button" class="read-btn">
+              <button type="button" className="read-btn">
                 View Course Details
               </button>
             </div>
