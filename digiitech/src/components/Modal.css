@@ -1,5 +1,5 @@
 #Model .modal-content {
-    width: 825px;
+    width: 650px;
     margin-top: 200px;
     margin-left: -150px;
 
@@ -96,8 +96,8 @@
     position: relative;
     overflow: hidden;
     max-width: 100%;
-    width: 800px;
-    min-height: 600px;
+    width: 550px;
+    min-height: 450px;
 }
 
 #Model .form-container {
@@ -110,7 +110,7 @@
 #Model .sign-in-container {
     left: 0;
     width: 53%;
-    z-index: 2;
+    z-index: 1;
 }
 
 #Model .container.right-panel-active .sign-in-container {
