@@ -9,7 +9,7 @@ const CourseList = () => {
   return (
     <CoursesListWrapper>
       <div className='courses-list-top'>
-          <h2>Trending Courses</h2>
+          <h2 className="trend">Trending Courses</h2>
         </div>
       <div className='container fluid mt-3'>
             <Tabs 
