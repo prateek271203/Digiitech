@@ -12,7 +12,7 @@ const CareerRelatedProgramsList = () => {
 
   return (
     <CoursesListWrapper>
-      <div className="container-fluid">
+      <div className="container">
         <div className="courses-list-top">
           <h2>Career Related Programs</h2>
         </div>
