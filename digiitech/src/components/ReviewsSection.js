@@ -84,7 +84,7 @@ const ReviewsSection = () => {
   };
 
   return (
-    <div className="review-slider" style={{ marginTop: '40px' }}>
+    <div className="review-slider" style={{ marginTop: '40px'}}>
       <h2 className="review-heading">Reviews</h2>
       <Slider {...settings}>
         {reviews.map((review) => (

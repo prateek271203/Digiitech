@@ -12,10 +12,11 @@ const CareerRelatedProgramsList = () => {
 
   return (
     <CoursesListWrapper>
-      <div className="container-fluid">
         <div className="courses-list-top">
           <h2>Career Related Programs</h2>
         </div>
+      <div className="container">
+
         <div className="Courses-list-grid">{<Tabs courses={courses} />}</div>
       </div>
     </CoursesListWrapper>
@@ -24,12 +25,20 @@ const CareerRelatedProgramsList = () => {
 
 const CoursesListWrapper = styled.div`
   padding: 40px 0;
-  .courses-list-top p {
-    font-size: 1.8rem;
+  .courses-list-top  {
+    text-align:left;
+    margin-left:100px;
+  }
+  .courses-list-top h2{
+    font-size: 1.8rem
   }
   .container-fluid {
     margin-left: 50px !important;
     margin-right: 50px !important;
+  }
+  .card{
+    height: 400px;
+    width: 400px;
   }
 `;
 

@@ -1,14 +1,18 @@
+.review-slider{
+  padding: 40px 0;
+  margin-left: 100px; 
+  margin-right: 100px;;
+}
 .reviews-section {
     background-color: #f8f8f8;
     padding: 40px 0;
-    margin-left: 20px !important;
+    margin-left: 0;
   }
   
   .container {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 15px;
-    margin-left: 20px;
   }
   
   .section-title {
@@ -16,7 +20,7 @@
     font-size: 30px;
     font-weight: bold;
     margin-bottom: 40px;
-    margin-left: 20px !important;
+    margin-left: 0;
   }
   
   .review-card {

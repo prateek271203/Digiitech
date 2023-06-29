@@ -8,11 +8,10 @@ const CourseList = () => {
 
   return (
     <CoursesListWrapper>
-
-      <div className='container-fluid mt-3'>
-        <div className='courses-list-top'>
+      <div className='courses-list-top'>
           <h2>Trending Courses</h2>
         </div>
+      <div className='container fluid mt-3'>
             <Tabs 
             courses = {courses} />
       </div>
@@ -27,10 +26,26 @@ const CoursesListWrapper = styled.div`
     margin-left: 50px !important;
     margin-right: 50px !important;
   }
-  .courses-list-top p{
-    
+  .courses-list-top {
+    text-align: left;
+    margin-left: 100px;
+  }
+  .courses-list-top h2 {
     font-size: 1.8rem;
   }
+  /* Set equal height and width for the cards */
+  .card {
+    height: 400px;
+    width: 400px;
+  }
+
+  /* Prevent arrows from moving with the cards */
+  .arrow-icon {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
 `;
 
 export default CourseList;

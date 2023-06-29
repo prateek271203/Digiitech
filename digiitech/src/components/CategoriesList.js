@@ -27,12 +27,13 @@ const CategoriesList = () => {
 }
 
 const CategoriesListWrapper = styled.div`
+   padding: 40px;
   .categories-list-top{
     margin-bottom: 32px;
   }
   .container-fluid {
     margin-left: 50px !important;
-    margin-right: 50px !important;
+    margin-right: 100px;
   }
   .categories-list{
     gap: 32px;
