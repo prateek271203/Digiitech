@@ -5,18 +5,10 @@ import { useCoursesContext } from '../context/courses_context';
 
 const CourseList = () => {
   const {courses} = useCoursesContext();
-
   return (
     <CoursesListWrapper>
-<<<<<<< HEAD
       <div className='courses-list-top'>
           <h2 className="trend">Trending Courses</h2>
-=======
-
-      <div className='container mt-3'>
-        <div className='courses-list-top'>
-          <h2>Trending Courses</h2>
->>>>>>> 47cc0b8abac45800505056f352841c9e0d9b35fc
         </div>
       <div className='container fluid mt-3'>
             <Tabs 
@@ -25,6 +17,8 @@ const CourseList = () => {
               
     </CoursesListWrapper>
   );
+
+ 
 }
 
 const CoursesListWrapper = styled.div`
