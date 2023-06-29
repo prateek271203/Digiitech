@@ -15,10 +15,12 @@ const Course = (props) => {
 
   return (
 
-        <div className="container">
-          <div className="card mb-3">
+        <div className="container ">
+          <div className="row">
+            <div className="col-4">
+          <div className="card mb-3" style={{width: '25rem'}}>
             <div style={{ height: "200px", overflow: "hidden" }}>
-              <img className="card-img-top" src={image} alt={course_name} />
+              <img className="card-img-top" src={image} alt={course_name} height={'300px'} />
             </div>
             <div className="card-body">
               <h5 className="card-title">{course_name}</h5>
@@ -37,6 +39,8 @@ const Course = (props) => {
                 See details
               </a>
             </div>
+          </div>
+          </div>
           </div>
         </div>
   );

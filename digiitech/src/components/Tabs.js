@@ -26,18 +26,18 @@ const Tabs = () => {
   const [currentChunk, setCurrentChunk] = useState(0);
   const totalChunks = chunkedCourses.length;
 
-  const handlePrev = () => {
+  {/*const handlePrev = () => {
     setCurrentChunk(prevState => (prevState === 0 ? totalChunks - 1 : prevState - 1));
   };
 
   const handleNext = () => {
     setCurrentChunk(prevState => (prevState === totalChunks - 1 ? 0 : prevState + 1));
-  };
+  };*/}
 
   return (
     <TabsWrapper>
       <div className='tabs'>
-        <ul className='flex flex-wrap'>
+        <ul className='d-flex justify-content-left flex-wrap ps-0'>
           <li className='tabs-head-item'>
             <button type="button" className={`tab-btn ${activeTab === PYTHON ? "active" : ""}`} onClick={() => tabHandler(PYTHON)}>Python</button>
           </li>
@@ -67,7 +67,7 @@ const Tabs = () => {
                 </div>
               ))}
           </div>
-          {chunkedCourses.length > 1 && (
+          {/*{chunkedCourses.length > 1 && (
             <div className='carousel-controls'>
               <button type='button' className='carousel-control' onClick={handlePrev}>
                 &lt;
@@ -75,8 +75,8 @@ const Tabs = () => {
               <button type='button' className='carousel-control' onClick={handleNext}>
                 &gt;
               </button>
-            </div>
-          )}
+          </div>}
+          )}*/}
         </div>
       </div>
     </TabsWrapper>
@@ -86,6 +86,7 @@ const Tabs = () => {
 const TabsWrapper = styled.div`
 .tabs{
   margin-top: 16px;
+
   .tabs-head-item button{
     border: 1px solid rgba(0, 0, 0, 0.7);
     padding: 10px 13px;

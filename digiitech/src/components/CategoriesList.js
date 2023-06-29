@@ -8,7 +8,7 @@ const CategoriesList = () => {
   const {categories} = useCoursesContext();
   return (
     <CategoriesListWrapper>
-      <div className='container-fluid'>
+      <div className='container cl'>
         <div className='categories-list-top'>
           <h2>Recent Additions</h2>
         </div>
@@ -31,9 +31,10 @@ const CategoriesListWrapper = styled.div`
   .categories-list-top{
     margin-bottom: 32px;
   }
-  .container-fluid {
+  .container .cl {
     margin-left: 50px !important;
     margin-right: 100px;
+    
   }
   .categories-list{
     gap: 32px;

@@ -5,7 +5,7 @@ import { Home, SingleCourse, Courses } from "./pages";
 import CoursesPage from "./components/CoursesPage";
 import Navbar from "./components/Navbar";
 import ImageSlider from "./components/ImageSlider";
-import Cards from "./components/Cards";
+//import Cards from "./components/Cards";
 import Modal from "./components/Modal";
 import TopCategories from "./components/TopCategories";
 import Reviews from "./components/Reviews";
@@ -27,7 +27,7 @@ function AppContent() {
     <>
       {!isCoursesPage && <Navbar />}
       {!isCoursesPage && <ImageSlider />}
-      {!isCoursesPage && <Cards />}
+      {/*{!isCoursesPage && <Cards />}*/}
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/courses/:id" element={<SingleCourse />} />

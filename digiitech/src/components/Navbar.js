@@ -7,7 +7,7 @@ function NavBar() {
       id="navbar"
       className="navbar navbar-expand-lg navbar-light bg-light p-2"
     >
-      <div className="container-fluid py-3 ms-5">
+      <div className="container-fluid py-3 ms-4">
         <img src={Image1} style={{ width: "80px" }}></img>
         <button
           className="navbar-toggler"
@@ -82,7 +82,7 @@ function NavBar() {
                 Contact Us
               </a>
             </li>
-            <div className="ms-6 mx-5">
+            <div className="ms-4 mx-5">
               <button
                 type="button"
                 className="btn2"
