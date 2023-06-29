@@ -12,6 +12,10 @@ const CareerRelatedProgramsList = () => {
 
   return (
     <CoursesListWrapper>
+<<<<<<< HEAD
+=======
+      <div className="container">
+>>>>>>> 47cc0b8abac45800505056f352841c9e0d9b35fc
         <div className="courses-list-top">
           <h2>Career Related Programs</h2>
         </div>
