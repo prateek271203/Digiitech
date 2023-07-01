@@ -8,11 +8,12 @@ const CategoriesList = () => {
   const {categories} = useCoursesContext();
   return (
     <CategoriesListWrapper>
-      <div className='container cl'>
-        <div className='categories-list-top'>
+      <div className='container cl d-flex'>
+        <div className='row categories-list-top'>
           <h2>Recent Additions</h2>
         </div>
-        <div className='categories-list grid'>
+        <div className='row categories-list'>
+          <div className="col-3">
           {
             categories.map((category, idx) => {
               return (
@@ -20,6 +21,7 @@ const CategoriesList = () => {
               )
             })
           }
+          </div>
         </div>
       </div>
     </CategoriesListWrapper>
@@ -39,20 +41,7 @@ const CategoriesListWrapper = styled.div`
   .categories-list{
     gap: 32px;
   }
-  @media screen and (min-width: 600px){
-    .categories-list{
-      grid-template-columns: repeat(2, 1fr);
-    }
-  }
-  @media screen and (min-width: 800px){
-    .categories-list{
-      grid-template-columns: repeat(3, 1fr);
-    }
-  }
-  @media screen and (min-width: 992px){
-    .categories-list{
-      grid-template-columns: repeat(4, 1fr);
-    }
+
   }
 `;
 

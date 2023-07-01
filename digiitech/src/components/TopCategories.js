@@ -10,6 +10,7 @@ function TopCategories(){
 
     return(
     <>
+    <div id="top-categories">
     <div className="container discovercategories mt-5"> <h2>Discover Top Categories</h2></div>
     <div className="container d-flex flex-column justify-content-left">
     
@@ -115,6 +116,7 @@ function TopCategories(){
             </div>
             </>}
 
+        </div>
         </div>
 
         <div className="text-center mt-1"> <button onClick={toggleRows} id="viewMoreBtn" className="btn btn-lg btn-light"> {expanded ? 'View Less' : 'View More'}</button></div>

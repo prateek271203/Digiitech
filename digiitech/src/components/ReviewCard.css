@@ -3,19 +3,19 @@
   margin-left: 100px; 
   margin-right: 100px;;
 }
-.reviews-section {
+#reviewCards .reviews-section {
     background-color: #f8f8f8;
     padding: 40px 0;
     margin-left: 0;
   }
   
-  .container {
+  #reviewCards .container {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 15px;
   }
   
-  .section-title {
+  #reviewCards .section-title {
     text-align: center;
     font-size: 30px;
     font-weight: bold;
@@ -23,7 +23,7 @@
     margin-left: 0;
   }
   
-  .review-card {
+  #reviewCards .review-card {
     width: 300px;
     margin: 0 10px;
     margin-bottom: 20px;
@@ -38,7 +38,7 @@
     padding-bottom: 20px;
   }
   
-  .review-image {
+  #reviewCards .review-image {
     width: 100px;
     height: 100px;
     object-fit: cover;
@@ -50,37 +50,37 @@
     justify-content: center;
   }
 
-  .review-image img {
+  #reviewCards .review-image img {
     width: 100%; /* Ensure the image fills the container */
     height: 100%; /* Ensure the image fills the container */
     object-fit: contain; /* Maintain image aspect ratio within the container */
   }
   
-  .review-content {
+  #reviewCards .review-content {
     padding: 0 20px;
     text-align: left;
   }
   
-  .review-name {
+  #reviewCards .review-name {
     font-size: 20px;
     font-weight: bold;
     margin-bottom: 5px;
   }
   
-  .review-position {
+  #reviewCards .review-position {
     font-size: 16px;
     color: #777;
     margin-bottom: 10px;
   }
   
-  .review-text {
+  #reviewCards .review-text {
     font-size: 16px;
   }
-  .review-card + .review-card {
+  #reviewCards .review-card + .review-card {
     margin-top: 100px;
   }
   
-  .slick-arrow {
+  #reviewCards .slick-arrow {
     background-color: transparent;
   border: none;
   color: #555;
@@ -92,16 +92,16 @@
   cursor: pointer;
   }
   
-  .prev-arrow:before,
+  #reviewCards .prev-arrow:before,
 .next-arrow:before {
   content: '\2190'; /* Unicode character for left arrow */
 }
 
-.next-arrow:before {
+#reviewCards .next-arrow:before {
   content: '\2192'; /* Unicode character for right arrow */
 }
 
-.prev-arrow,
+#reviewCards .prev-arrow,
 .next-arrow {
   background-color: rgba(255, 255, 255, 0.5);
   border-radius: 50%;
@@ -112,18 +112,18 @@
   justify-content: center;
 }
 
-.prev-arrow {
+#reviewCards .prev-arrow {
   left: 10px;
 }
 
-.next-arrow {
+#reviewCards .next-arrow {
   right: 10px;
 }
-  .slick-prev {
+#reviewCards .slick-prev {
     left: 10px;
   }
   
-  .slick-next {
+  #reviewCards .slick-next {
     right: 10px;
   }
   

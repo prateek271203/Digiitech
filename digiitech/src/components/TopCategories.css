@@ -1,4 +1,4 @@
-.col {
+#top-categories .col {
     margin: 20px;
     width: 90px;
     height: 160px;
@@ -12,14 +12,14 @@
     transition: transform 0.3s ease;
   }
 
-  .col:hover{
+  #top-categories .col:hover{
     transform: scale(1.06);
   }
 
-  .discovercategories{
+  #top-categories .discovercategories{
     text-align: left;
   }
-  .container {
+  #top-categories .container {
     display: flex;
     margin-left: 5%;
     margin-right: 5%;
@@ -28,23 +28,23 @@
     min-width: 90%;
   } 
   
-  .card-container {
+  #top-categories .card-container {
     margin-left: 5px;
     margin-right: 5px;
   }
   
-  .row{
+  #top-categories .row{
     flex-wrap: wrap ;
   }
-  .col p {
+  #top-categories .col p {
     margin-bottom: 0;
     font-weight: bold;
   }
   
   /* Media queries */
-  @media screen {
+   @media screen {
     /* Large screen - Icon in the middle, increased size */
-    .col {
+    #top-categories .col {
       width: 170px;
       display: flex;
       flex-direction: column;
@@ -54,14 +54,14 @@
       
     }
   
-    .col i {
+    #top-categories .col i {
       font-size: 1.7em;
     }
   }
   
   @media screen and (max-width: 576px) {
     /* Small screen - Icon to the left, increased size */
-    .col {
+    #top-categories .col {
       width: 50%;
       display: flex;
       align-items: center;
@@ -70,13 +70,13 @@
       padding: 25px;
     }
   
-    .col i {
+    #top-categories .col i {
       font-size: 2em;
       margin-right: 10px;
     }
   }
 
-  .btn{
+  #top-categories .btn{
     size: 50px;
     border: none;
     text-decoration: underline;

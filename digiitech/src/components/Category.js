@@ -5,9 +5,8 @@ import {Link} from "react-router-dom";
 const Category = ({image, category}) => {
   return (
     <Link to = {`/category/${category}`}>
-      <div className='row'>
-        <div className='col-2'>
-      <CategoryItemWrapper className='flex flex-column'>
+      
+      <CategoryItemWrapper>
         <div className='category-item-img'>
           <img src = {image} alt = {category} />
         </div>
@@ -15,8 +14,7 @@ const Category = ({image, category}) => {
           <h6>{category}</h6>
         </div>
       </CategoryItemWrapper>
-      </div>
-      </div>
+      
     </Link>
   )
 }
