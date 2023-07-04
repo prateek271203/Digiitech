@@ -1,0 +1,123 @@
+.review-slider {
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.review-card {
+  width: 300px;
+  height: 400px;
+  margin: 30px 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.1);
+  padding-bottom: 20px;
+  text-align: center;
+  overflow: hidden;
+}
+
+.view-more {
+  color: blue;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.review-image {
+  margin-top: 50px;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  border-radius: 50%;
+  justify-content: center;
+}
+
+.review-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.review-content {
+  padding: 20px;
+  text-align: center;
+}
+
+.review-name {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+.review-position {
+  font-size: 16px;
+  color: #777;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.review-text {
+  font-size: 16px;
+  text-align: justify;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3; /* Number of lines to show before truncating */
+  -webkit-box-orient: vertical;
+}
+
+.review-text.expanded {
+  /* Adjust the height as needed */
+  max-height: 1000px !important;
+  overflow-y: auto;
+}
+
+.slick-arrow {
+  background-color: transparent;
+  border: none;
+  color: #555;
+  font-size: 30px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1;
+  cursor: pointer;
+}
+
+.prev-arrow:before,
+.next-arrow:before {
+  content: '\2190';
+}
+
+.next-arrow:before {
+  content: '\2192';
+}
+
+.prev-arrow,
+.next-arrow {
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.prev-arrow {
+  left: 10px;
+}
+
+.next-arrow {
+  right: 10px;
+}
+
+.review-heading {
+  margin-bottom: 30px !important;
+}

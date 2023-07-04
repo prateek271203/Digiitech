@@ -1,12 +1,12 @@
 import React, { useEffect, useRef } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import SwiperCore, { Autoplay, Navigation } from "swiper";
-import Image1 from "./image1.jpg";
+import Image1 from "../assets/images/image1.jpg";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 
-import "./ImageSlider.css";
+import "./Styling/ImageSlider.css";
 
 SwiperCore.use([Autoplay, Navigation]);
 

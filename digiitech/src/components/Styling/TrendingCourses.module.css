@@ -1,0 +1,93 @@
+.trending-courses {
+    margin-top: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+  
+  .trending-courses-heading {
+    text-align: left;
+  }
+  
+  .nav-tabs {
+    margin-bottom: 10px;
+  }
+  
+  .nav-link {
+    padding: 8px 16px;
+    background-color: transparent;
+    border: none;
+    border-radius: 0;
+    color: #000;
+    transition: background-color 0.3s;
+  }
+  
+  .nav-link.active,
+  .nav-link:hover {
+    background-color: #f04c24;
+    color: #fff;
+  }
+  
+  .course-carousel .carousel-control-prev,
+  .course-carousel .carousel-control-next {
+    width: 40px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  .course-carousel .carousel-control-prev-icon,
+  .course-carousel .carousel-control-next-icon {
+    background-color: #000;
+    border-radius: 50%;
+    opacity: 1;
+  }
+  
+  .card-row {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .card-container {
+    flex: 0 0 calc(25% - 15px); /* 4 cards per row with a 15px gap */
+    margin-bottom: 20px;
+  }
+  
+  .card-image {
+    height: 200px;
+    object-fit: cover;
+    width: 100%;
+  }
+  
+  .card-title {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .star-rating {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+  }
+  
+  .star-icon {
+    color: #f04c24;
+  }
+  
+  .star-icon-empty {
+    color: #ccc;
+  }
+  
+  .rating-value {
+    margin-left: 5px;
+    font-weight: bold;
+    color: #f04c24;
+  }
+  
+  .card-description {
+    height: 80px;
+    overflow: hidden;
+  }
+  
+  .empty-card {
+    visibility: hidden;
+  }
+  

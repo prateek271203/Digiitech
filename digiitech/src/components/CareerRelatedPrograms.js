@@ -1,49 +1,86 @@
 import React from "react";
-//import {Link} from "react-router-dom";
-import StarRating from "../components/StarRating";
+import styles from "./Styling/CareerRelatedPrograms.module.css";
+import { Card, Carousel } from "react-bootstrap";
+import coursesData from "../utils/data";
 
-const CareerRelatedPrograms = (props) => {
-  const {
-    id,
-    image,
-    course_name,
-    creator,
-    actual_price,
-    rating_count,
-    rating_star /*category*/,
-  } = props;
+function CareerRelatedPrograms() {
+  const renderStarRating = (rating) => {
+    const filledStars = Math.floor(rating);
+    const halfStar = rating - filledStars >= 0.5;
+    const emptyStars = 5 - filledStars - (halfStar ? 1 : 0);
+
+    return (
+      <div className={styles["star-rating"]}>
+        {[...Array(filledStars)].map((_, index) => (
+          <i key={index} className={`${styles["star-icon"]} fas fa-star`} style={{ color: "yellow" }} />
+        ))}
+        {halfStar && <i className={`${styles["star-icon"]} fas fa-star-half`} style={{ color: "yellow" }} />}
+        {[...Array(emptyStars)].map((_, index) => (
+          <i key={index} className={`${styles["star-icon"]} far fa-star`} style={{ color: "yellow" }} />
+        ))}
+        <span className={styles["rating-value"]}>{rating}</span>
+      </div>
+    );
+  };
 
   return (
-            <div class="card-deck">
-              <div className='item-img'>
-                <img class="card-img-top" src = {image} alt = {course_name} />
+    <div className={styles["career-related-programs"]}>
+      <h3 className={styles["career-related-programs-heading"]}>
+        Career Related Programs
+      </h3>
+      <div className={styles["carousel-container"]}>
+        <Carousel
+          className={styles["course-carousel"]}
+          indicators={false}
+          interval={null}
+        >
+          {coursesData.reduce((chunks, course, index) => {
+            const chunkIndex = Math.floor(index / 3);
+            if (!chunks[chunkIndex]) {
+              chunks[chunkIndex] = [];
+            }
+            chunks[chunkIndex].push(course);
+            return chunks;
+          }, []).map((chunk, chunkIndex) => (
+            <Carousel.Item key={chunkIndex}>
+              <div className={styles["card-row"]}>
+                {chunk.map((course, cardIndex) => (
+                  <Card
+                    key={cardIndex}
+                    className={styles["card-container"]}
+                  >
+                    <Card.Img
+                      variant="top"
+                      src={course.image}
+                      className={styles["card-image"]}
+                    />
+                    <Card.Body>
+                      <Card.Title className={styles["card-title"]}>
+                        {course.course_name}
+                      </Card.Title>
+                      {renderStarRating(course.rating_star)}
+                      <Card.Text className={styles["card-description"]}>
+                        {course.description}
+                      </Card.Text>
+                    </Card.Body>
+                  </Card>
+                ))}
+                {/* Add empty cards to ensure equal spacing */}
+                {chunk.length < 3 &&
+                  [...Array(3 - chunk.length)].map((_, index) => (
+                    <Card
+                      key={`empty-${index}`}
+                      className={`${styles["card-container"]} ${styles["empty-card"]}`}
+                    />
+                  ))}
               </div>
-              <div className='card-body'>
-                <h5 className='card-title'>{course_name}</h5>
-                <div class='owl-carousel'>
-                  <span className='item-creator'>{creator}</span>
-                  <div className='item-rating flex'>
-                    <span className='rating-star-val'>{rating_star}</span>
-                    <StarRating rating_star = {rating_star} />
-                    <span className='rating-count'>({rating_count})</span>
-                  </div>
-                  <div className='item-price'>
-                    <span className='item-price-old'>${actual_price}</span>
-                  </div>
-                </div>
-                <a class="btn btn-link" href= {`/courses/${id}`} role="button">See details</a>
-                <a class="carousel-control-prev w-auto" href="#recipeCarousel" role="button" data-slide="prev">
-                  <span class="carousel-control-prev-icon bg-dark border border-dark rounded-circle" aria-hidden="true"></span>
-                  <span class="sr-only">Previous</span>
-                </a>
-                <a class="carousel-control-next w-auto" href="#recipeCarousel" role="button" data-slide="next">
-                  <span class="carousel-control-next-icon bg-dark border border-dark rounded-circle" aria-hidden="true"></span>
-                  <span class="sr-only">Next</span>
-                </a>
-              </div>
-            </div>
-        
-  )
+            </Carousel.Item>
+          ))}
+        </Carousel>
+      </div>
+    </div>
+  );
 }
 
 export default CareerRelatedPrograms;
+

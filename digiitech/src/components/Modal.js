@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import "./Modal.css";
+import "./Styling/Modal.css";
 function Modal() {
   useEffect(() => {
     const signUpButton = document.getElementById("signUp");

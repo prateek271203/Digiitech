@@ -1,0 +1,68 @@
+.career-related-programs {
+    margin-top: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+  
+  .career-related-programs-heading {
+    text-align: left;
+    margin-bottom: 30px;
+    margin-top: 30px;
+  }
+  
+  .course-carousel .carousel-control-prev,
+  .course-carousel .carousel-control-next {
+    width: 40px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  .course-carousel .carousel-control-prev-icon,
+  .course-carousel .carousel-control-next-icon {
+    background-color: #000;
+    border-radius: 50%;
+    opacity: 1;
+  }
+  
+  .card-row {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .card-container {
+    flex: 0 0 calc(33.33% - 15px); /* 3 cards per row with a 15px gap */
+    margin-bottom: 20px;
+  }
+  
+  .card-image {
+    height: 200px;
+    object-fit: cover;
+    width: 100%;
+  }
+  
+  .card-title {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .card-description {
+    height: 80px;
+    overflow: hidden;
+  }
+  
+  .empty-card {
+    visibility: hidden;
+  }
+  
+  .star-rating {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+    color:#f04c24;
+  }
+  
+  .star-icon {
+    color: #f04c24 !important;
+    margin-right: 5px;
+  }
+  
