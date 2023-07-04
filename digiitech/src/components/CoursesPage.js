@@ -3,7 +3,7 @@ import Breadcrumbs from "@mui/material/Breadcrumbs";
 import Link from "@mui/material/Link";
 import HomeIcon from "@mui/icons-material/Home";
 import AutoStoriesTwoToneIcon from "@mui/icons-material/AutoStoriesTwoTone";
-import "./CoursesPage.css";
+import "./Styling/CoursesPage.css";
 function CoursesPage() {
   useEffect(() => {
     const categoryTitle = document.querySelectorAll(".category-title");

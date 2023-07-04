@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.css";
-import { BrowserRouter, useLocation } from "react-router-dom";
+import { BrowserRouter, useLocation, Routes, Route } from "react-router-dom";
 
 import Navbar from "./components/Navbar";
 import ImageSlider from "./components/ImageSlider";
@@ -11,6 +11,7 @@ import TopCategories from "./components/TopCategories";
 import ReviewsSection from "./components/ReviewsSection";
 import BlogPostsSection from "./components/BlogPostsSection";
 import Footer from "./components/Footer";
+import CoursesPage from "./components/CoursesPage";
 
 
 function App() {
@@ -27,6 +28,9 @@ function AppContent() {
 
   return (
     <>
+      <Routes>
+          <Route path="courses-link" element={<CoursesPage />} />
+      </Routes>
       {!isCoursesPage && <Navbar />}
       {!isCoursesPage && <ImageSlider />}
       <TrendingCourses />
