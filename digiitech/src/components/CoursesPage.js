@@ -47,7 +47,7 @@ function CoursesPage() {
             <div
               className="modal fade"
               id="exampleModal"
-              tabindex="-1"
+              tabIndex="-1"
               aria-labelledby="exampleModalLabel"
               aria-hidden="true"
             >
@@ -206,28 +206,22 @@ function CoursesPage() {
           </div>
           <div className="py-4" style={{ marginLeft: "6px" }}>
             <div className="tabs" style={{ display: "flex", flexWrap: "wrap" }}>
-              <a href="/" className="box-active">
+              <a className="box active category-title " id="all">
                 <strong>All Courses</strong>
               </a>
-              <a href="/" className="box ms-4">
-                <strong>Python</strong>
-              </a>
-              <a href="/" className="box ms-4">
+              <a className="box ms-4  category-title" id="web-development">
                 <strong>Web Developmet</strong>
               </a>
-              <a href="/" className="box ms-4">
+              <a className="box ms-4 category-title" id="python">
+                <strong>Python</strong>
+              </a>
+              <a className="box ms-4 category-title" id="data-science">
                 <strong>Data Science</strong>
               </a>
-              <a href="/" className="box ms-4">
+              <a className="box ms-4 category-title" id="aws-certification">
                 <strong>AWS Certification</strong>
               </a>
-              <a href="/" className="box ms-4">
-                <strong>Design</strong>
-              </a>
-              <a href="/" className="box" style={{ marginTop: "20px" }}>
-                <strong>Marketing</strong>
-              </a>
-              <a href="/" className="box ms-4" style={{ marginTop: "20px" }}>
+              <a className="box ms-4 category-title" id="others">
                 <strong>Others</strong>
               </a>
             </div>
@@ -239,416 +233,418 @@ function CoursesPage() {
         {/*  course category end */}
       </div>
       {/* main container end*/}
-      <div className="Course-container" id="Course-card">
-        <div className="category-head">
-          <ul>
-            <div className="category-title active" id="all">
-              <li>All</li>
-              <span>
-                <i className="fa-solid fa-graduation-cap"></i>
-              </span>
-            </div>
-            <div className="category-title" id="web-development">
-              <li>Web Development</li>
-              <span>
-                <i className="fa-solid fa-code"></i>
-              </span>
-            </div>
-            <div className="category-title" id="python">
-              <li>Python</li>
-              <span>
-                <i className="fa-brands fa-python"></i>
-              </span>
-            </div>
-            <div className="category-title" id="data-science">
-              <li>Data Scince</li>
-              <span>
-                <i className="fa-solid fa-database"></i>
-              </span>
-            </div>
-            <div className="category-title" id="aws-certification">
-              <li>Aws Certification</li>
-              <span>
-                <i className="fa-brands fa-aws"></i>
-              </span>
-            </div>
-            <div className="category-title" id="others">
-              <li>Others</li>
-              <span>
-                <i className="fa-solid fa-arrow-right"></i>
-              </span>
-            </div>
-          </ul>
-        </div>
-
-        <div className="posts-collect">
-          <div className="posts-main-container">
-            <div className="all web-development">
-              <div className="post-content">
-                <div className="post-content-top">
-                  <span>
-                    <i className="fa-solid fa-code mx-2"></i>Web Development
-                  </span>
-                  <span>
-                    <i className="fa-solid fa-hashtag mx-1"></i>1
-                  </span>
-                </div>
-                <h2>Lorem ipsum dolor sit amet</h2>
-                <p>
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                  Accusamus recusandae aspernatur possimus illum, repellat ad
-                  quasi earum, illo voluptatibus minima fugiat saepe magni
-                  corporis vero eius accusantium quidem, consectetur nesciunt!
-                </p>
+      <div className="container">
+        <div className="Course-container" id="Course-card">
+          <div className="category-head">
+            <ul>
+              <div className="category-title active" id="all">
+                <li>All</li>
+                <span>
+                  <i className="fa-solid fa-graduation-cap"></i>
+                </span>
               </div>
-              <button type="button" className="read-btn">
-                View Course Details
-              </button>
-            </div>
-
-            <div className="all web-development">
-              <div className="post-content">
-                <div className="post-content-top">
-                  <span>
-                    <i className="fas fa-calendar"></i>Web Development
-                  </span>
-                  <span>
-                    <i className="fas fa-comment"></i>34
-                  </span>
-                </div>
-                <h2>Lorem ipsum dolor sit amet</h2>
-                <p>
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                  Accusamus recusandae aspernatur possimus illum, repellat ad
-                  quasi earum, illo voluptatibus minima fugiat saepe magni
-                  corporis vero eius accusantium quidem, consectetur nesciunt!
-                </p>
+              <div className="category-title" id="web-development">
+                <li>Web Development</li>
+                <span>
+                  <i className="fa-solid fa-code"></i>
+                </span>
               </div>
-              <button type="button" className="read-btn">
-                View Course Details
-              </button>
-            </div>
-
-            <div className="all web-development">
-              <div className="post-content">
-                <div className="post-content-top">
-                  <span>
-                    <i className="fas fa-calendar"></i>January 01, 2XXX
-                  </span>
-                  <span>
-                    <i className="fas fa-comment"></i>34
-                  </span>
-                </div>
-                <h2>Lorem ipsum dolor sit amet</h2>
-                <p>
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                  Accusamus recusandae aspernatur possimus illum, repellat ad
-                  quasi earum, illo voluptatibus minima fugiat saepe magni
-                  corporis vero eius accusantium quidem, consectetur nesciunt!
-                </p>
+              <div className="category-title" id="python">
+                <li>Python</li>
+                <span>
+                  <i className="fa-brands fa-python"></i>
+                </span>
               </div>
-              <button type="button" className="read-btn">
-                View Course Details
-              </button>
-            </div>
-
-            <div className="all python">
-              <div className="post-content">
-                <div className="post-content-top">
-                  <span>
-                    <i className="fas fa-calendar"></i>January 01, 2XXX
-                  </span>
-                  <span>
-                    <i className="fas fa-comment"></i>34
-                  </span>
-                </div>
-                <h2>Lorem ipsum dolor sit amet</h2>
-                <p>
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                  Accusamus recusandae aspernatur possimus illum, repellat ad
-                  quasi earum, illo voluptatibus minima fugiat saepe magni
-                  corporis vero eius accusantium quidem, consectetur nesciunt!
-                </p>
+              <div className="category-title" id="data-science">
+                <li>Data Scince</li>
+                <span>
+                  <i className="fa-solid fa-database"></i>
+                </span>
               </div>
-              <button type="button" className="read-btn">
-                View Course Details
-              </button>
-            </div>
-
-            <div className="all python">
-              <div className="post-content">
-                <div className="post-content-top">
-                  <span>
-                    <i className="fas fa-calendar"></i>January 01, 2XXX
-                  </span>
-                  <span>
-                    <i className="fas fa-comment"></i>34
-                  </span>
-                </div>
-                <h2>Lorem ipsum dolor sit amet</h2>
-                <p>
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                  Accusamus recusandae aspernatur possimus illum, repellat ad
-                  quasi earum, illo voluptatibus minima fugiat saepe magni
-                  corporis vero eius accusantium quidem, consectetur nesciunt!
-                </p>
+              <div className="category-title" id="aws-certification">
+                <li>Aws Certification</li>
+                <span>
+                  <i className="fa-brands fa-aws"></i>
+                </span>
               </div>
-              <button type="button" className="read-btn">
-                View Course Details
-              </button>
-            </div>
-
-            <div className="all python">
-              <div className="post-content">
-                <div className="post-content-top">
-                  <span>
-                    <i className="fas fa-calendar"></i>January 01, 2XXX
-                  </span>
-                  <span>
-                    <i className="fas fa-comment"></i>34
-                  </span>
-                </div>
-                <h2>Lorem ipsum dolor sit amet</h2>
-                <p>
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                  Accusamus recusandae aspernatur possimus illum, repellat ad
-                  quasi earum, illo voluptatibus minima fugiat saepe magni
-                  corporis vero eius accusantium quidem, consectetur nesciunt!
-                </p>
+              <div className="category-title" id="others">
+                <li>Others</li>
+                <span>
+                  <i className="fa-solid fa-arrow-right"></i>
+                </span>
               </div>
-              <button type="button" className="read-btn">
-                View Course Details
-              </button>
-            </div>
+            </ul>
+          </div>
 
-            <div className="all python">
-              <div className="post-content">
-                <div className="post-content-top">
-                  <span>
-                    <i className="fas fa-calendar"></i>January 01, 2XXX
-                  </span>
-                  <span>
-                    <i className="fas fa-comment"></i>34
-                  </span>
+          <div className="posts-collect">
+            <div className="posts-main-container">
+              <div className="all web-development">
+                <div className="post-content">
+                  <div className="post-content-top">
+                    <span>
+                      <i className="fa-solid fa-code mx-2"></i>Web Development
+                    </span>
+                    <span>
+                      <i className="fa-solid fa-hashtag mx-1"></i>1
+                    </span>
+                  </div>
+                  <h2>Lorem ipsum dolor sit amet</h2>
+                  <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Accusamus recusandae aspernatur possimus illum, repellat ad
+                    quasi earum, illo voluptatibus minima fugiat saepe magni
+                    corporis vero eius accusantium quidem, consectetur nesciunt!
+                  </p>
                 </div>
-                <h2>Lorem ipsum dolor sit amet</h2>
-                <p>
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                  Accusamus recusandae aspernatur possimus illum, repellat ad
-                  quasi earum, illo voluptatibus minima fugiat saepe magni
-                  corporis vero eius accusantium quidem, consectetur nesciunt!
-                </p>
+                <button type="button" className="read-btn">
+                  View Course Details
+                </button>
               </div>
-              <button type="button" className="read-btn">
-                View Course Details
-              </button>
-            </div>
 
-            <div className="all data-science">
-              <div className="post-content">
-                <div className="post-content-top">
-                  <span>
-                    <i className="fas fa-calendar"></i>January 01, 2XXX
-                  </span>
-                  <span>
-                    <i className="fas fa-comment"></i>34
-                  </span>
+              <div className="all web-development">
+                <div className="post-content">
+                  <div className="post-content-top">
+                    <span>
+                      <i className="fas fa-calendar"></i>Web Development
+                    </span>
+                    <span>
+                      <i className="fas fa-comment"></i>34
+                    </span>
+                  </div>
+                  <h2>Lorem ipsum dolor sit amet</h2>
+                  <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Accusamus recusandae aspernatur possimus illum, repellat ad
+                    quasi earum, illo voluptatibus minima fugiat saepe magni
+                    corporis vero eius accusantium quidem, consectetur nesciunt!
+                  </p>
                 </div>
-                <h2>Lorem ipsum dolor sit amet</h2>
-                <p>
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                  Accusamus recusandae aspernatur possimus illum, repellat ad
-                  quasi earum, illo voluptatibus minima fugiat saepe magni
-                  corporis vero eius accusantium quidem, consectetur nesciunt!
-                </p>
+                <button type="button" className="read-btn">
+                  View Course Details
+                </button>
               </div>
-              <button type="button" className="read-btn">
-                View Course Details
-              </button>
-            </div>
 
-            <div className="all data-science">
-              <div className="post-content">
-                <div className="post-content-top">
-                  <span>
-                    <i className="fas fa-calendar"></i>January 01, 2XXX
-                  </span>
-                  <span>
-                    <i className="fas fa-comment"></i>34
-                  </span>
+              <div className="all web-development">
+                <div className="post-content">
+                  <div className="post-content-top">
+                    <span>
+                      <i className="fas fa-calendar"></i>January 01, 2XXX
+                    </span>
+                    <span>
+                      <i className="fas fa-comment"></i>34
+                    </span>
+                  </div>
+                  <h2>Lorem ipsum dolor sit amet</h2>
+                  <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Accusamus recusandae aspernatur possimus illum, repellat ad
+                    quasi earum, illo voluptatibus minima fugiat saepe magni
+                    corporis vero eius accusantium quidem, consectetur nesciunt!
+                  </p>
                 </div>
-                <h2>Lorem ipsum dolor sit amet</h2>
-                <p>
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                  Accusamus recusandae aspernatur possimus illum, repellat ad
-                  quasi earum, illo voluptatibus minima fugiat saepe magni
-                  corporis vero eius accusantium quidem, consectetur nesciunt!
-                </p>
+                <button type="button" className="read-btn">
+                  View Course Details
+                </button>
               </div>
-              <button type="button" className="read-btn">
-                View Course Details
-              </button>
-            </div>
 
-            <div className="all data-science">
-              <div className="post-content">
-                <div className="post-content-top">
-                  <span>
-                    <i className="fas fa-calendar"></i>January 01, 2XXX
-                  </span>
-                  <span>
-                    <i className="fas fa-comment"></i>34
-                  </span>
+              <div className="all python">
+                <div className="post-content">
+                  <div className="post-content-top">
+                    <span>
+                      <i className="fas fa-calendar"></i>January 01, 2XXX
+                    </span>
+                    <span>
+                      <i className="fas fa-comment"></i>34
+                    </span>
+                  </div>
+                  <h2>Lorem ipsum dolor sit amet</h2>
+                  <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Accusamus recusandae aspernatur possimus illum, repellat ad
+                    quasi earum, illo voluptatibus minima fugiat saepe magni
+                    corporis vero eius accusantium quidem, consectetur nesciunt!
+                  </p>
                 </div>
-                <h2>Lorem ipsum dolor sit amet</h2>
-                <p>
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                  Accusamus recusandae aspernatur possimus illum, repellat ad
-                  quasi earum, illo voluptatibus minima fugiat saepe magni
-                  corporis vero eius accusantium quidem, consectetur nesciunt!
-                </p>
+                <button type="button" className="read-btn">
+                  View Course Details
+                </button>
               </div>
-              <button type="button" className="read-btn">
-                View Course Details
-              </button>
-            </div>
 
-            <div className="all aws-certification">
-              <div className="post-content">
-                <div className="post-content-top">
-                  <span>
-                    <i className="fas fa-calendar"></i>January 01, 2XXX
-                  </span>
-                  <span>
-                    <i className="fas fa-comment"></i>34
-                  </span>
+              <div className="all python">
+                <div className="post-content">
+                  <div className="post-content-top">
+                    <span>
+                      <i className="fas fa-calendar"></i>January 01, 2XXX
+                    </span>
+                    <span>
+                      <i className="fas fa-comment"></i>34
+                    </span>
+                  </div>
+                  <h2>Lorem ipsum dolor sit amet</h2>
+                  <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Accusamus recusandae aspernatur possimus illum, repellat ad
+                    quasi earum, illo voluptatibus minima fugiat saepe magni
+                    corporis vero eius accusantium quidem, consectetur nesciunt!
+                  </p>
                 </div>
-                <h2>Lorem ipsum dolor sit amet</h2>
-                <p>
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                  Accusamus recusandae aspernatur possimus illum, repellat ad
-                  quasi earum, illo voluptatibus minima fugiat saepe magni
-                  corporis vero eius accusantium quidem, consectetur nesciunt!
-                </p>
+                <button type="button" className="read-btn">
+                  View Course Details
+                </button>
               </div>
-              <button type="button" className="read-btn">
-                View Course Details
-              </button>
-            </div>
 
-            <div className="all aws-certification">
-              <div className="post-content">
-                <div className="post-content-top">
-                  <span>
-                    <i className="fas fa-calendar"></i>January 01, 2XXX
-                  </span>
-                  <span>
-                    <i className="fas fa-comment"></i>34
-                  </span>
+              <div className="all python">
+                <div className="post-content">
+                  <div className="post-content-top">
+                    <span>
+                      <i className="fas fa-calendar"></i>January 01, 2XXX
+                    </span>
+                    <span>
+                      <i className="fas fa-comment"></i>34
+                    </span>
+                  </div>
+                  <h2>Lorem ipsum dolor sit amet</h2>
+                  <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Accusamus recusandae aspernatur possimus illum, repellat ad
+                    quasi earum, illo voluptatibus minima fugiat saepe magni
+                    corporis vero eius accusantium quidem, consectetur nesciunt!
+                  </p>
                 </div>
-                <h2>Lorem ipsum dolor sit amet</h2>
-                <p>
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                  Accusamus recusandae aspernatur possimus illum, repellat ad
-                  quasi earum, illo voluptatibus minima fugiat saepe magni
-                  corporis vero eius accusantium quidem, consectetur nesciunt!
-                </p>
+                <button type="button" className="read-btn">
+                  View Course Details
+                </button>
               </div>
-              <button type="button" className="read-btn">
-                View Course Details
-              </button>
-            </div>
 
-            <div className="all aws-certification">
-              <div className="post-content">
-                <div className="post-content-top">
-                  <span>
-                    <i className="fas fa-calendar"></i>January 01, 2XXX
-                  </span>
-                  <span>
-                    <i className="fas fa-comment"></i>34
-                  </span>
+              <div className="all python">
+                <div className="post-content">
+                  <div className="post-content-top">
+                    <span>
+                      <i className="fas fa-calendar"></i>January 01, 2XXX
+                    </span>
+                    <span>
+                      <i className="fas fa-comment"></i>34
+                    </span>
+                  </div>
+                  <h2>Lorem ipsum dolor sit amet</h2>
+                  <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Accusamus recusandae aspernatur possimus illum, repellat ad
+                    quasi earum, illo voluptatibus minima fugiat saepe magni
+                    corporis vero eius accusantium quidem, consectetur nesciunt!
+                  </p>
                 </div>
-                <h2>Lorem ipsum dolor sit amet</h2>
-                <p>
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                  Accusamus recusandae aspernatur possimus illum, repellat ad
-                  quasi earum, illo voluptatibus minima fugiat saepe magni
-                  corporis vero eius accusantium quidem, consectetur nesciunt!
-                </p>
+                <button type="button" className="read-btn">
+                  View Course Details
+                </button>
               </div>
-              <button type="button" className="read-btn">
-                View Course Details
-              </button>
-            </div>
 
-            <div className="all aws-certification">
-              <div className="post-content">
-                <div className="post-content-top">
-                  <span>
-                    <i className="fas fa-calendar"></i>January 01, 2XXX
-                  </span>
-                  <span>
-                    <i className="fas fa-comment"></i>34
-                  </span>
+              <div className="all data-science">
+                <div className="post-content">
+                  <div className="post-content-top">
+                    <span>
+                      <i className="fas fa-calendar"></i>January 01, 2XXX
+                    </span>
+                    <span>
+                      <i className="fas fa-comment"></i>34
+                    </span>
+                  </div>
+                  <h2>Lorem ipsum dolor sit amet</h2>
+                  <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Accusamus recusandae aspernatur possimus illum, repellat ad
+                    quasi earum, illo voluptatibus minima fugiat saepe magni
+                    corporis vero eius accusantium quidem, consectetur nesciunt!
+                  </p>
                 </div>
-                <h2>Lorem ipsum dolor sit amet</h2>
-                <p>
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                  Accusamus recusandae aspernatur possimus illum, repellat ad
-                  quasi earum, illo voluptatibus minima fugiat saepe magni
-                  corporis vero eius accusantium quidem, consectetur nesciunt!
-                </p>
+                <button type="button" className="read-btn">
+                  View Course Details
+                </button>
               </div>
-              <button type="button" className="read-btn">
-                View Course Details
-              </button>
-            </div>
 
-            <div className="all others">
-              <div className="post-content">
-                <div className="post-content-top">
-                  <span>
-                    <i className="fas fa-calendar"></i>January 01, 2XXX
-                  </span>
-                  <span>
-                    <i className="fas fa-comment"></i>34
-                  </span>
+              <div className="all data-science">
+                <div className="post-content">
+                  <div className="post-content-top">
+                    <span>
+                      <i className="fas fa-calendar"></i>January 01, 2XXX
+                    </span>
+                    <span>
+                      <i className="fas fa-comment"></i>34
+                    </span>
+                  </div>
+                  <h2>Lorem ipsum dolor sit amet</h2>
+                  <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Accusamus recusandae aspernatur possimus illum, repellat ad
+                    quasi earum, illo voluptatibus minima fugiat saepe magni
+                    corporis vero eius accusantium quidem, consectetur nesciunt!
+                  </p>
                 </div>
-                <h2>Lorem ipsum dolor sit amet</h2>
-                <p>
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                  Accusamus recusandae aspernatur possimus illum, repellat ad
-                  quasi earum, illo voluptatibus minima fugiat saepe magni
-                  corporis vero eius accusantium quidem, consectetur nesciunt!
-                </p>
+                <button type="button" className="read-btn">
+                  View Course Details
+                </button>
               </div>
-              <button type="button" className="read-btn">
-                View Course Details
-              </button>
-            </div>
 
-            <div className="all others">
-              <div className="post-content">
-                <div className="post-content-top">
-                  <span>
-                    <i className="fas fa-calendar"></i>January 01, 2XXX
-                  </span>
-                  <span>
-                    <i className="fas fa-comment"></i>34
-                  </span>
+              <div className="all data-science">
+                <div className="post-content">
+                  <div className="post-content-top">
+                    <span>
+                      <i className="fas fa-calendar"></i>January 01, 2XXX
+                    </span>
+                    <span>
+                      <i className="fas fa-comment"></i>34
+                    </span>
+                  </div>
+                  <h2>Lorem ipsum dolor sit amet</h2>
+                  <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Accusamus recusandae aspernatur possimus illum, repellat ad
+                    quasi earum, illo voluptatibus minima fugiat saepe magni
+                    corporis vero eius accusantium quidem, consectetur nesciunt!
+                  </p>
                 </div>
-                <h2>Lorem ipsum dolor sit amet</h2>
-                <p>
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                  Accusamus recusandae aspernatur possimus illum, repellat ad
-                  quasi earum, illo voluptatibus minima fugiat saepe magni
-                  corporis vero eius accusantium quidem, consectetur nesciunt!
-                </p>
+                <button type="button" className="read-btn">
+                  View Course Details
+                </button>
               </div>
-              <button type="button" className="read-btn">
-                View Course Details
-              </button>
+
+              <div className="all aws-certification">
+                <div className="post-content">
+                  <div className="post-content-top">
+                    <span>
+                      <i className="fas fa-calendar"></i>January 01, 2XXX
+                    </span>
+                    <span>
+                      <i className="fas fa-comment"></i>34
+                    </span>
+                  </div>
+                  <h2>Lorem ipsum dolor sit amet</h2>
+                  <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Accusamus recusandae aspernatur possimus illum, repellat ad
+                    quasi earum, illo voluptatibus minima fugiat saepe magni
+                    corporis vero eius accusantium quidem, consectetur nesciunt!
+                  </p>
+                </div>
+                <button type="button" className="read-btn">
+                  View Course Details
+                </button>
+              </div>
+
+              <div className="all aws-certification">
+                <div className="post-content">
+                  <div className="post-content-top">
+                    <span>
+                      <i className="fas fa-calendar"></i>January 01, 2XXX
+                    </span>
+                    <span>
+                      <i className="fas fa-comment"></i>34
+                    </span>
+                  </div>
+                  <h2>Lorem ipsum dolor sit amet</h2>
+                  <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Accusamus recusandae aspernatur possimus illum, repellat ad
+                    quasi earum, illo voluptatibus minima fugiat saepe magni
+                    corporis vero eius accusantium quidem, consectetur nesciunt!
+                  </p>
+                </div>
+                <button type="button" className="read-btn">
+                  View Course Details
+                </button>
+              </div>
+
+              <div className="all aws-certification">
+                <div className="post-content">
+                  <div className="post-content-top">
+                    <span>
+                      <i className="fas fa-calendar"></i>January 01, 2XXX
+                    </span>
+                    <span>
+                      <i className="fas fa-comment"></i>34
+                    </span>
+                  </div>
+                  <h2>Lorem ipsum dolor sit amet</h2>
+                  <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Accusamus recusandae aspernatur possimus illum, repellat ad
+                    quasi earum, illo voluptatibus minima fugiat saepe magni
+                    corporis vero eius accusantium quidem, consectetur nesciunt!
+                  </p>
+                </div>
+                <button type="button" className="read-btn">
+                  View Course Details
+                </button>
+              </div>
+
+              <div className="all aws-certification">
+                <div className="post-content">
+                  <div className="post-content-top">
+                    <span>
+                      <i className="fas fa-calendar"></i>January 01, 2XXX
+                    </span>
+                    <span>
+                      <i className="fas fa-comment"></i>34
+                    </span>
+                  </div>
+                  <h2>Lorem ipsum dolor sit amet</h2>
+                  <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Accusamus recusandae aspernatur possimus illum, repellat ad
+                    quasi earum, illo voluptatibus minima fugiat saepe magni
+                    corporis vero eius accusantium quidem, consectetur nesciunt!
+                  </p>
+                </div>
+                <button type="button" className="read-btn">
+                  View Course Details
+                </button>
+              </div>
+
+              <div className="all others">
+                <div className="post-content">
+                  <div className="post-content-top">
+                    <span>
+                      <i className="fas fa-calendar"></i>January 01, 2XXX
+                    </span>
+                    <span>
+                      <i className="fas fa-comment"></i>34
+                    </span>
+                  </div>
+                  <h2>Lorem ipsum dolor sit amet</h2>
+                  <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Accusamus recusandae aspernatur possimus illum, repellat ad
+                    quasi earum, illo voluptatibus minima fugiat saepe magni
+                    corporis vero eius accusantium quidem, consectetur nesciunt!
+                  </p>
+                </div>
+                <button type="button" className="read-btn">
+                  View Course Details
+                </button>
+              </div>
+
+              <div className="all others">
+                <div className="post-content">
+                  <div className="post-content-top">
+                    <span>
+                      <i className="fas fa-calendar"></i>January 01, 2XXX
+                    </span>
+                    <span>
+                      <i className="fas fa-comment"></i>34
+                    </span>
+                  </div>
+                  <h2>Lorem ipsum dolor sit amet</h2>
+                  <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Accusamus recusandae aspernatur possimus illum, repellat ad
+                    quasi earum, illo voluptatibus minima fugiat saepe magni
+                    corporis vero eius accusantium quidem, consectetur nesciunt!
+                  </p>
+                </div>
+                <button type="button" className="read-btn">
+                  View Course Details
+                </button>
+              </div>
             </div>
           </div>
         </div>
