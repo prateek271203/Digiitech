@@ -4,11 +4,6 @@ import GoogleImage from '../assets/images/google_play.jpg';
 import AppImage from '../assets/images/app_store.jpg';
 
 function Footer() {
-  const [showDropContent, setShowDropContent] = useState(false);
-
-  const handleDropButtonClick = () => {
-    setShowDropContent(!showDropContent);
-  };
 
   return (
     <div className={styles.containerFluid}>
