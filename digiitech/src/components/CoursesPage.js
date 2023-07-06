@@ -206,28 +206,22 @@ function CoursesPage() {
           </div>
           <div className="py-4" style={{ marginLeft: "6px" }}>
             <div className="tabs" style={{ display: "flex", flexWrap: "wrap" }}>
-              <a href="/" className="box-active">
+              <a className="box active category-title " id="all">
                 <strong>All Courses</strong>
               </a>
-              <a href="/" className="box ms-4">
-                <strong>Python</strong>
-              </a>
-              <a href="/" className="box ms-4">
+              <a className="box ms-4  category-title" id="web-development">
                 <strong>Web Developmet</strong>
               </a>
-              <a href="/" className="box ms-4">
+              <a className="box ms-4 category-title" id="python">
+                <strong>Python</strong>
+              </a>
+              <a className="box ms-4 category-title" id="data-science">
                 <strong>Data Science</strong>
               </a>
-              <a href="/" className="box ms-4">
+              <a className="box ms-4 category-title" id="aws-certification">
                 <strong>AWS Certification</strong>
               </a>
-              <a href="/" className="box ms-4">
-                <strong>Design</strong>
-              </a>
-              <a href="/" className="box" style={{ marginTop: "20px" }}>
-                <strong>Marketing</strong>
-              </a>
-              <a href="/" className="box ms-4" style={{ marginTop: "20px" }}>
+              <a className="box ms-4 category-title" id="others">
                 <strong>Others</strong>
               </a>
             </div>

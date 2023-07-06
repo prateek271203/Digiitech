@@ -96,11 +96,10 @@
     width: 1250px;
 }
 
-#Cp .box-active {
+#Cp .box {
     text-decoration: none;
     color: #ffffff;
     font-size: 23px;
-    background-color: #0052cc;
     padding: 23px 25px;
     border-radius: 8px;
 }
@@ -116,7 +115,7 @@
 }
 
 #Cp .box:hover {
-    background-color: #ebfdfc;
+    background-color: #f0aa99;
 }
 
 #Cp form {
@@ -174,7 +173,7 @@
 }
 
 #Cp #Course-card .active {
-    background: #0052cc;
+    background: #f04c24;
 }
 
 #Cp #Course-card .fa-solid,
@@ -274,6 +273,10 @@
 /***********/
 
 #Cp #Course-card .active {
-    background-color: #0052cc;
+    background-color: #f04c24;
     color: #fff;
+}
+
+#Cp .tabs a {
+    cursor: pointer;
 }
