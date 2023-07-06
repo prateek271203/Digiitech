@@ -2,13 +2,13 @@ import React from "react";
 import styles from "./Styling/RecentAdditions.module.css";
 import { Card, Carousel } from "react-bootstrap";
 import coursesData from "../utils/data";
+import { BiChevronLeft, BiChevronRight } from "react-icons/bi";
 
 function RecentAdditions() {
   const renderStarRating = (rating) => {
     const filledStars = Math.floor(rating);
     const halfStar = rating - filledStars >= 0.5;
     const emptyStars = 5 - filledStars - (halfStar ? 1 : 0);
-
     return (
       <div className={styles["star-rating"]}>
         {[...Array(filledStars)].map((_, index) => (
@@ -33,6 +33,18 @@ function RecentAdditions() {
       </div>
     );
   };
+  // Custom control component for previous button
+  const CustomPrevButton = ({ onClick }) => (
+    <div className={styles["carousel-control-prev"]} onClick={onClick}>
+      <BiChevronLeft className={styles["carousel-control-icon"]} size={31} />
+    </div>
+  );
+  // Custom control component for next button
+  const CustomNextButton = ({ onClick }) => (
+    <div className={styles["carousel-control-next"]} onClick={onClick}>
+      <BiChevronRight className={styles["carousel-control-icon"]} size={31}/>
+    </div>
+  );
 
   const chunkSize = 3; // Number of cards per row
 
@@ -44,6 +56,8 @@ function RecentAdditions() {
           className={styles["course-carousel"]}
           indicators={false}
           interval={null}
+          prevIcon={<CustomPrevButton />}
+          nextIcon={<CustomNextButton />}
         >
           {coursesData
             .slice(-8) // Get the last 8 courses

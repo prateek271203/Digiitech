@@ -24,6 +24,8 @@
   color: blue;
   cursor: pointer;
   text-decoration: underline;
+  border:none;
+  background-color: #fff;
 }
 
 .review-image {

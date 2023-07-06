@@ -27,23 +27,6 @@
     color: #fff;
   }
   
-  .course-carousel .carousel-control-prev,
-  .course-carousel .carousel-control-next {
-    width: 40px !important;
-    top: 50% !important;
-    transform: translateY(-50%) !important;
-    background-color: rgba(0, 0, 0, 0.5) !important;
-  }
-  
-  .course-carousel .carousel-control-prev-icon,
-  .course-carousel .carousel-control-next-icon {
-    background-color: #000 !important;
-    border-radius: 50% !important;
-    opacity: 1 !important;
-    filter: brightness(1.2) !important;
-    color: black !important;
-  }
-  
   .card-row {
     display: flex;
     justify-content: space-between;
@@ -93,17 +76,132 @@
   .empty-card {
     visibility: hidden;
   }
-  /* Add more spacing between tabs and cards */
-.course-carousel {
-  margin-top: 20px;
-}
-
-.card-row {
-  margin-top: 20px;
-}
-
-.card-container {
-  margin-bottom: 30px;
-}
-
+  .course-carousel {
+    margin-top: 20px;
+  }
+  
+  .card-row {
+    margin-top: 20px;
+  }
+  
+  .card-container {
+    margin-bottom: 30px;
+  }
+  
+  /* Styling for carousel controls */
+  .carousel-control-prev,
+  .carousel-control-next {
+    width: 40px !important;
+    height: 40px !important;
+    top: 50% !important;
+    transform: translateY(-50%) !important;
+    background-color: rgba(0, 0, 0, 0.5) !important;
+    border-radius: 50% !important;
+  }
+  
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    background-color: #000 !important;
+    border-radius: 50% !important;
+    opacity: 1 !important;
+    font-size: 200px !important;
+    transform: scale(4.5) !important;
+    color: white !important;
+    filter: brightness(150%) !important;
+  }
+  
+  .carousel-control-prev-icon::before,
+  .carousel-control-next-icon::before {
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    content: "";
+    border: solid transparent;
+    border-width: 8px;
+    border-top-color: transparent;
+    border-bottom-color: transparent;
+    transform: translateY(-50%);
+  }
+  
+  .carousel-control-prev-icon {
+    left: -10px !important;
+  }
+  
+  .carousel-control-next-icon {
+    right: -10px !important;
+  }
+  
+  @media (max-width: 767.98px) {
+    .nav-link {
+      display: none;
+    }
+  
+    .nav-tabs {
+      overflow: hidden;
+      position: relative;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-bottom: 15px;
+    }
+  
+    .nav-tabs::after {
+      content: "";
+      display: block;
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      pointer-events: none;
+      background: linear-gradient(
+        to right,
+        rgba(255, 255, 255, 0),
+        rgba(255, 255, 255, 1) 90%,
+        rgba(255, 255, 255, 1) 100%
+      );
+    }
+  
+    .dropdown-menu {
+      margin-top: 0;
+      position: absolute;
+      width: 100%;
+      left: 0;
+      right: 0;
+      top: 100%;
+      z-index: 1;
+      display: none;
+    }
+  
+    .nav-tabs.show .dropdown-menu {
+      display: block;
+    }
+  
+    .card-container {
+      flex: 0 0 calc(50% - 10px);
+      padding-top: 100%;
+      position: relative;
+    }
+  
+    .card-image {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  
+    .carousel-control-prev,
+    .carousel-control-next {
+      width: 30px !important;
+      height: 30px !important;
+    }
+  
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+      font-size: 24px !important;
+      transform: scale(1) !important;
+    }
+  }
+  
+  
   
