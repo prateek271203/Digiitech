@@ -9,9 +9,9 @@
   height: 160px;
   cursor: pointer;
   padding-top: 20px;
-  border-radius: 10px;
+  /* border-radius: 10px; */
   box-shadow: 0 1px 10px rgba(0, 0, 0, 0.1);
-  background-color: rgba(204, 146, 181, 0.321);
+  /* background-color: rgba(204, 146, 181, 0.321); */
   transition: transform 0.3s ease;
 }
 

@@ -81,8 +81,8 @@ const BlogPostsSection = () => {
       <Slider {...settings}>
         {blogPosts.map((post) => (
           <div key={post.id}>
-            <div className={styles.blogPostCard}>
-              <img className={styles.blogPostImage} src={post.image} alt={post.title} />
+            <div className={`border-0 shadow rounded-0 mb-3 ${styles['blogPostCard']}`}>
+              <img className={`rounded-0 ${styles['blogPostImage']}`} src={post.image} alt={post.title} />
               <div className={styles.blogPostContent}>
                 <h3 className={styles.blogPostTitle}>{post.title}</h3>
                 <p className={styles.blogPostDate}>{post.date}</p>

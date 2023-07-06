@@ -67,12 +67,12 @@ function TrendingCourses() {
                         {chunk.map((course, cardIndex) => (
                           <Card
                             key={cardIndex}
-                            className={styles["card-container"]}
+                            className={`border-0 shadow rounded-0 ${styles["card-container"]}`}
                           >
                             <Card.Img
                               variant="top"
                               src={course.image}
-                              className={styles["card-image"]}
+                              className={`rounded-0 ${styles["card-image"]}`}
                             />
                             <Card.Body>
                               <Card.Title className={styles["card-title"]}>

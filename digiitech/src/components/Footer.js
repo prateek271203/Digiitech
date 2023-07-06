@@ -16,7 +16,7 @@ function Footer() {
       <div className={styles.footerContent}>
         <div className="row">
           <div className={`col-md-3 ${styles.logoRow}`}>
-            <img className={styles.logoimage} src={LogoImage} alt="Logo" />
+            {/* <img className={styles.logoimage} src={LogoImage} alt="Logo" /> */}
             {/*<h5>DigiiTech</h5>*/}
           </div>
         </div>
