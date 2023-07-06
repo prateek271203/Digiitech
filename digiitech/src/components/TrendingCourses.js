@@ -3,6 +3,8 @@ import styles from "./Styling/TrendingCourses.module.css";
 import { Tab, Tabs, Card, Carousel } from "react-bootstrap";
 import coursesData from "../utils/data";
 
+
+
 const categories = [
   "All",
   "AWS",
@@ -46,6 +48,7 @@ function TrendingCourses() {
                 className={styles["course-carousel"]}
                 indicators={false}
                 interval={null}
+                
               >
                 {coursesData
                   .filter(

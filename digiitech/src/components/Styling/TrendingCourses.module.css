@@ -29,16 +29,19 @@
   
   .course-carousel .carousel-control-prev,
   .course-carousel .carousel-control-next {
-    width: 40px;
-    top: 50%;
-    transform: translateY(-50%);
+    width: 40px !important;
+    top: 50% !important;
+    transform: translateY(-50%) !important;
+    background-color: rgba(0, 0, 0, 0.5) !important;
   }
   
   .course-carousel .carousel-control-prev-icon,
   .course-carousel .carousel-control-next-icon {
-    background-color: #000;
-    border-radius: 50%;
-    opacity: 1;
+    background-color: #000 !important;
+    border-radius: 50% !important;
+    opacity: 1 !important;
+    filter: brightness(1.2) !important;
+    color: black !important;
   }
   
   .card-row {
@@ -90,4 +93,17 @@
   .empty-card {
     visibility: hidden;
   }
+  /* Add more spacing between tabs and cards */
+.course-carousel {
+  margin-top: 20px;
+}
+
+.card-row {
+  margin-top: 20px;
+}
+
+.card-container {
+  margin-bottom: 30px;
+}
+
   
