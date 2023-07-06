@@ -116,7 +116,7 @@ const ReviewsSection = () => {
 
           return (
             <div key={review.id}>
-              <div className={styles['review-card']}>
+              <div className={`border-0 shadow rounded-0 ${styles['review-card']}`}>
                 <div className={styles['review-image']}>
                   <img src={review.image} alt={review.name} />
                 </div>

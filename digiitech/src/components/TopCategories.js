@@ -126,7 +126,7 @@ function TopCategories() {
           <button
             onClick={toggleRows}
             id="viewMoreBtn"
-            className={`btn btn-lg btn-light ${styles["btn"]}`}
+            className={`btn btn-sm btn-light ${styles["btn"]}`}
           >
             {expanded ? "View Less" : "View More"}
           </button>
