@@ -12,7 +12,7 @@ import ReviewsSection from "./components/ReviewsSection";
 import BlogPostsSection from "./components/BlogPostsSection";
 import Footer from "./components/Footer";
 import CoursesPage from "./components/CoursesPage";
-
+import CorporateTraining from "./components/CorporateTraining";
 
 function App() {
   return (
@@ -29,7 +29,10 @@ function AppContent() {
   return (
     <>
       <Routes>
-          <Route path="courses-link" element={<CoursesPage />} />
+        <Route path="courses-link" element={<CoursesPage />} />
+      </Routes>
+      <Routes>
+        <Route path="corptrain-link" element={<CorporateTraining />} />
       </Routes>
       {!isCoursesPage && <Navbar />}
       {!isCoursesPage && <ImageSlider />}
@@ -40,7 +43,6 @@ function AppContent() {
       <ReviewsSection />
       <BlogPostsSection />
       <Footer />
-      
     </>
   );
 }
