@@ -127,9 +127,8 @@ const ReviewsSection = () => {
                   </div>
                   <p className={styles['review-position']}>{review.position}</p>
                   <p className={reviewTextClass}>
-                    {isExpanded ? review.content : `${review.content.split(' ').slice(0, 10).join(' ')}...`}
-                  </p>
-                  {review.content.split(' ').length > 10 && (
+                    {isExpanded ? review.content : `${review.content.split(' ').slice(0, 10).join(' ')}......   `}
+                    {review.content.split(' ').length > 10 && (
                     <button
                       className={styles['view-more']}
                       onClick={() => handleExpandReview(review.id)}
@@ -137,6 +136,7 @@ const ReviewsSection = () => {
                       {isExpanded ? 'View Less' : 'View More'}
                     </button>
                   )}
+                  </p>
                 </div>
               </div>
             </div>

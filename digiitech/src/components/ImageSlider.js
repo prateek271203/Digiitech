@@ -50,7 +50,7 @@ function ImageSlider() {
         className="mySwiper"
       >
         <SwiperSlide>
-          <img src={Image1}></img>
+          <img src={Image1} alt="image1"></img>
         </SwiperSlide>
         <SwiperSlide>Slide 2</SwiperSlide>
         <SwiperSlide>Slide 3</SwiperSlide>
