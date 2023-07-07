@@ -1,0 +1,50 @@
+.navbar-nav{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+  }
+  
+  .nav-item:hover{
+    text-decoration: underline;
+  }
+  
+  #trainingContainer{
+    padding: 0;
+    margin: 0;
+  }
+  
+  #trainingContent{
+    background-image: url(/Users/aayushisaraswat/Digiitech/digiitech/src/assets/images/training.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  #imageContainer{
+    height: 400px;
+  }
+  
+  #trainingBtn{
+    background-color: #f04c24;
+    color: black;
+  }
+  
+  #trustedBy{
+    display: flex;
+  }
+  
+  .row{
+    margin: 0;
+    gap: 10px;
+  }
+  
+  #heading_2{
+    font-size: 30px;
+    font-weight: 500;
+  }
+  
+  #heading_3{
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  
+  
