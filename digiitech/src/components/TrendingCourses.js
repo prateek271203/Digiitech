@@ -2,6 +2,8 @@ import React from "react";
 import styles from "./Styling/TrendingCourses.module.css";
 import { Tab, Tabs, Card, Carousel } from "react-bootstrap";
 import coursesData from "../utils/data";
+import { BiChevronLeft, BiChevronRight } from "react-icons/bi";
+
 
 const categories = [
   "All",
@@ -34,6 +36,20 @@ function renderStarRating(rating) {
   );
 }
 
+// Custom control component for previous button
+const CustomPrevButton = ({ onClick }) => (
+  <div className={styles["carousel-control-prev"]} onClick={onClick}>
+    <BiChevronLeft className={styles["carousel-control-icon"]} size={31} />
+  </div>
+);
+
+// Custom control component for next button
+const CustomNextButton = ({ onClick }) => (
+  <div className={styles["carousel-control-next"]} onClick={onClick}>
+    <BiChevronRight className={styles["carousel-control-icon"]} size={31}/>
+  </div>
+);
+
 function TrendingCourses() {
   return (
     <div className={styles["trending-courses"]}>
@@ -46,6 +62,8 @@ function TrendingCourses() {
                 className={styles["course-carousel"]}
                 indicators={false}
                 interval={null}
+                prevIcon={<CustomPrevButton />}
+                nextIcon={<CustomNextButton />}
               >
                 {coursesData
                   .filter(
@@ -106,4 +124,3 @@ function TrendingCourses() {
 }
 
 export default TrendingCourses;
-

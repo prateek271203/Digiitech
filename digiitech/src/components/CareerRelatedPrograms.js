@@ -2,6 +2,7 @@ import React from "react";
 import styles from "./Styling/CareerRelatedPrograms.module.css";
 import { Card, Carousel } from "react-bootstrap";
 import coursesData from "../utils/data";
+import { BiChevronLeft, BiChevronRight } from "react-icons/bi";
 
 function CareerRelatedPrograms() {
   const renderStarRating = (rating) => {
@@ -22,6 +23,18 @@ function CareerRelatedPrograms() {
       </div>
     );
   };
+  // Custom control component for previous button
+  const CustomPrevButton = ({ onClick }) => (
+  <div className={styles["carousel-control-prev"]} onClick={onClick}>
+    <BiChevronLeft className={styles["carousel-control-icon"]} size={31} />
+  </div>
+);
+// Custom control component for next button
+const CustomNextButton = ({ onClick }) => (
+  <div className={styles["carousel-control-next"]} onClick={onClick}>
+    <BiChevronRight className={styles["carousel-control-icon"]} size={31}/>
+  </div>
+);
 
   return (
     <div className={styles["career-related-programs"]}>
@@ -33,6 +46,8 @@ function CareerRelatedPrograms() {
           className={styles["course-carousel"]}
           indicators={false}
           interval={null}
+          prevIcon={<CustomPrevButton />}
+          nextIcon={<CustomNextButton />}
         >
           {coursesData.reduce((chunks, course, index) => {
             const chunkIndex = Math.floor(index / 3);

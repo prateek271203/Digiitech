@@ -70,4 +70,45 @@
     color: #f04c24 !important;
     margin-right: 5px;
   }
-  
+    /* Styling for carousel controls */
+    .carousel-control-prev,
+    .carousel-control-next {
+      width: 40px !important;
+      height: 40px !important;
+      top: 50% !important;
+      transform: translateY(-50%) !important;
+      background-color: rgba(0, 0, 0, 0.5) !important;
+      border-radius: 50% !important;
+    }
+    
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+      background-color: #000 !important;
+      border-radius: 50% !important;
+      opacity: 1 !important;
+      font-size: 200px !important;
+      transform: scale(4.5) !important;
+      color: white !important;
+      filter: brightness(150%) !important;
+    }
+    
+    .carousel-control-prev-icon::before,
+    .carousel-control-next-icon::before {
+      display: inline-block;
+      position: absolute;
+      top: 50%;
+      content: "";
+      border: solid transparent;
+      border-width: 8px;
+      border-top-color: transparent;
+      border-bottom-color: transparent;
+      transform: translateY(-50%);
+    }
+    
+    .carousel-control-prev-icon {
+      left: -10px !important;
+    }
+    
+    .carousel-control-next-icon {
+      right: -10px !important;
+    }

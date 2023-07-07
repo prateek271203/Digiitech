@@ -8,7 +8,7 @@ function NavBar() {
       className={`${styles.navbar} navbar navbar-expand-lg navbar-light bg-light p-2`}
     >
       <div className={`container-fluid py-3 ms-4`}>
-        <img src={Image1} style={{ width: "80px" }}></img>
+        <img src={Image1} alt="Image1" style={{ width: "80px" }}></img>
         <button
           className={`navbar-toggler`}
           type="button"
