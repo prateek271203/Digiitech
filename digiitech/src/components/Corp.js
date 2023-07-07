@@ -1,5 +1,5 @@
 import React from "react";
-import "./Styling/CorporateTraining.css";
+import "./Styling/Corp.css";
 import Image1 from "../assets/images/pencil-and-ruler.png";
 import Image2 from "../assets/images/analytics.png";
 import Image3 from "../assets/images/certificate.png";
@@ -23,7 +23,7 @@ const style4 = {
   width: "370px",
 };
 
-function CorporateTraining() {
+function Corp() {
   return (
     <>
       <div className="corpfeatures">
@@ -340,4 +340,4 @@ function CorporateTraining() {
   );
 }
 
-export default CorporateTraining;
+export default Corp;
