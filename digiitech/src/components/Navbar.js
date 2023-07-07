@@ -4,7 +4,9 @@ import Image1 from "../assets/images/logo1.png";
 
 function NavBar() {
   return (
-    <nav className={`${styles.navbar} navbar navbar-expand-lg navbar-light bg-light p-2`}>
+    <nav
+      className={`${styles.navbar} navbar navbar-expand-lg navbar-light bg-light p-2`}
+    >
       <div className={`container-fluid py-3 ms-4`}>
         <img src={Image1} style={{ width: "80px" }}></img>
         <button
@@ -20,7 +22,9 @@ function NavBar() {
         </button>
         {/* menu start*/}
         <div className={`collapse navbar-collapse ${styles.navbarNavDropdown}`}>
-          <ul className={`navbar-nav ms-auto ${styles.nav_ul} align-items-center`}>
+          <ul
+            className={`navbar-nav ms-auto ${styles.nav_ul} align-items-center`}
+          >
             <li className={`nav-item`}>
               <a className={`nav-link`} aria-current="page" href="/">
                 Home
@@ -28,7 +32,12 @@ function NavBar() {
             </li>
 
             <li className={`nav-item`}>
-              <a className={`nav-link`} aria-current="page">
+              <a
+                className={`nav-link`}
+                aria-current="page"
+                href="corptrain-link"
+                target="_blank"
+              >
                 Corporate Training
               </a>
             </li>
