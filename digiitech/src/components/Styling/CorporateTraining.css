@@ -1,53 +1,53 @@
-.navbar-nav{
+.navbar-nav {
     display: flex;
     flex-direction: row;
     gap: 20px;
-  }
-  
-  .nav-item:hover{
+}
+
+.nav-item:hover {
     text-decoration: underline;
-  }
-  
-  #trainingContainer{
+}
+
+#trainingContainer {
     padding: 0;
     margin: 0;
-  }
-  
-  #trainingContent{
-    background-image: url(/Users/aayushisaraswat/Digiitech/digiitech/src/assets/images/training.jpg);
+}
+
+#trainingContent {
+    background-image: url(https://i.postimg.cc/QNfdZ0xY/8873615-orig.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-  }
-  
-  #imageContainer{
+}
+
+#imageContainer {
     height: 400px;
-  }
-  
-  #trainingBtn{
+}
+
+#trainingBtn {
     background-color: #f04c24;
     color: black;
-  }
-  
-  #trustedBy{
+}
+
+#trustedBy {
     display: flex;
-  }
-  
-  #rightContent{
+}
+
+#rightContent {
     margin: 0;
     gap: 10px;
-  }
-  
-  #heading_2{
+}
+
+#heading_2 {
     font-size: 30px;
     font-weight: 500;
-  }
-  
-  #heading_3{
+}
+
+#heading_3 {
     font-size: 16px;
     margin-top: 10px;
-  }
-  
-  .corpfeatures {
+}
+
+.corpfeatures {
     background: url(https://i.postimg.cc/7YWjqJzZ/Beige-Neutral-Minimalist-Photography-Studio-Typography-Logo.png) no-repeat center;
     display: inline-block;
     width: 100%;
@@ -67,7 +67,7 @@ img {
     width: 45px;
 }
 
-.container {
+#Ct .container {
     margin-top: -30px;
     width: 100% !important;
 
