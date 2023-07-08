@@ -1,0 +1,62 @@
+.chartContainer {
+    margin-top: 20px;
+    margin-left: 40px;
+  }
+  
+  .chartCard {
+    width: 516px;
+    height: 460px;
+    top: 297px;
+    left: 898px;
+    border-radius: 27px;
+  }
+  
+  .pieChart {
+    height: 60%;
+    width: 60%;
+    margin-left: 70px;
+    margin-top: 30px;
+  }
+  
+  .legendContainer .legend-name {
+    background-size: 12px !important;
+    background-color: #a3aed0 !important;
+    font-family: 'Gilroy', sans-serif !important;
+    font-size: 16px !important;
+    font-weight: 500 !important;
+    line-height: 27px !important;
+    letter-spacing: -0.02em !important;
+    text-align: left !important;
+  }
+  
+  .legendContainer .legend-name .percentage {
+    color: #2b3674 !important;
+    font-family: 'Gilroy', sans-serif !important;
+    font-size: 24px !important;
+    font-weight: 700 !important;
+    line-height: 40px !important;
+    letter-spacing: -0.02em !important;
+    text-align: left !important;
+  }
+  
+  .chartTitle {
+    color: #2b3674 !important;
+  }
+
+  .dropdownContainer {
+    position: relative;
+    top: 0px;
+    right: 10px;
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+  }
+  
+  .dropdownContainer .MuiFormControl-root {
+    min-width: 120px;
+  }
+  
+  .dropdownContainer .MuiSelect-select {
+    color: #a3aed0 !important;
+    border-bottom: 0.3px solid #a3aed0;
+  }
