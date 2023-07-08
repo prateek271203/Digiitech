@@ -13,6 +13,7 @@ import BlogPostsSection from "./components/BlogPostsSection";
 import Footer from "./components/Footer";
 import CoursesPage from "./components/CoursesPage";
 import CorporateTraining from "./components/CorporateTraining";
+import Modal from "./components/Modal";
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function AppContent() {
 
   return (
     <>
+      <Modal />
       <Routes>
         <Route path="courses-link" element={<CoursesPage />} />
       </Routes>

@@ -62,8 +62,8 @@ function CorporateTraining() {
           </nav>
 
           <div className="container-fluid mt-5" id="trainingContainer">
-            <div class="jumbotron text-left" id="trainingContent">
-              <div class="container" id="imageContainer">
+            <div className="jumbotron text-left" id="trainingContent">
+              <div className="container" id="imageContainer">
                 <h2 id="heading_1" className="heading_1 mb-5">
                   CORPORATE TRAINING
                 </h2>
@@ -77,7 +77,7 @@ function CorporateTraining() {
                     cutting edge curriculum
                   </span>
                 </p>
-                <button type="button" id="trainingBtn" class="btn btn-lg">
+                <button type="button" id="trainingBtn" className="btn btn-lg">
                   Connect With Us
                 </button>
               </div>
@@ -89,66 +89,66 @@ function CorporateTraining() {
               Trusted By
             </div>
             <div className="row" id="rightContent">
-              <div class="card border-0" style={{ width: "7rem" }}>
+              <div className="card border-0" style={{ width: "7rem" }}>
                 <img
                   src={training1}
-                  class="card-img-top"
+                  className="card-img-top"
                   alt="..."
                   style={{ width: "5rem", height: "40px" }}
                 />
               </div>
-              <div class="card border-0" style={{ width: "7rem" }}>
+              <div className="card border-0" style={{ width: "7rem" }}>
                 <img
                   src={training2}
-                  class="card-img-top"
+                  className="card-img-top"
                   alt="..."
                   style={{ width: "5rem", height: "40px" }}
                 />
               </div>
-              <div class="card border-0" style={{ width: "7rem" }}>
+              <div className="card border-0" style={{ width: "7rem" }}>
                 <img
                   src={training3}
-                  class="card-img-top"
+                  className="card-img-top"
                   alt="..."
                   style={{ width: "5rem", height: "40px" }}
                 />
               </div>
-              <div class="card border-0" style={{ width: "7rem" }}>
+              <div className="card border-0" style={{ width: "7rem" }}>
                 <img
                   src={training4}
-                  class="card-img-top"
+                  className="card-img-top"
                   alt="..."
                   style={{ width: "6rem", height: "40px" }}
                 />
               </div>
-              <div class="card border-0" style={{ width: "7rem" }}>
+              <div className="card border-0" style={{ width: "7rem" }}>
                 <img
                   src={training5}
-                  class="card-img-top"
+                  className="card-img-top"
                   alt="..."
                   style={{ width: "5rem", height: "40px" }}
                 />
               </div>
-              <div class="card border-0" style={{ width: "7rem" }}>
+              <div className="card border-0" style={{ width: "7rem" }}>
                 <img
                   src={training6}
-                  class="card-img-top"
+                  className="card-img-top"
                   alt="..."
                   style={{ width: "5rem", height: "40px" }}
                 />
               </div>
-              <div class="card border-0" style={{ width: "7rem" }}>
+              <div className="card border-0" style={{ width: "7rem" }}>
                 <img
                   src={training7}
-                  class="card-img-top"
+                  className="card-img-top"
                   alt="..."
                   style={{ width: "5rem", height: "40px" }}
                 />
               </div>
-              <div class="card border-0" style={{ width: "7rem" }}>
+              <div className="card border-0" style={{ width: "7rem" }}>
                 <img
                   src={training8}
-                  class="card-img-top"
+                  className="card-img-top"
                   alt="..."
                   style={{ width: "5rem", height: "40px" }}
                 />
@@ -161,50 +161,50 @@ function CorporateTraining() {
               Designed for all your Training Needs
             </h2>
             <div className="row" id="needCards">
-              <div class="card" style={{ width: "16rem" }}>
+              <div className="card" style={{ width: "16rem" }}>
                 <img
                   src={training9}
-                  class="card-img-top"
+                  className="card-img-top"
                   alt="/"
                   style={{ width: "16rem", height: "200px" }}
                 />
-                <div class="card-body">
-                  <h5 class="card-title">On-Premise Classroom Training</h5>
+                <div className="card-body">
+                  <h5 className="card-title">On-Premise Classroom Training</h5>
                 </div>
               </div>
-              <div class="card" style={{ width: "16rem" }}>
+              <div className="card" style={{ width: "16rem" }}>
                 <img
                   src={training10}
-                  class="card-img-top"
+                  className="card-img-top"
                   alt="/"
                   style={{ width: "16rem", height: "200px" }}
                 />
-                <div class="card-body">
-                  <h5 class="card-title">
+                <div className="card-body">
+                  <h5 className="card-title">
                     Instructor-Led Live, Online Training
                   </h5>
                 </div>
               </div>
-              <div class="card" style={{ width: "16rem" }}>
+              <div className="card" style={{ width: "16rem" }}>
                 <img
                   src={training11}
-                  class="card-img-top"
+                  className="card-img-top"
                   alt="/"
                   style={{ width: "16rem", height: "200px" }}
                 />
-                <div class="card-body">
-                  <h5 class="card-title">Self-Paced Online Training</h5>
+                <div className="card-body">
+                  <h5 className="card-title">Self-Paced Online Training</h5>
                 </div>
               </div>
-              <div class="card" style={{ width: "16rem" }}>
+              <div className="card" style={{ width: "16rem" }}>
                 <img
                   src={training12}
-                  class="card-img-top"
+                  className="card-img-top"
                   alt="/"
                   style={{ width: "16rem", height: "200px" }}
                 />
-                <div class="card-body">
-                  <h5 class="card-title">Blended Training</h5>
+                <div className="card-body">
+                  <h5 className="card-title">Blended Training</h5>
                 </div>
               </div>
             </div>
