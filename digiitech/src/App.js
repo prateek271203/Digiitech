@@ -13,6 +13,7 @@ import BlogPostsSection from "./components/BlogPostsSection";
 import Footer from "./components/Footer";
 import CoursesPage from "./components/CoursesPage";
 import CorporateTraining from "./components/CorporateTraining";
+import Modal from "./components/Modal";
 
 function App() {
   return (
@@ -25,23 +26,23 @@ function App() {
 function AppContent() {
   const location = useLocation();
   const isCoursesPage = location.pathname.includes("courses-link");
+  const isCorporateTraining = location.pathname.includes("corptrain-link");
 
   return (
     <>
+      <Modal />
       <Routes>
         <Route path="courses-link" element={<CoursesPage />} />
-      </Routes>
-      <Routes>
         <Route path="corptrain-link" element={<CorporateTraining />} />
       </Routes>
-      {!isCoursesPage && <Navbar />}
-      {!isCoursesPage && <ImageSlider />}
-      <TrendingCourses />
-      <CareerRelatedPrograms />
-      <RecentAdditions />
-      <TopCategories />
-      <ReviewsSection />
-      <BlogPostsSection />
+      {!isCoursesPage && !isCorporateTraining && <Navbar />}
+      {!isCoursesPage && !isCorporateTraining && <ImageSlider />}
+      {!isCoursesPage && !isCorporateTraining && <TrendingCourses />}
+      {!isCoursesPage && !isCorporateTraining && <CareerRelatedPrograms />}
+      {!isCoursesPage && !isCorporateTraining && <RecentAdditions />}
+      {!isCoursesPage && !isCorporateTraining && <TopCategories />}
+      {!isCoursesPage && !isCorporateTraining && <ReviewsSection />}
+      {!isCoursesPage && !isCorporateTraining && <BlogPostsSection />}
       <Footer />
     </>
   );
