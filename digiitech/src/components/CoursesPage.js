@@ -305,10 +305,10 @@ function CoursesPage() {
                 <div className="post-content">
                   <div className="post-content-top">
                     <span>
-                      <i className="fas fa-calendar"></i>Web Development
+                      <i className="fas fa-calendar mx-2"></i>Web Development
                     </span>
                     <span>
-                      <i className="fas fa-comment"></i>34
+                      <i className="fas fa-comment mx-1"></i>34
                     </span>
                   </div>
                   <h2>Lorem ipsum dolor sit amet</h2>
@@ -328,33 +328,10 @@ function CoursesPage() {
                 <div className="post-content">
                   <div className="post-content-top">
                     <span>
-                      <i className="fas fa-calendar"></i>January 01, 2XXX
+                      <i className="fas fa-calendar mx-2"></i>January 01, 2XXX
                     </span>
                     <span>
-                      <i className="fas fa-comment"></i>34
-                    </span>
-                  </div>
-                  <h2>Lorem ipsum dolor sit amet</h2>
-                  <p>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                    Accusamus recusandae aspernatur possimus illum, repellat ad
-                    quasi earum, illo voluptatibus minima fugiat saepe magni
-                    corporis vero eius accusantium quidem, consectetur nesciunt!
-                  </p>
-                </div>
-                <button type="button" className="read-btn">
-                  View Course Details
-                </button>
-              </div>
-
-              <div className="all python">
-                <div className="post-content">
-                  <div className="post-content-top">
-                    <span>
-                      <i className="fas fa-calendar"></i>January 01, 2XXX
-                    </span>
-                    <span>
-                      <i className="fas fa-comment"></i>34
+                      <i className="fas fa-comment mx-1"></i>34
                     </span>
                   </div>
                   <h2>Lorem ipsum dolor sit amet</h2>
@@ -374,33 +351,10 @@ function CoursesPage() {
                 <div className="post-content">
                   <div className="post-content-top">
                     <span>
-                      <i className="fas fa-calendar"></i>January 01, 2XXX
+                      <i className="fas fa-calendar mx-2"></i>January 01, 2XXX
                     </span>
                     <span>
-                      <i className="fas fa-comment"></i>34
-                    </span>
-                  </div>
-                  <h2>Lorem ipsum dolor sit amet</h2>
-                  <p>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                    Accusamus recusandae aspernatur possimus illum, repellat ad
-                    quasi earum, illo voluptatibus minima fugiat saepe magni
-                    corporis vero eius accusantium quidem, consectetur nesciunt!
-                  </p>
-                </div>
-                <button type="button" className="read-btn">
-                  View Course Details
-                </button>
-              </div>
-
-              <div className="all python">
-                <div className="post-content">
-                  <div className="post-content-top">
-                    <span>
-                      <i className="fas fa-calendar"></i>January 01, 2XXX
-                    </span>
-                    <span>
-                      <i className="fas fa-comment"></i>34
+                      <i className="fas fa-comment mx-1"></i>34
                     </span>
                   </div>
                   <h2>Lorem ipsum dolor sit amet</h2>
@@ -420,10 +374,56 @@ function CoursesPage() {
                 <div className="post-content">
                   <div className="post-content-top">
                     <span>
-                      <i className="fas fa-calendar"></i>January 01, 2XXX
+                      <i className="fas fa-calendar mx-2"></i>January 01, 2XXX
                     </span>
                     <span>
-                      <i className="fas fa-comment"></i>34
+                      <i className="fas fa-comment mx-1"></i>34
+                    </span>
+                  </div>
+                  <h2>Lorem ipsum dolor sit amet</h2>
+                  <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Accusamus recusandae aspernatur possimus illum, repellat ad
+                    quasi earum, illo voluptatibus minima fugiat saepe magni
+                    corporis vero eius accusantium quidem, consectetur nesciunt!
+                  </p>
+                </div>
+                <button type="button" className="read-btn">
+                  View Course Details
+                </button>
+              </div>
+
+              <div className="all python">
+                <div className="post-content">
+                  <div className="post-content-top">
+                    <span>
+                      <i className="fas fa-calendar mx-2"></i>January 01, 2XXX
+                    </span>
+                    <span>
+                      <i className="fas fa-comment mx-1"></i>34
+                    </span>
+                  </div>
+                  <h2>Lorem ipsum dolor sit amet</h2>
+                  <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Accusamus recusandae aspernatur possimus illum, repellat ad
+                    quasi earum, illo voluptatibus minima fugiat saepe magni
+                    corporis vero eius accusantium quidem, consectetur nesciunt!
+                  </p>
+                </div>
+                <button type="button" className="read-btn">
+                  View Course Details
+                </button>
+              </div>
+
+              <div className="all python">
+                <div className="post-content">
+                  <div className="post-content-top">
+                    <span>
+                      <i className="fas fa-calendar mx-2"></i>January 01, 2XXX
+                    </span>
+                    <span>
+                      <i className="fas fa-comment mx-1"></i>34
                     </span>
                   </div>
                   <h2>Lorem ipsum dolor sit amet</h2>
@@ -443,33 +443,10 @@ function CoursesPage() {
                 <div className="post-content">
                   <div className="post-content-top">
                     <span>
-                      <i className="fas fa-calendar"></i>January 01, 2XXX
+                      <i className="fas fa-calendar mx-2"></i>January 01, 2XXX
                     </span>
                     <span>
-                      <i className="fas fa-comment"></i>34
-                    </span>
-                  </div>
-                  <h2>Lorem ipsum dolor sit amet</h2>
-                  <p>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                    Accusamus recusandae aspernatur possimus illum, repellat ad
-                    quasi earum, illo voluptatibus minima fugiat saepe magni
-                    corporis vero eius accusantium quidem, consectetur nesciunt!
-                  </p>
-                </div>
-                <button type="button" className="read-btn">
-                  View Course Details
-                </button>
-              </div>
-
-              <div className="all data-science">
-                <div className="post-content">
-                  <div className="post-content-top">
-                    <span>
-                      <i className="fas fa-calendar"></i>January 01, 2XXX
-                    </span>
-                    <span>
-                      <i className="fas fa-comment"></i>34
+                      <i className="fas fa-comment mx-1"></i>34
                     </span>
                   </div>
                   <h2>Lorem ipsum dolor sit amet</h2>
@@ -489,10 +466,33 @@ function CoursesPage() {
                 <div className="post-content">
                   <div className="post-content-top">
                     <span>
-                      <i className="fas fa-calendar"></i>January 01, 2XXX
+                      <i className="fas fa-calendar mx-2"></i>January 01, 2XXX
                     </span>
                     <span>
-                      <i className="fas fa-comment"></i>34
+                      <i className="fas fa-comment mx-1"></i>34
+                    </span>
+                  </div>
+                  <h2>Lorem ipsum dolor sit amet</h2>
+                  <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Accusamus recusandae aspernatur possimus illum, repellat ad
+                    quasi earum, illo voluptatibus minima fugiat saepe magni
+                    corporis vero eius accusantium quidem, consectetur nesciunt!
+                  </p>
+                </div>
+                <button type="button" className="read-btn">
+                  View Course Details
+                </button>
+              </div>
+
+              <div className="all data-science">
+                <div className="post-content">
+                  <div className="post-content-top">
+                    <span>
+                      <i className="fas fa-calendar mx-2"></i>January 01, 2XXX
+                    </span>
+                    <span>
+                      <i className="fas fa-comment mx-1"></i>34
                     </span>
                   </div>
                   <h2>Lorem ipsum dolor sit amet</h2>
@@ -512,33 +512,10 @@ function CoursesPage() {
                 <div className="post-content">
                   <div className="post-content-top">
                     <span>
-                      <i className="fas fa-calendar"></i>January 01, 2XXX
+                      <i className="fas fa-calendar mx-2"></i>January 01, 2XXX
                     </span>
                     <span>
-                      <i className="fas fa-comment"></i>34
-                    </span>
-                  </div>
-                  <h2>Lorem ipsum dolor sit amet</h2>
-                  <p>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                    Accusamus recusandae aspernatur possimus illum, repellat ad
-                    quasi earum, illo voluptatibus minima fugiat saepe magni
-                    corporis vero eius accusantium quidem, consectetur nesciunt!
-                  </p>
-                </div>
-                <button type="button" className="read-btn">
-                  View Course Details
-                </button>
-              </div>
-
-              <div className="all aws-certification">
-                <div className="post-content">
-                  <div className="post-content-top">
-                    <span>
-                      <i className="fas fa-calendar"></i>January 01, 2XXX
-                    </span>
-                    <span>
-                      <i className="fas fa-comment"></i>34
+                      <i className="fas fa-comment mx-1"></i>34
                     </span>
                   </div>
                   <h2>Lorem ipsum dolor sit amet</h2>
@@ -558,10 +535,10 @@ function CoursesPage() {
                 <div className="post-content">
                   <div className="post-content-top">
                     <span>
-                      <i className="fas fa-calendar"></i>January 01, 2XXX
+                      <i className="fas fa-calendar mx-2"></i>January 01, 2XXX
                     </span>
                     <span>
-                      <i className="fas fa-comment"></i>34
+                      <i className="fas fa-comment mx-1"></i>34
                     </span>
                   </div>
                   <h2>Lorem ipsum dolor sit amet</h2>
@@ -581,10 +558,33 @@ function CoursesPage() {
                 <div className="post-content">
                   <div className="post-content-top">
                     <span>
-                      <i className="fas fa-calendar"></i>January 01, 2XXX
+                      <i className="fas fa-calendar mx-2"></i>January 01, 2XXX
                     </span>
                     <span>
-                      <i className="fas fa-comment"></i>34
+                      <i className="fas fa-comment mx-1"></i>34
+                    </span>
+                  </div>
+                  <h2>Lorem ipsum dolor sit amet</h2>
+                  <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Accusamus recusandae aspernatur possimus illum, repellat ad
+                    quasi earum, illo voluptatibus minima fugiat saepe magni
+                    corporis vero eius accusantium quidem, consectetur nesciunt!
+                  </p>
+                </div>
+                <button type="button" className="read-btn">
+                  View Course Details
+                </button>
+              </div>
+
+              <div className="all aws-certification">
+                <div className="post-content">
+                  <div className="post-content-top">
+                    <span>
+                      <i className="fas fa-calendar mx-2"></i>January 01, 2XXX
+                    </span>
+                    <span>
+                      <i className="fas fa-comment mx-1"></i>34
                     </span>
                   </div>
                   <h2>Lorem ipsum dolor sit amet</h2>
@@ -604,10 +604,10 @@ function CoursesPage() {
                 <div className="post-content">
                   <div className="post-content-top">
                     <span>
-                      <i className="fas fa-calendar"></i>January 01, 2XXX
+                      <i className="fas fa-calendar mx-2"></i>January 01, 2XXX
                     </span>
                     <span>
-                      <i className="fas fa-comment"></i>34
+                      <i className="fas fa-comment mx-1"></i>34
                     </span>
                   </div>
                   <h2>Lorem ipsum dolor sit amet</h2>
@@ -627,10 +627,10 @@ function CoursesPage() {
                 <div className="post-content">
                   <div className="post-content-top">
                     <span>
-                      <i className="fas fa-calendar"></i>January 01, 2XXX
+                      <i className="fas fa-calendar mx-2"></i>January 01, 2XXX
                     </span>
                     <span>
-                      <i className="fas fa-comment"></i>34
+                      <i className="fas fa-comment mx-1"></i>34
                     </span>
                   </div>
                   <h2>Lorem ipsum dolor sit amet</h2>

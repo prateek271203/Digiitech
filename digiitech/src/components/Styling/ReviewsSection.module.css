@@ -21,13 +21,15 @@
 }
 
 .view-more {
-  color: blue;
+  color: #f04c24;
   cursor: pointer;
-  text-decoration: underline;
+  /* text-decoration: underline; */
   border:none;
   background-color: #fff;
 }
-
+.view-more:hover{
+  text-decoration: underline;
+}
 .review-image {
   margin-top: 50px;
   width: 100px;

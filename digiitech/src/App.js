@@ -28,11 +28,9 @@ function AppContent() {
 
   return (
     <>
-      <Routes>
-        <Route path="courses-link" element={<CoursesPage />} />
-      </Routes>
-      <Routes>
+       <Routes>
         <Route path="corptrain-link" element={<CorporateTraining />} />
+        <Route path="courses-link" element={<CoursesPage />} />
       </Routes>
       {!isCoursesPage && <Navbar />}
       {!isCoursesPage && <ImageSlider />}

@@ -2,12 +2,10 @@
     padding: 0 0.7rem;
 
 }
-
 #Cp .nav_ul li {
     padding: 0 0.5rem;
 
 }
-
 #Cp .nav_ul a {
     font-size: 19px;
     color: #000000;
@@ -15,7 +13,6 @@
     letter-spacing: 0.7px;
     border-radius: 20px;
 }
-
 #Cp .nav_ul a:hover {
     transition: 0.35s ease-out;
     transform: scale(1.1);
@@ -23,14 +20,12 @@
     color: white;
     border-radius: 20px;
 }
-
 #Cp .nav-link-active {
     text-decoration: none;
     background-color: #192f60;
     border-radius: 15px;
     padding: 0.5rem 0.8rem;
 }
-
 #Cp .btn2 {
     position: relative;
     border-radius: 8px;
@@ -44,12 +39,10 @@
     cursor: pointer;
     transition: 0.3s ease-in-out;
 }
-
 #Cp .btn2:hover {
     background-color: #192f60;
     color: #fff;
 }
-
 @media screen and (max-width: 1200px) {
     #Cp .btn2 {
         font-size: 1rem;
@@ -59,7 +52,6 @@
         font-size: 1.1rem;
     }
 }
-
 @media screen and (max-width: 1100px) {
     #Cp .btn2 {
         font-size: 0.85rem;
@@ -69,33 +61,27 @@
         font-size: 0.95rem;
     }
 }
-
 #Cp .navbar-text {
     font-size: 18.5px;
     margin-left: 50px;
     margin-top: -8px;
 }
-
 #Cp .upper {
     height: 43px;
 }
-
 #Cp i {
     cursor: pointer;
     color: white;
 }
-
 #Cp .modal-title {
     color: #333 !important;
 }
-
 #Cp .con {
     padding: auto;
     margin: auto;
     max-width: 100%;
     width: 1250px;
 }
-
 #Cp .box {
     text-decoration: none;
     color: #ffffff;
@@ -103,7 +89,6 @@
     padding: 23px 25px;
     border-radius: 8px;
 }
-
 #Cp .box {
     text-decoration: none;
     color: #192f60;
@@ -113,41 +98,31 @@
     border-radius: 8px;
     box-shadow: 0px 4px 10px #e5e6e9;
 }
-
 #Cp .box:hover {
     background-color: #f0aa99;
 }
-
 #Cp form {
     box-shadow: 0px 1px 4px #e5e6e9;
     border-radius: 30px !important;
 }
-
 #Cp input {
     border-radius: 30px !important;
     height: 50px;
 }
-
 #Cp img {
     margin-top: -2px;
     margin-left: 15px;
     margin-right: 10px;
 }
-
-
-
-
 #Cp #Course-card .category-head {
     margin: 30px 0;
 }
-
 #Cp #Course-card .category-head ul {
     list-style-type: none;
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
 }
-
 #Cp #Course-card .category-title {
     flex: 0 0 calc(16.6667% - 10px);
     display: flex;
@@ -159,40 +134,35 @@
     cursor: pointer;
     transition: all 0.4s ease;
 }
-
 #Cp #Course-card .category-title:hover {
     opacity: 0.7;
 }
-
 #Cp #Course-card .category-title li {
     padding: 0 10px;
 }
-
 #Cp #Course-card .category-title span {
     color: #222;
 }
-
 #Cp #Course-card .active {
     background: #f04c24;
 }
-
 #Cp #Course-card .fa-solid,
 #Cp #Course-card .fa-brands {
     color: #000000;
 }
-
 /** single post **/
 #Cp #Course-card .posts-main-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 40px;
 }
-
 #Cp #Course-card .posts-main-container>div {
     box-shadow: 0px 8px 22px -12px rgba(0, 0, 0, 0.64);
 }
-
-
+#Cp #Course-card .posts-main-container>div:hover{
+    transform: scale(1.06);
+    cursor: pointer;
+}
 #Cp #Course-card .category-name {
     position: absolute;
     top: 20px;
@@ -203,39 +173,32 @@
     padding: 4px 10px;
     border-radius: 2px;
 }
-
-
 #Cp #Course-card .post-content {
     padding: 25px;
 }
 
 #Cp #Course-card .post-content-top {
-    background: #257ae9;
+    background: #f04c24;
     color: #fff;
     padding: 5px 0 5px 15px;
 }
-
 #Cp #Course-card .post-content-top span {
     padding-right: 20px;
 }
-
 #Cp #Course-card .post-content-top #Cp #Course-card .fa-comment,
 #Cp #Course-card .post-content-top #Cp #Course-card .fa-calendar {
     padding-right: 5px;
 }
-
 #Cp #Course-card .post-content h2 {
     font-size: 22px;
     padding: 12px 0;
     font-weight: 400;
 }
-
 #Cp #Course-card .post-content p {
     opacity: 0.7;
     font-size: 15px;
     line-height: 1.8;
 }
-
 #Cp #Course-card .read-btn {
     border: none;
     padding: 8px 15px;
@@ -244,39 +207,33 @@
     font-family: 'Poppins', sans-serif;
     font-size: 15px;
     cursor: pointer;
-    border: 1px solid #192f60;
+    border: 1px solid #f04c24;
     background: transparent;
     margin-bottom: 40px;
     color: #257ae9;
 }
-
 #Cp #Course-card .read-btn:hover {
-    background: #f6f6f6;
+    background: #f04c24;
+    color: white;
+    border: none;
+    border-radius: 5px;
 }
-
-
-
 /***************/
 @media(max-width: 1170px) {
     #Cp #Course-card .posts-main-container {
         grid-template-columns: repeat(2, 1fr);
     }
 }
-
 @media(max-width: 768px) {
     #Cp #Course-card .posts-main-container {
         grid-template-columns: 1fr;
     }
 }
-
-
 /***********/
-
 #Cp #Course-card .active {
     background-color: #f04c24;
     color: #fff;
 }
-
 #Cp .tabs a {
     cursor: pointer;
 }
