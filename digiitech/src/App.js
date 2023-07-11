@@ -1,48 +1,32 @@
 import React from "react";
 import "./App.css";
-import { BrowserRouter, useLocation, Routes, Route } from "react-router-dom";
-
-import Navbar from "./components/Navbar";
-import ImageSlider from "./components/ImageSlider";
-import TrendingCourses from "./components/TrendingCourses";
-import CareerRelatedPrograms from "./components/CareerRelatedPrograms";
-import RecentAdditions from "./components/RecentAdditions";
-import TopCategories from "./components/TopCategories";
-import ReviewsSection from "./components/ReviewsSection";
-import BlogPostsSection from "./components/BlogPostsSection";
-import Footer from "./components/Footer";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+// AdminPanel
+import Authentication from './AdminPanel/Components/Authentication/Authentication';
+import ForgetPasswordForm from './AdminPanel/Components/ForgetPassword/ForgetPasswordForm';
+import NewPasswordForm from './AdminPanel/Components/NewPasswordScreen/NewPasswordForm';
+import Dashboard from './AdminPanel/Components/Dashboard/Dashboard';
+// HomePage
+import HomePage from './components/HomePage';
 import CoursesPage from "./components/CoursesPage";
 import CorporateTraining from "./components/CorporateTraining";
 
 function App() {
   return (
-    <BrowserRouter>
-      <AppContent />
-    </BrowserRouter>
-  );
-}
-
-function AppContent() {
-  const location = useLocation();
-  const isCoursesPage = location.pathname.includes("courses-link");
-
-  return (
-    <>
-       <Routes>
-        <Route path="corptrain-link" element={<CorporateTraining />} />
-        <Route path="courses-link" element={<CoursesPage />} />
+    <Router>
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/AdminPanel" element={<Authentication />} />
+        <Route path="/forgotPassword" element={<ForgetPasswordForm />} />
+        <Route path="/newPassword" element={<NewPasswordForm />} />
+        <Route path="/Dashboard" element={<Dashboard />} />
+        {/* Add more routes here */}
+        <Route path="/corptrain-link" element={<CorporateTraining />} />
+        <Route path="/courses-link" element={<CoursesPage />} />
       </Routes>
-      {!isCoursesPage && <Navbar />}
-      {!isCoursesPage && <ImageSlider />}
-      <TrendingCourses />
-      <CareerRelatedPrograms />
-      <RecentAdditions />
-      <TopCategories />
-      <ReviewsSection />
-      <BlogPostsSection />
-      <Footer />
-    </>
+    </Router>
   );
 }
 
 export default App;
+

@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "./Styling/Navbar.module.css";
 import Image1 from "../assets/images/logo1.png";
+import Modal from "./Modal";
 
 function NavBar() {
   return (
@@ -97,7 +98,7 @@ function NavBar() {
                 data-bs-target="#examModal"
               >
                 Get Started
-                <i></i>
+                <i><Modal/></i>
               </button>
             </div>
           </ul>
