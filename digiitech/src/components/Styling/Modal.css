@@ -235,18 +235,3 @@
     color: #fff;
     transform: translateY(-5px) scale(1.1);
 }
-
-#Model .teach {
-    color: #000;
-    font-size: 18px;
-    font-weight: 500;
-    border-radius: 30px;
-    padding: 15px 20px;
-    transition: 0.2s ease-in-out;
-}
-
-#Model .teach:hover {
-    color: #fff;
-    background-color: #f04c24;
-    box-shadow: 0px 4px 10px #f04c24;
-}
