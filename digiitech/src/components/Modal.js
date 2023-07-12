@@ -1,4 +1,5 @@
 import React, { useEffect } from "react";
+import { Link } from "react-router-dom";
 import "./Styling/Modal.css";
 function Modal() {
   useEffect(() => {

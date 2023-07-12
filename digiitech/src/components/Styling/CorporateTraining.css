@@ -1,10 +1,10 @@
-.navbar-nav {
+#Ct1 .navbar-nav {
     display: flex;
     flex-direction: row;
     gap: 20px;
 }
 
-.nav-item:hover {
+#Ct1 .nav-item:hover {
     text-decoration: underline;
 }
 
@@ -362,4 +362,9 @@ textarea {
 
 textarea {
     padding: 10px;
+}
+
+/* Hover effect */
+#trainingNeeds #needCards .col .card:hover{
+    transition: transform 0.3s ease !important;
 }

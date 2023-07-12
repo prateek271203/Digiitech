@@ -40,24 +40,26 @@ function CorporateTraining() {
       <div id="Ct1">
         <div className="corporate-training" id="corpTraining">
           <nav className="navbar fixed-top navbar-light bg-light">
-            <a className="navbar-brand" href="/">
-              DigiiTech
-            </a>
-            <div className="navbar-nav">
-              <a className="nav-item nav-link active" href="/">
-                <i
-                  className="bi bi-envelope-fill"
-                  style={{ margin: "10px" }}
-                ></i>
-                digiitech@gmail.com<span className="sr-only">(current)</span>
+            <div className="container">
+              <a className="navbar-brand" href="/">
+                DigiiTech
               </a>
-              <a className="nav-item nav-link active" href="/">
-                <i
-                  className="bi bi-telephone-fill"
-                  style={{ margin: "8px" }}
-                ></i>
-                9876543219{" "}
-              </a>
+              <div className="navbar-nav">
+                <a className="nav-item nav-link active" href="/">
+                  <i
+                    className="bi bi-envelope-fill"
+                    style={{ margin: "10px" }}
+                  ></i>
+                  digiitech@gmail.com<span className="sr-only">(current)</span>
+                </a>
+                <a className="nav-item nav-link active" href="/">
+                  <i
+                    className="bi bi-telephone-fill"
+                    style={{ margin: "8px" }}
+                  ></i>
+                  9876543219{" "}
+                </a>
+              </div>
             </div>
           </nav>
 
@@ -157,9 +159,9 @@ function CorporateTraining() {
           </div>
 
           <div className="container mt-5" id="trainingNeeds">
-            <h2 className="text-info align-center mb-5">
+            <h3 className="text-info align-center mb-5">
               Designed for all your Training Needs
-            </h2>
+            </h3>
             <div className="row" id="needCards">
               <div className="card" style={{ width: "16rem" }}>
                 <img

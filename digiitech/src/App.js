@@ -1,16 +1,13 @@
 import React from "react";
 import "./App.css";
-import { BrowserRouter, useLocation, Routes, Route } from "react-router-dom";
-
-import Navbar from "./components/Navbar";
-import ImageSlider from "./components/ImageSlider";
-import TrendingCourses from "./components/TrendingCourses";
-import CareerRelatedPrograms from "./components/CareerRelatedPrograms";
-import RecentAdditions from "./components/RecentAdditions";
-import TopCategories from "./components/TopCategories";
-import ReviewsSection from "./components/ReviewsSection";
-import BlogPostsSection from "./components/BlogPostsSection";
-import Footer from "./components/Footer";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+// AdminPanel
+import Authentication from "./AdminPanel/Components/Authentication/Authentication";
+import ForgetPasswordForm from "./AdminPanel/Components/ForgetPassword/ForgetPasswordForm";
+import NewPasswordForm from "./AdminPanel/Components/NewPasswordScreen/NewPasswordForm";
+import Dashboard from "./AdminPanel/Components/Dashboard/Dashboard";
+// HomePage
+import HomePage from "./components/HomePage";
 import CoursesPage from "./components/CoursesPage";
 import CorporateTraining from "./components/CorporateTraining";
 import Modal from "./components/Modal";
