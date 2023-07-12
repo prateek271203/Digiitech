@@ -64,12 +64,28 @@ function CorporateTraining() {
           </nav>
 
           <div className="container-fluid mt-5" id="trainingContainer">
-            <div class="jumbotron text-left" id="trainingContent">
-              <div class="container" id="imageContainer">
-                
+            <div className="jumbotron text-left" id="trainingContent">
+              <div className="container" id="imageContainer">
+                <h2 id="heading_1" className="heading_1 mb-5">
+                  CORPORATE TRAINING
+                </h2>
+                <p>
+                  <span id="heading_2" className="heading_2 mb-5">
+                    Workplace Learning that Works
+                  </span>
+                  <br />
+                  <span id="heading_3">
+                    Skill your workforce in new age technologies with our
+                    cutting edge curriculum
+                  </span>
+                </p>
+                <button type="button" id="trainingBtn" className="btn btn-lg">
+                  Connect With Us
+                </button>
               </div>
             </div>
           </div>
+
           <div className="container-fluid shadow pt-3">
             <div className="container" id="trustedBy">
               <div className="row" id="leftContent" style={{ width: "10rem" }}>
