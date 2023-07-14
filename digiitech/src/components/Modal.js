@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import { Link} from 'react-router-dom';
+import { Link } from "react-router-dom";
 import "./Styling/Modal.css";
 function Modal() {
   useEffect(() => {
@@ -103,10 +103,10 @@ function Modal() {
               </div>
             </div>
             <div class="modal-footer mx-auto">
-              <Link to="/AdminPanel">
+              <a href="http://localhost:3001" target="_blank">
                 <b className="teach mx-4">Admin SignIn/SignUp</b>
-                {/*<b className="teach ms-5">Teacher SignIn/SignUp</b>*/}
-              </Link>
+                <b className="teach ms-5">Teacher SignIn/SignUp</b>
+              </a>
             </div>
           </div>
         </div>

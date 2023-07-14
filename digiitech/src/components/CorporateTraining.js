@@ -41,25 +41,25 @@ function CorporateTraining() {
         <div className="corporate-training" id="corpTraining">
           <nav className="navbar fixed-top navbar-light bg-light">
             <div className="container">
-            <a className="navbar-brand" href="/">
-              DigiiTech
-            </a>
-            <div className="navbar-nav">
-              <a className="nav-item nav-link active" href="/">
-                <i
-                  className="bi bi-envelope-fill"
-                  style={{ margin: "10px" }}
-                ></i>
-                digiitech@gmail.com<span className="sr-only">(current)</span>
+              <a className="navbar-brand" href="/">
+                DigiiTech
               </a>
-              <a className="nav-item nav-link active" href="/">
-                <i
-                  className="bi bi-telephone-fill"
-                  style={{ margin: "8px" }}
-                ></i>
-                9876543219{" "}
-              </a>
-            </div>
+              <div className="navbar-nav">
+                <a className="nav-item nav-link active" href="/">
+                  <i
+                    className="bi bi-envelope-fill"
+                    style={{ margin: "10px" }}
+                  ></i>
+                  digiitech@gmail.com<span className="sr-only">(current)</span>
+                </a>
+                <a className="nav-item nav-link active" href="/">
+                  <i
+                    className="bi bi-telephone-fill"
+                    style={{ margin: "8px" }}
+                  ></i>
+                  9876543219{" "}
+                </a>
+              </div>
             </div>
           </nav>
 
@@ -86,76 +86,74 @@ function CorporateTraining() {
             </div>
           </div>
 
-          <div className="container-fluid shadow pt-3">
-            <div className="container" id="trustedBy">
-              <div className="row" id="leftContent" style={{ width: "10rem" }}>
-                Trusted By
+          <div className="container border-bottom" id="trustedBy">
+            <div className="row" id="leftContent" style={{ width: "10rem" }}>
+              Trusted By
+            </div>
+            <div className="row" id="rightContent">
+              <div className="card border-0" style={{ width: "7rem" }}>
+                <img
+                  src={training1}
+                  className="card-img-top"
+                  alt="..."
+                  style={{ width: "5rem", height: "40px" }}
+                />
               </div>
-              <div className="row pb-3 border-0" id="rightContent">
-                <div class="card border-0" style={{ width: "7rem" }}>
-                  <img
-                    src={training1}
-                    class="card-img-top"
-                    alt="..."
-                    style={{ width: "5rem", height: "40px" }}
-                  />
-                </div>
-                <div class="card border-0" style={{ width: "7rem" }}>
-                  <img
-                    src={training2}
-                    class="card-img-top"
-                    alt="..."
-                    style={{ width: "5rem", height: "40px" }}
-                  />
-                </div>
-                <div class="card border-0" style={{ width: "7rem" }}>
-                  <img
-                    src={training3}
-                    class="card-img-top"
-                    alt="..."
-                    style={{ width: "5rem", height: "40px" }}
-                  />
-                </div>
-                <div class="card border-0" style={{ width: "7rem" }}>
-                  <img
-                    src={training4}
-                    class="card-img-top"
-                    alt="..."
-                    style={{ width: "6rem", height: "40px" }}
-                  />
-                </div>
-                <div class="card border-0" style={{ width: "7rem" }}>
-                  <img
-                    src={training5}
-                    class="card-img-top"
-                    alt="..."
-                    style={{ width: "5rem", height: "40px" }}
-                  />
-                </div>
-                <div class="card border-0" style={{ width: "7rem" }}>
-                  <img
-                    src={training6}
-                    class="card-img-top"
-                    alt="..."
-                    style={{ width: "5rem", height: "40px" }}
-                  />
-                </div>
-                <div class="card border-0" style={{ width: "7rem" }}>
-                  <img
-                    src={training7}
-                    class="card-img-top"
-                    alt="..."
-                    style={{ width: "5rem", height: "40px" }}
-                  />
-                </div>
-                <div class="card border-0" style={{ width: "7rem" }}>
-                  <img
-                    src={training8}
-                    class="card-img-top"
-                    alt="..."
-                    style={{ width: "5rem", height: "40px" }}
-                  />
-                </div>
+              <div className="card border-0" style={{ width: "7rem" }}>
+                <img
+                  src={training2}
+                  className="card-img-top"
+                  alt="..."
+                  style={{ width: "5rem", height: "40px" }}
+                />
+              </div>
+              <div className="card border-0" style={{ width: "7rem" }}>
+                <img
+                  src={training3}
+                  className="card-img-top"
+                  alt="..."
+                  style={{ width: "5rem", height: "40px" }}
+                />
+              </div>
+              <div className="card border-0" style={{ width: "7rem" }}>
+                <img
+                  src={training4}
+                  className="card-img-top"
+                  alt="..."
+                  style={{ width: "6rem", height: "40px" }}
+                />
+              </div>
+              <div className="card border-0" style={{ width: "7rem" }}>
+                <img
+                  src={training5}
+                  className="card-img-top"
+                  alt="..."
+                  style={{ width: "5rem", height: "40px" }}
+                />
+              </div>
+              <div className="card border-0" style={{ width: "7rem" }}>
+                <img
+                  src={training6}
+                  className="card-img-top"
+                  alt="..."
+                  style={{ width: "5rem", height: "40px" }}
+                />
+              </div>
+              <div className="card border-0" style={{ width: "7rem" }}>
+                <img
+                  src={training7}
+                  className="card-img-top"
+                  alt="..."
+                  style={{ width: "5rem", height: "40px" }}
+                />
+              </div>
+              <div className="card border-0" style={{ width: "7rem" }}>
+                <img
+                  src={training8}
+                  className="card-img-top"
+                  alt="..."
+                  style={{ width: "5rem", height: "40px" }}
+                />
               </div>
             </div>
           </div>
@@ -165,58 +163,50 @@ function CorporateTraining() {
               Designed for all your Training Needs
             </h3>
             <div className="row" id="needCards">
-              <div className="col">
-                <div class="card shadow border-0" style={{ width: "16rem" }}>
-                  <img
-                    src={training9}
-                    class="card-img-top"
-                    alt="/"
-                    style={{ width: "16rem", height: "200px" }}
-                  />
-                  <div class="card-body">
-                    <h5 class="card-title">On-Premise Classroom Training</h5>
-                  </div>
+              <div className="card" style={{ width: "16rem" }}>
+                <img
+                  src={training9}
+                  className="card-img-top"
+                  alt="/"
+                  style={{ width: "16rem", height: "200px" }}
+                />
+                <div className="card-body">
+                  <h5 className="card-title">On-Premise Classroom Training</h5>
                 </div>
               </div>
-              <div className="col">
-                <div class="card shadow border-0" style={{ width: "16rem" }}>
-                    <img
-                      src={training10}
-                      class="card-img-top"
-                      alt="/"
-                      style={{ width: "16rem", height: "200px" }}
-                    />
-                    <div class="card-body">
-                      <h5 class="card-title">
-                        Instructor-Led Live, Online Training
-                      </h5>
-                    </div>
-                  </div>
-              </div>
-              <div className="col">
-                <div class="card shadow border-0" style={{ width: "16rem" }}>
-                  <img
-                    src={training11}
-                    class="card-img-top"
-                    alt="/"
-                    style={{ width: "16rem", height: "200px" }}
-                  />
-                  <div class="card-body">
-                    <h5 class="card-title">Self-Paced Online Training</h5>
-                  </div>
+              <div className="card" style={{ width: "16rem" }}>
+                <img
+                  src={training10}
+                  className="card-img-top"
+                  alt="/"
+                  style={{ width: "16rem", height: "200px" }}
+                />
+                <div className="card-body">
+                  <h5 className="card-title">
+                    Instructor-Led Live, Online Training
+                  </h5>
                 </div>
               </div>
-              <div className="col">
-                <div class="card shadow border-0" style={{ width: "16rem" }}>
-                  <img
-                    src={training12}
-                    class="card-img-top"
-                    alt="/"
-                    style={{ width: "16rem", height: "200px" }}
-                  />
-                  <div class="card-body">
-                    <h5 class="card-title">Blended Training</h5>
-                  </div>
+              <div className="card" style={{ width: "16rem" }}>
+                <img
+                  src={training11}
+                  className="card-img-top"
+                  alt="/"
+                  style={{ width: "16rem", height: "200px" }}
+                />
+                <div className="card-body">
+                  <h5 className="card-title">Self-Paced Online Training</h5>
+                </div>
+              </div>
+              <div className="card" style={{ width: "16rem" }}>
+                <img
+                  src={training12}
+                  className="card-img-top"
+                  alt="/"
+                  style={{ width: "16rem", height: "200px" }}
+                />
+                <div className="card-body">
+                  <h5 className="card-title">Blended Training</h5>
                 </div>
               </div>
             </div>
@@ -473,63 +463,81 @@ function CorporateTraining() {
           <div className="container-form">
             <div className="in-con">
               <header>Talk to our advisor</header>
-              <form action="#">
-                <div className="form first">
-                  <div className="details personal">
-                    <div className="fields">
-                      <div className="input-field py-2" style={style3}>
-                        <label>Name *</label>
-                        <input
-                          type="text"
-                          placeholder="Enter your name"
-                          required
-                        />
-                      </div>
-                      <div className="input-field" style={style4}>
-                        <label>Company Name *</label>
-                        <input
-                          type="text"
-                          placeholder="Enter Company Name"
-                          required
-                        />
-                      </div>
-                      <div className="input-field" style={style4}>
-                        <label>Training Need*</label>
-                        <select required>
-                          <option disabled selected>
-                            Select an Option
-                          </option>
-                          <option>For Corporate</option>
-                          <option>For Myself</option>
-                        </select>
-                      </div>
-                      <div className="input-field" style={style4}>
-                        <label>Phone Number *</label>
-                        <input
-                          type="tel"
-                          id="phone"
-                          placeholder="Phone Number"
-                          required
-                        />
-                      </div>
-                      <div className="input-field py-2" style={style4}>
-                        <label>Email ID *</label>
-                        <input type="text" placeholder="Email ID" required />
-                      </div>
-                      <div className="input-field" style={style3}>
-                        <label className="py-1">Query *</label>
-                        <textarea
-                          id="phone"
-                          rows="2"
-                          placeholder="Enter your query"
-                          required
-                        ></textarea>
-                      </div>
-                    </div>
+              <form class="row g-3">
+                <div class="col-md-6">
+                  <label for="inputEmail4" class="form-label">
+                    Email
+                  </label>
+                  <input type="email" class="form-control" id="inputEmail4" />
+                </div>
+                <div class="col-md-6">
+                  <label for="inputPassword4" class="form-label">
+                    Password
+                  </label>
+                  <input
+                    type="password"
+                    class="form-control"
+                    id="inputPassword4"
+                  />
+                </div>
+                <div class="col-12">
+                  <label for="inputAddress" class="form-label">
+                    Address
+                  </label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="inputAddress"
+                    placeholder="1234 Main St"
+                  />
+                </div>
+                <div class="col-12">
+                  <label for="inputAddress2" class="form-label">
+                    Address 2
+                  </label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="inputAddress2"
+                    placeholder="Apartment, studio, or floor"
+                  />
+                </div>
+                <div class="col-md-6">
+                  <label for="inputCity" class="form-label">
+                    City
+                  </label>
+                  <input type="text" class="form-control" id="inputCity" />
+                </div>
+                <div class="col-md-4">
+                  <label for="inputState" class="form-label">
+                    State
+                  </label>
+                  <select id="inputState" class="form-select">
+                    <option selected>Choose...</option>
+                    <option>...</option>
+                  </select>
+                </div>
+                <div class="col-md-2">
+                  <label for="inputZip" class="form-label">
+                    Zip
+                  </label>
+                  <input type="text" class="form-control" id="inputZip" />
+                </div>
+                <div class="col-12">
+                  <div class="form-check">
+                    <input
+                      class="form-check-input"
+                      type="checkbox"
+                      id="gridCheck"
+                    />
+                    <label class="form-check-label" for="gridCheck">
+                      Check me out
+                    </label>
                   </div>
-                  <button className=" nextBtn">
-                    <span className="btnText">Next</span>
-                    <i className="uil uil-navigator"></i>
+                </div>
+                <div class="col-12">
+                  <button type="submit" class="btn btn-primary">
+                    Sign in
                   </button>
                 </div>
               </form>

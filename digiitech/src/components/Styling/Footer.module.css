@@ -1,4 +1,5 @@
 .containerFluid {
+  margin-top: 50px;
   background-color: whitesmoke;
   font-family: 'Niconne', sans-serif;
   width: 100%;
@@ -31,9 +32,9 @@
   align-items: left;
 }
 
-.logoimage{
+.logoimage {
   width: 150px;
-  height:100px;
+  height: 100px;
   margin-bottom: 30px;
 }
 
