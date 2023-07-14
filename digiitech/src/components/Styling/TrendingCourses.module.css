@@ -138,6 +138,7 @@
   
     .nav-tabs {
       overflow: hidden;
+      display: none;
       position: relative;
       flex-wrap: wrap;
       justify-content: center;

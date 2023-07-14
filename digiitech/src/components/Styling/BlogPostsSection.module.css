@@ -125,3 +125,30 @@
   background-color: #555;
   opacity: 1;
 }
+
+/* Media Queries */
+@media (max-width: 1024px) {
+  .blogPostCard {
+    width: 300px;
+    height: auto;
+  }
+
+  .blogPostsSection {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+}
+
+@media (max-width: 576px) {
+  .blogPostCard {
+    width: 250px;
+    height: auto;
+  }
+
+  .blogPostsSection {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+

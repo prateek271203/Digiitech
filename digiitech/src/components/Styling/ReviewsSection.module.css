@@ -125,3 +125,29 @@
 .review-heading {
   margin-bottom: 30px !important;
 }
+
+/* Media Queries */
+@media (max-width: 1024px) {
+  .review-card {
+    width: 300px;
+    height: 400px;
+  }
+
+  .review-slider {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+}
+
+@media (max-width: 576px) {
+  .review-card {
+    width: 250px;
+    height: auto;
+    max-height: 100%;
+  }
+
+  .review-slider {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}

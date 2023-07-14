@@ -112,3 +112,25 @@
     .carousel-control-next-icon {
       right: -10px !important;
     }
+
+    @media (max-width: 767px) {
+      .recent-additions {
+        padding-left: 50px;
+        padding-right: 50px;
+      }
+    
+      .card-row {
+        flex-wrap: wrap;
+      }
+    
+      .card-container {
+        flex-basis: 100%;
+      }
+    }
+    
+    @media (max-width: 767.98px) {
+      .recent-additions {
+        padding-left: 30px;
+        padding-right: 30px;
+      }
+    }
