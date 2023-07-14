@@ -463,63 +463,81 @@ function CorporateTraining() {
           <div className="container-form">
             <div className="in-con">
               <header>Talk to our advisor</header>
-              <form action="#">
-                <div className="form first">
-                  <div className="details personal">
-                    <div className="fields">
-                      <div className="input-field py-2" style={style3}>
-                        <label>Name *</label>
-                        <input
-                          type="text"
-                          placeholder="Enter your name"
-                          required
-                        />
-                      </div>
-                      <div className="input-field" style={style4}>
-                        <label>Company Name *</label>
-                        <input
-                          type="text"
-                          placeholder="Enter Company Name"
-                          required
-                        />
-                      </div>
-                      <div className="input-field" style={style4}>
-                        <label>Training Need*</label>
-                        <select required>
-                          <option disabled selected>
-                            Select an Option
-                          </option>
-                          <option>For Corporate</option>
-                          <option>For Myself</option>
-                        </select>
-                      </div>
-                      <div className="input-field" style={style4}>
-                        <label>Phone Number *</label>
-                        <input
-                          type="tel"
-                          id="phone"
-                          placeholder="Phone Number"
-                          required
-                        />
-                      </div>
-                      <div className="input-field py-2" style={style4}>
-                        <label>Email ID *</label>
-                        <input type="text" placeholder="Email ID" required />
-                      </div>
-                      <div className="input-field" style={style3}>
-                        <label className="py-1">Query *</label>
-                        <textarea
-                          id="phone"
-                          rows="2"
-                          placeholder="Enter your query"
-                          required
-                        ></textarea>
-                      </div>
-                    </div>
+              <form class="row g-3">
+                <div class="col-md-6">
+                  <label for="inputEmail4" class="form-label">
+                    Email
+                  </label>
+                  <input type="email" class="form-control" id="inputEmail4" />
+                </div>
+                <div class="col-md-6">
+                  <label for="inputPassword4" class="form-label">
+                    Password
+                  </label>
+                  <input
+                    type="password"
+                    class="form-control"
+                    id="inputPassword4"
+                  />
+                </div>
+                <div class="col-12">
+                  <label for="inputAddress" class="form-label">
+                    Address
+                  </label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="inputAddress"
+                    placeholder="1234 Main St"
+                  />
+                </div>
+                <div class="col-12">
+                  <label for="inputAddress2" class="form-label">
+                    Address 2
+                  </label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="inputAddress2"
+                    placeholder="Apartment, studio, or floor"
+                  />
+                </div>
+                <div class="col-md-6">
+                  <label for="inputCity" class="form-label">
+                    City
+                  </label>
+                  <input type="text" class="form-control" id="inputCity" />
+                </div>
+                <div class="col-md-4">
+                  <label for="inputState" class="form-label">
+                    State
+                  </label>
+                  <select id="inputState" class="form-select">
+                    <option selected>Choose...</option>
+                    <option>...</option>
+                  </select>
+                </div>
+                <div class="col-md-2">
+                  <label for="inputZip" class="form-label">
+                    Zip
+                  </label>
+                  <input type="text" class="form-control" id="inputZip" />
+                </div>
+                <div class="col-12">
+                  <div class="form-check">
+                    <input
+                      class="form-check-input"
+                      type="checkbox"
+                      id="gridCheck"
+                    />
+                    <label class="form-check-label" for="gridCheck">
+                      Check me out
+                    </label>
                   </div>
-                  <button className=" nextBtn">
-                    <span className="btnText">Next</span>
-                    <i className="uil uil-navigator"></i>
+                </div>
+                <div class="col-12">
+                  <button type="submit" class="btn btn-primary">
+                    Sign in
                   </button>
                 </div>
               </form>
