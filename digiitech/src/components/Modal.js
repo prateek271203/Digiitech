@@ -103,8 +103,10 @@ function Modal() {
               </div>
             </div>
             <div class="modal-footer mx-auto">
-              <a href="http://localhost:3001" target="_blank">
+            <Link to="/AdminPanel">
                 <b className="teach mx-4">Admin SignIn/SignUp</b>
+            </Link>
+              <a href="http://localhost:3001" target="_blank">
                 <b className="teach ms-5">Teacher SignIn/SignUp</b>
               </a>
             </div>
